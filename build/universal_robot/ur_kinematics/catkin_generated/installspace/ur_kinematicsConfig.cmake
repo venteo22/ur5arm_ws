@@ -67,14 +67,14 @@ set(ur_kinematics_CONFIG_INCLUDED TRUE)
 
 # set variables for source/devel/install prefixes
 if("FALSE" STREQUAL "TRUE")
-  set(ur_kinematics_SOURCE_PREFIX /home/mpuig/ur5arm_ws/src/universal_robot/ur_kinematics)
-  set(ur_kinematics_DEVEL_PREFIX /home/mpuig/ur5arm_ws/devel)
+  set(ur_kinematics_SOURCE_PREFIX /home/manel/ur5arm_ws/src/universal_robot/ur_kinematics)
+  set(ur_kinematics_DEVEL_PREFIX /home/manel/ur5arm_ws/devel)
   set(ur_kinematics_INSTALL_PREFIX "")
   set(ur_kinematics_PREFIX ${ur_kinematics_DEVEL_PREFIX})
 else()
   set(ur_kinematics_SOURCE_PREFIX "")
   set(ur_kinematics_DEVEL_PREFIX "")
-  set(ur_kinematics_INSTALL_PREFIX /home/mpuig/ur5arm_ws/install)
+  set(ur_kinematics_INSTALL_PREFIX /home/manel/ur5arm_ws/install)
   set(ur_kinematics_PREFIX ${ur_kinematics_INSTALL_PREFIX})
 endif()
 
@@ -154,7 +154,7 @@ foreach(library ${libraries})
     set(lib_path "")
     set(lib "${library}-NOTFOUND")
     # since the path where the library is found is returned we have to iterate over the paths manually
-    foreach(path /home/mpuig/ur5arm_ws/install/lib;/home/mpuig/gopigo_pc_ws/devel/lib;/home/mpuig/rUBotCoop_LabProject/devel/lib;/home/mpuig/rUBotCoop_ws/devel/lib;/opt/ros/melodic/lib)
+    foreach(path /home/manel/ur5arm_ws/install/lib;/home/manel/ur5arm_ws/devel/lib;/opt/ros/melodic/lib)
       find_library(lib ${library}
         PATHS ${path}
         NO_DEFAULT_PATH NO_CMAKE_FIND_ROOT_PATH)

@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/mpuig/ur5arm_ws/src
+CMAKE_SOURCE_DIR = /home/manel/ur5arm_ws/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/mpuig/ur5arm_ws/build
+CMAKE_BINARY_DIR = /home/manel/ur5arm_ws/build
 
 # Utility rule file for tf2_msgs_generate_messages_py.
 
@@ -63,10 +63,10 @@ universal_robot/ur_kinematics/CMakeFiles/tf2_msgs_generate_messages_py.dir/build
 .PHONY : universal_robot/ur_kinematics/CMakeFiles/tf2_msgs_generate_messages_py.dir/build
 
 universal_robot/ur_kinematics/CMakeFiles/tf2_msgs_generate_messages_py.dir/clean:
-	cd /home/mpuig/ur5arm_ws/build/universal_robot/ur_kinematics && $(CMAKE_COMMAND) -P CMakeFiles/tf2_msgs_generate_messages_py.dir/cmake_clean.cmake
+	cd /home/manel/ur5arm_ws/build/universal_robot/ur_kinematics && $(CMAKE_COMMAND) -P CMakeFiles/tf2_msgs_generate_messages_py.dir/cmake_clean.cmake
 .PHONY : universal_robot/ur_kinematics/CMakeFiles/tf2_msgs_generate_messages_py.dir/clean
 
 universal_robot/ur_kinematics/CMakeFiles/tf2_msgs_generate_messages_py.dir/depend:
-	cd /home/mpuig/ur5arm_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/mpuig/ur5arm_ws/src /home/mpuig/ur5arm_ws/src/universal_robot/ur_kinematics /home/mpuig/ur5arm_ws/build /home/mpuig/ur5arm_ws/build/universal_robot/ur_kinematics /home/mpuig/ur5arm_ws/build/universal_robot/ur_kinematics/CMakeFiles/tf2_msgs_generate_messages_py.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/manel/ur5arm_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/manel/ur5arm_ws/src /home/manel/ur5arm_ws/src/universal_robot/ur_kinematics /home/manel/ur5arm_ws/build /home/manel/ur5arm_ws/build/universal_robot/ur_kinematics /home/manel/ur5arm_ws/build/universal_robot/ur_kinematics/CMakeFiles/tf2_msgs_generate_messages_py.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : universal_robot/ur_kinematics/CMakeFiles/tf2_msgs_generate_messages_py.dir/depend
 
