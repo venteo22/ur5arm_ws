@@ -2,4 +2,4 @@
 source_root_dir = '/home/manel/ur5arm_ws/src'
 whitelisted_packages = ''.split(';') if '' != '' else []
 blacklisted_packages = ''.split(';') if '' != '' else []
-underlay_workspaces = '/home/manel/ur5arm_ws/devel;/opt/ros/melodic'.split(';') if '/home/manel/ur5arm_ws/devel;/opt/ros/melodic' != '' else []
+underlay_workspaces = '/home/manel/ws_moveit/devel;/opt/ros/melodic'.split(';') if '/home/manel/ws_moveit/devel;/opt/ros/melodic' != '' else []
