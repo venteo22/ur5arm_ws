@@ -4,5 +4,5 @@ PROJECT_PKG_CONFIG_INCLUDE_DIRS = "${prefix}/include".split(';') if "${prefix}/i
 PROJECT_CATKIN_DEPENDS = "controller_interface;hardware_interface;joint_trajectory_controller;pluginlib;realtime_tools;std_msgs".replace(';', ' ')
 PKG_CONFIG_LIBRARIES_WITH_PREFIX = "-lur_controllers".split(';') if "-lur_controllers" != "" else []
 PROJECT_NAME = "ur_controllers"
-PROJECT_SPACE_DIR = "/home/manel/ur5arm_ws/install"
+PROJECT_SPACE_DIR = "/home/mpuig/ur5arm_ws/install"
 PROJECT_VERSION = "0.0.2"

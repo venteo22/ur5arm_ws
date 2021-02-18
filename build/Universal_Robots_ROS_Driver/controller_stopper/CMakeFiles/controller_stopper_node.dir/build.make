@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/manel/ur5arm_ws/src
+CMAKE_SOURCE_DIR = /home/mpuig/ur5arm_ws/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/manel/ur5arm_ws/build
+CMAKE_BINARY_DIR = /home/mpuig/ur5arm_ws/build
 
 # Include any dependencies generated for this target.
 include Universal_Robots_ROS_Driver/controller_stopper/CMakeFiles/controller_stopper_node.dir/depend.make
@@ -58,17 +58,17 @@ include Universal_Robots_ROS_Driver/controller_stopper/CMakeFiles/controller_sto
 include Universal_Robots_ROS_Driver/controller_stopper/CMakeFiles/controller_stopper_node.dir/flags.make
 
 Universal_Robots_ROS_Driver/controller_stopper/CMakeFiles/controller_stopper_node.dir/src/controller_stopper.cpp.o: Universal_Robots_ROS_Driver/controller_stopper/CMakeFiles/controller_stopper_node.dir/flags.make
-Universal_Robots_ROS_Driver/controller_stopper/CMakeFiles/controller_stopper_node.dir/src/controller_stopper.cpp.o: /home/manel/ur5arm_ws/src/Universal_Robots_ROS_Driver/controller_stopper/src/controller_stopper.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/manel/ur5arm_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object Universal_Robots_ROS_Driver/controller_stopper/CMakeFiles/controller_stopper_node.dir/src/controller_stopper.cpp.o"
-	cd /home/manel/ur5arm_ws/build/Universal_Robots_ROS_Driver/controller_stopper && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/controller_stopper_node.dir/src/controller_stopper.cpp.o -c /home/manel/ur5arm_ws/src/Universal_Robots_ROS_Driver/controller_stopper/src/controller_stopper.cpp
+Universal_Robots_ROS_Driver/controller_stopper/CMakeFiles/controller_stopper_node.dir/src/controller_stopper.cpp.o: /home/mpuig/ur5arm_ws/src/Universal_Robots_ROS_Driver/controller_stopper/src/controller_stopper.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mpuig/ur5arm_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object Universal_Robots_ROS_Driver/controller_stopper/CMakeFiles/controller_stopper_node.dir/src/controller_stopper.cpp.o"
+	cd /home/mpuig/ur5arm_ws/build/Universal_Robots_ROS_Driver/controller_stopper && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/controller_stopper_node.dir/src/controller_stopper.cpp.o -c /home/mpuig/ur5arm_ws/src/Universal_Robots_ROS_Driver/controller_stopper/src/controller_stopper.cpp
 
 Universal_Robots_ROS_Driver/controller_stopper/CMakeFiles/controller_stopper_node.dir/src/controller_stopper.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/controller_stopper_node.dir/src/controller_stopper.cpp.i"
-	cd /home/manel/ur5arm_ws/build/Universal_Robots_ROS_Driver/controller_stopper && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/manel/ur5arm_ws/src/Universal_Robots_ROS_Driver/controller_stopper/src/controller_stopper.cpp > CMakeFiles/controller_stopper_node.dir/src/controller_stopper.cpp.i
+	cd /home/mpuig/ur5arm_ws/build/Universal_Robots_ROS_Driver/controller_stopper && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mpuig/ur5arm_ws/src/Universal_Robots_ROS_Driver/controller_stopper/src/controller_stopper.cpp > CMakeFiles/controller_stopper_node.dir/src/controller_stopper.cpp.i
 
 Universal_Robots_ROS_Driver/controller_stopper/CMakeFiles/controller_stopper_node.dir/src/controller_stopper.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/controller_stopper_node.dir/src/controller_stopper.cpp.s"
-	cd /home/manel/ur5arm_ws/build/Universal_Robots_ROS_Driver/controller_stopper && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/manel/ur5arm_ws/src/Universal_Robots_ROS_Driver/controller_stopper/src/controller_stopper.cpp -o CMakeFiles/controller_stopper_node.dir/src/controller_stopper.cpp.s
+	cd /home/mpuig/ur5arm_ws/build/Universal_Robots_ROS_Driver/controller_stopper && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mpuig/ur5arm_ws/src/Universal_Robots_ROS_Driver/controller_stopper/src/controller_stopper.cpp -o CMakeFiles/controller_stopper_node.dir/src/controller_stopper.cpp.s
 
 Universal_Robots_ROS_Driver/controller_stopper/CMakeFiles/controller_stopper_node.dir/src/controller_stopper.cpp.o.requires:
 
@@ -82,17 +82,17 @@ Universal_Robots_ROS_Driver/controller_stopper/CMakeFiles/controller_stopper_nod
 
 
 Universal_Robots_ROS_Driver/controller_stopper/CMakeFiles/controller_stopper_node.dir/src/controller_stopper_node.cpp.o: Universal_Robots_ROS_Driver/controller_stopper/CMakeFiles/controller_stopper_node.dir/flags.make
-Universal_Robots_ROS_Driver/controller_stopper/CMakeFiles/controller_stopper_node.dir/src/controller_stopper_node.cpp.o: /home/manel/ur5arm_ws/src/Universal_Robots_ROS_Driver/controller_stopper/src/controller_stopper_node.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/manel/ur5arm_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object Universal_Robots_ROS_Driver/controller_stopper/CMakeFiles/controller_stopper_node.dir/src/controller_stopper_node.cpp.o"
-	cd /home/manel/ur5arm_ws/build/Universal_Robots_ROS_Driver/controller_stopper && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/controller_stopper_node.dir/src/controller_stopper_node.cpp.o -c /home/manel/ur5arm_ws/src/Universal_Robots_ROS_Driver/controller_stopper/src/controller_stopper_node.cpp
+Universal_Robots_ROS_Driver/controller_stopper/CMakeFiles/controller_stopper_node.dir/src/controller_stopper_node.cpp.o: /home/mpuig/ur5arm_ws/src/Universal_Robots_ROS_Driver/controller_stopper/src/controller_stopper_node.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mpuig/ur5arm_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object Universal_Robots_ROS_Driver/controller_stopper/CMakeFiles/controller_stopper_node.dir/src/controller_stopper_node.cpp.o"
+	cd /home/mpuig/ur5arm_ws/build/Universal_Robots_ROS_Driver/controller_stopper && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/controller_stopper_node.dir/src/controller_stopper_node.cpp.o -c /home/mpuig/ur5arm_ws/src/Universal_Robots_ROS_Driver/controller_stopper/src/controller_stopper_node.cpp
 
 Universal_Robots_ROS_Driver/controller_stopper/CMakeFiles/controller_stopper_node.dir/src/controller_stopper_node.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/controller_stopper_node.dir/src/controller_stopper_node.cpp.i"
-	cd /home/manel/ur5arm_ws/build/Universal_Robots_ROS_Driver/controller_stopper && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/manel/ur5arm_ws/src/Universal_Robots_ROS_Driver/controller_stopper/src/controller_stopper_node.cpp > CMakeFiles/controller_stopper_node.dir/src/controller_stopper_node.cpp.i
+	cd /home/mpuig/ur5arm_ws/build/Universal_Robots_ROS_Driver/controller_stopper && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mpuig/ur5arm_ws/src/Universal_Robots_ROS_Driver/controller_stopper/src/controller_stopper_node.cpp > CMakeFiles/controller_stopper_node.dir/src/controller_stopper_node.cpp.i
 
 Universal_Robots_ROS_Driver/controller_stopper/CMakeFiles/controller_stopper_node.dir/src/controller_stopper_node.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/controller_stopper_node.dir/src/controller_stopper_node.cpp.s"
-	cd /home/manel/ur5arm_ws/build/Universal_Robots_ROS_Driver/controller_stopper && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/manel/ur5arm_ws/src/Universal_Robots_ROS_Driver/controller_stopper/src/controller_stopper_node.cpp -o CMakeFiles/controller_stopper_node.dir/src/controller_stopper_node.cpp.s
+	cd /home/mpuig/ur5arm_ws/build/Universal_Robots_ROS_Driver/controller_stopper && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mpuig/ur5arm_ws/src/Universal_Robots_ROS_Driver/controller_stopper/src/controller_stopper_node.cpp -o CMakeFiles/controller_stopper_node.dir/src/controller_stopper_node.cpp.s
 
 Universal_Robots_ROS_Driver/controller_stopper/CMakeFiles/controller_stopper_node.dir/src/controller_stopper_node.cpp.o.requires:
 
@@ -113,33 +113,33 @@ controller_stopper_node_OBJECTS = \
 # External object files for target controller_stopper_node
 controller_stopper_node_EXTERNAL_OBJECTS =
 
-/home/manel/ur5arm_ws/devel/lib/controller_stopper/node: Universal_Robots_ROS_Driver/controller_stopper/CMakeFiles/controller_stopper_node.dir/src/controller_stopper.cpp.o
-/home/manel/ur5arm_ws/devel/lib/controller_stopper/node: Universal_Robots_ROS_Driver/controller_stopper/CMakeFiles/controller_stopper_node.dir/src/controller_stopper_node.cpp.o
-/home/manel/ur5arm_ws/devel/lib/controller_stopper/node: Universal_Robots_ROS_Driver/controller_stopper/CMakeFiles/controller_stopper_node.dir/build.make
-/home/manel/ur5arm_ws/devel/lib/controller_stopper/node: /opt/ros/melodic/lib/libroscpp.so
-/home/manel/ur5arm_ws/devel/lib/controller_stopper/node: /usr/lib/x86_64-linux-gnu/libboost_filesystem.so
-/home/manel/ur5arm_ws/devel/lib/controller_stopper/node: /opt/ros/melodic/lib/librosconsole.so
-/home/manel/ur5arm_ws/devel/lib/controller_stopper/node: /opt/ros/melodic/lib/librosconsole_log4cxx.so
-/home/manel/ur5arm_ws/devel/lib/controller_stopper/node: /opt/ros/melodic/lib/librosconsole_backend_interface.so
-/home/manel/ur5arm_ws/devel/lib/controller_stopper/node: /usr/lib/x86_64-linux-gnu/liblog4cxx.so
-/home/manel/ur5arm_ws/devel/lib/controller_stopper/node: /usr/lib/x86_64-linux-gnu/libboost_regex.so
-/home/manel/ur5arm_ws/devel/lib/controller_stopper/node: /opt/ros/melodic/lib/libxmlrpcpp.so
-/home/manel/ur5arm_ws/devel/lib/controller_stopper/node: /opt/ros/melodic/lib/libroscpp_serialization.so
-/home/manel/ur5arm_ws/devel/lib/controller_stopper/node: /opt/ros/melodic/lib/librostime.so
-/home/manel/ur5arm_ws/devel/lib/controller_stopper/node: /opt/ros/melodic/lib/libcpp_common.so
-/home/manel/ur5arm_ws/devel/lib/controller_stopper/node: /usr/lib/x86_64-linux-gnu/libboost_system.so
-/home/manel/ur5arm_ws/devel/lib/controller_stopper/node: /usr/lib/x86_64-linux-gnu/libboost_thread.so
-/home/manel/ur5arm_ws/devel/lib/controller_stopper/node: /usr/lib/x86_64-linux-gnu/libboost_chrono.so
-/home/manel/ur5arm_ws/devel/lib/controller_stopper/node: /usr/lib/x86_64-linux-gnu/libboost_date_time.so
-/home/manel/ur5arm_ws/devel/lib/controller_stopper/node: /usr/lib/x86_64-linux-gnu/libboost_atomic.so
-/home/manel/ur5arm_ws/devel/lib/controller_stopper/node: /usr/lib/x86_64-linux-gnu/libpthread.so
-/home/manel/ur5arm_ws/devel/lib/controller_stopper/node: /usr/lib/x86_64-linux-gnu/libconsole_bridge.so.0.4
-/home/manel/ur5arm_ws/devel/lib/controller_stopper/node: Universal_Robots_ROS_Driver/controller_stopper/CMakeFiles/controller_stopper_node.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/manel/ur5arm_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable /home/manel/ur5arm_ws/devel/lib/controller_stopper/node"
-	cd /home/manel/ur5arm_ws/build/Universal_Robots_ROS_Driver/controller_stopper && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/controller_stopper_node.dir/link.txt --verbose=$(VERBOSE)
+/home/mpuig/ur5arm_ws/devel/lib/controller_stopper/node: Universal_Robots_ROS_Driver/controller_stopper/CMakeFiles/controller_stopper_node.dir/src/controller_stopper.cpp.o
+/home/mpuig/ur5arm_ws/devel/lib/controller_stopper/node: Universal_Robots_ROS_Driver/controller_stopper/CMakeFiles/controller_stopper_node.dir/src/controller_stopper_node.cpp.o
+/home/mpuig/ur5arm_ws/devel/lib/controller_stopper/node: Universal_Robots_ROS_Driver/controller_stopper/CMakeFiles/controller_stopper_node.dir/build.make
+/home/mpuig/ur5arm_ws/devel/lib/controller_stopper/node: /opt/ros/melodic/lib/libroscpp.so
+/home/mpuig/ur5arm_ws/devel/lib/controller_stopper/node: /usr/lib/x86_64-linux-gnu/libboost_filesystem.so
+/home/mpuig/ur5arm_ws/devel/lib/controller_stopper/node: /opt/ros/melodic/lib/librosconsole.so
+/home/mpuig/ur5arm_ws/devel/lib/controller_stopper/node: /opt/ros/melodic/lib/librosconsole_log4cxx.so
+/home/mpuig/ur5arm_ws/devel/lib/controller_stopper/node: /opt/ros/melodic/lib/librosconsole_backend_interface.so
+/home/mpuig/ur5arm_ws/devel/lib/controller_stopper/node: /usr/lib/x86_64-linux-gnu/liblog4cxx.so
+/home/mpuig/ur5arm_ws/devel/lib/controller_stopper/node: /usr/lib/x86_64-linux-gnu/libboost_regex.so
+/home/mpuig/ur5arm_ws/devel/lib/controller_stopper/node: /opt/ros/melodic/lib/libxmlrpcpp.so
+/home/mpuig/ur5arm_ws/devel/lib/controller_stopper/node: /opt/ros/melodic/lib/libroscpp_serialization.so
+/home/mpuig/ur5arm_ws/devel/lib/controller_stopper/node: /opt/ros/melodic/lib/librostime.so
+/home/mpuig/ur5arm_ws/devel/lib/controller_stopper/node: /opt/ros/melodic/lib/libcpp_common.so
+/home/mpuig/ur5arm_ws/devel/lib/controller_stopper/node: /usr/lib/x86_64-linux-gnu/libboost_system.so
+/home/mpuig/ur5arm_ws/devel/lib/controller_stopper/node: /usr/lib/x86_64-linux-gnu/libboost_thread.so
+/home/mpuig/ur5arm_ws/devel/lib/controller_stopper/node: /usr/lib/x86_64-linux-gnu/libboost_chrono.so
+/home/mpuig/ur5arm_ws/devel/lib/controller_stopper/node: /usr/lib/x86_64-linux-gnu/libboost_date_time.so
+/home/mpuig/ur5arm_ws/devel/lib/controller_stopper/node: /usr/lib/x86_64-linux-gnu/libboost_atomic.so
+/home/mpuig/ur5arm_ws/devel/lib/controller_stopper/node: /usr/lib/x86_64-linux-gnu/libpthread.so
+/home/mpuig/ur5arm_ws/devel/lib/controller_stopper/node: /usr/lib/x86_64-linux-gnu/libconsole_bridge.so.0.4
+/home/mpuig/ur5arm_ws/devel/lib/controller_stopper/node: Universal_Robots_ROS_Driver/controller_stopper/CMakeFiles/controller_stopper_node.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/mpuig/ur5arm_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable /home/mpuig/ur5arm_ws/devel/lib/controller_stopper/node"
+	cd /home/mpuig/ur5arm_ws/build/Universal_Robots_ROS_Driver/controller_stopper && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/controller_stopper_node.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
-Universal_Robots_ROS_Driver/controller_stopper/CMakeFiles/controller_stopper_node.dir/build: /home/manel/ur5arm_ws/devel/lib/controller_stopper/node
+Universal_Robots_ROS_Driver/controller_stopper/CMakeFiles/controller_stopper_node.dir/build: /home/mpuig/ur5arm_ws/devel/lib/controller_stopper/node
 
 .PHONY : Universal_Robots_ROS_Driver/controller_stopper/CMakeFiles/controller_stopper_node.dir/build
 
@@ -149,10 +149,10 @@ Universal_Robots_ROS_Driver/controller_stopper/CMakeFiles/controller_stopper_nod
 .PHONY : Universal_Robots_ROS_Driver/controller_stopper/CMakeFiles/controller_stopper_node.dir/requires
 
 Universal_Robots_ROS_Driver/controller_stopper/CMakeFiles/controller_stopper_node.dir/clean:
-	cd /home/manel/ur5arm_ws/build/Universal_Robots_ROS_Driver/controller_stopper && $(CMAKE_COMMAND) -P CMakeFiles/controller_stopper_node.dir/cmake_clean.cmake
+	cd /home/mpuig/ur5arm_ws/build/Universal_Robots_ROS_Driver/controller_stopper && $(CMAKE_COMMAND) -P CMakeFiles/controller_stopper_node.dir/cmake_clean.cmake
 .PHONY : Universal_Robots_ROS_Driver/controller_stopper/CMakeFiles/controller_stopper_node.dir/clean
 
 Universal_Robots_ROS_Driver/controller_stopper/CMakeFiles/controller_stopper_node.dir/depend:
-	cd /home/manel/ur5arm_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/manel/ur5arm_ws/src /home/manel/ur5arm_ws/src/Universal_Robots_ROS_Driver/controller_stopper /home/manel/ur5arm_ws/build /home/manel/ur5arm_ws/build/Universal_Robots_ROS_Driver/controller_stopper /home/manel/ur5arm_ws/build/Universal_Robots_ROS_Driver/controller_stopper/CMakeFiles/controller_stopper_node.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/mpuig/ur5arm_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/mpuig/ur5arm_ws/src /home/mpuig/ur5arm_ws/src/Universal_Robots_ROS_Driver/controller_stopper /home/mpuig/ur5arm_ws/build /home/mpuig/ur5arm_ws/build/Universal_Robots_ROS_Driver/controller_stopper /home/mpuig/ur5arm_ws/build/Universal_Robots_ROS_Driver/controller_stopper/CMakeFiles/controller_stopper_node.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : Universal_Robots_ROS_Driver/controller_stopper/CMakeFiles/controller_stopper_node.dir/depend
 

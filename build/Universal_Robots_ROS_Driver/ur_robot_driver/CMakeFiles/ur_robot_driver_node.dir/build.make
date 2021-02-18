@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/manel/ur5arm_ws/src
+CMAKE_SOURCE_DIR = /home/mpuig/ur5arm_ws/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/manel/ur5arm_ws/build
+CMAKE_BINARY_DIR = /home/mpuig/ur5arm_ws/build
 
 # Include any dependencies generated for this target.
 include Universal_Robots_ROS_Driver/ur_robot_driver/CMakeFiles/ur_robot_driver_node.dir/depend.make
@@ -58,17 +58,17 @@ include Universal_Robots_ROS_Driver/ur_robot_driver/CMakeFiles/ur_robot_driver_n
 include Universal_Robots_ROS_Driver/ur_robot_driver/CMakeFiles/ur_robot_driver_node.dir/flags.make
 
 Universal_Robots_ROS_Driver/ur_robot_driver/CMakeFiles/ur_robot_driver_node.dir/src/dashboard_client_ros.cpp.o: Universal_Robots_ROS_Driver/ur_robot_driver/CMakeFiles/ur_robot_driver_node.dir/flags.make
-Universal_Robots_ROS_Driver/ur_robot_driver/CMakeFiles/ur_robot_driver_node.dir/src/dashboard_client_ros.cpp.o: /home/manel/ur5arm_ws/src/Universal_Robots_ROS_Driver/ur_robot_driver/src/dashboard_client_ros.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/manel/ur5arm_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object Universal_Robots_ROS_Driver/ur_robot_driver/CMakeFiles/ur_robot_driver_node.dir/src/dashboard_client_ros.cpp.o"
-	cd /home/manel/ur5arm_ws/build/Universal_Robots_ROS_Driver/ur_robot_driver && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ur_robot_driver_node.dir/src/dashboard_client_ros.cpp.o -c /home/manel/ur5arm_ws/src/Universal_Robots_ROS_Driver/ur_robot_driver/src/dashboard_client_ros.cpp
+Universal_Robots_ROS_Driver/ur_robot_driver/CMakeFiles/ur_robot_driver_node.dir/src/dashboard_client_ros.cpp.o: /home/mpuig/ur5arm_ws/src/Universal_Robots_ROS_Driver/ur_robot_driver/src/dashboard_client_ros.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mpuig/ur5arm_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object Universal_Robots_ROS_Driver/ur_robot_driver/CMakeFiles/ur_robot_driver_node.dir/src/dashboard_client_ros.cpp.o"
+	cd /home/mpuig/ur5arm_ws/build/Universal_Robots_ROS_Driver/ur_robot_driver && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ur_robot_driver_node.dir/src/dashboard_client_ros.cpp.o -c /home/mpuig/ur5arm_ws/src/Universal_Robots_ROS_Driver/ur_robot_driver/src/dashboard_client_ros.cpp
 
 Universal_Robots_ROS_Driver/ur_robot_driver/CMakeFiles/ur_robot_driver_node.dir/src/dashboard_client_ros.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ur_robot_driver_node.dir/src/dashboard_client_ros.cpp.i"
-	cd /home/manel/ur5arm_ws/build/Universal_Robots_ROS_Driver/ur_robot_driver && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/manel/ur5arm_ws/src/Universal_Robots_ROS_Driver/ur_robot_driver/src/dashboard_client_ros.cpp > CMakeFiles/ur_robot_driver_node.dir/src/dashboard_client_ros.cpp.i
+	cd /home/mpuig/ur5arm_ws/build/Universal_Robots_ROS_Driver/ur_robot_driver && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mpuig/ur5arm_ws/src/Universal_Robots_ROS_Driver/ur_robot_driver/src/dashboard_client_ros.cpp > CMakeFiles/ur_robot_driver_node.dir/src/dashboard_client_ros.cpp.i
 
 Universal_Robots_ROS_Driver/ur_robot_driver/CMakeFiles/ur_robot_driver_node.dir/src/dashboard_client_ros.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ur_robot_driver_node.dir/src/dashboard_client_ros.cpp.s"
-	cd /home/manel/ur5arm_ws/build/Universal_Robots_ROS_Driver/ur_robot_driver && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/manel/ur5arm_ws/src/Universal_Robots_ROS_Driver/ur_robot_driver/src/dashboard_client_ros.cpp -o CMakeFiles/ur_robot_driver_node.dir/src/dashboard_client_ros.cpp.s
+	cd /home/mpuig/ur5arm_ws/build/Universal_Robots_ROS_Driver/ur_robot_driver && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mpuig/ur5arm_ws/src/Universal_Robots_ROS_Driver/ur_robot_driver/src/dashboard_client_ros.cpp -o CMakeFiles/ur_robot_driver_node.dir/src/dashboard_client_ros.cpp.s
 
 Universal_Robots_ROS_Driver/ur_robot_driver/CMakeFiles/ur_robot_driver_node.dir/src/dashboard_client_ros.cpp.o.requires:
 
@@ -82,17 +82,17 @@ Universal_Robots_ROS_Driver/ur_robot_driver/CMakeFiles/ur_robot_driver_node.dir/
 
 
 Universal_Robots_ROS_Driver/ur_robot_driver/CMakeFiles/ur_robot_driver_node.dir/src/hardware_interface.cpp.o: Universal_Robots_ROS_Driver/ur_robot_driver/CMakeFiles/ur_robot_driver_node.dir/flags.make
-Universal_Robots_ROS_Driver/ur_robot_driver/CMakeFiles/ur_robot_driver_node.dir/src/hardware_interface.cpp.o: /home/manel/ur5arm_ws/src/Universal_Robots_ROS_Driver/ur_robot_driver/src/hardware_interface.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/manel/ur5arm_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object Universal_Robots_ROS_Driver/ur_robot_driver/CMakeFiles/ur_robot_driver_node.dir/src/hardware_interface.cpp.o"
-	cd /home/manel/ur5arm_ws/build/Universal_Robots_ROS_Driver/ur_robot_driver && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ur_robot_driver_node.dir/src/hardware_interface.cpp.o -c /home/manel/ur5arm_ws/src/Universal_Robots_ROS_Driver/ur_robot_driver/src/hardware_interface.cpp
+Universal_Robots_ROS_Driver/ur_robot_driver/CMakeFiles/ur_robot_driver_node.dir/src/hardware_interface.cpp.o: /home/mpuig/ur5arm_ws/src/Universal_Robots_ROS_Driver/ur_robot_driver/src/hardware_interface.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mpuig/ur5arm_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object Universal_Robots_ROS_Driver/ur_robot_driver/CMakeFiles/ur_robot_driver_node.dir/src/hardware_interface.cpp.o"
+	cd /home/mpuig/ur5arm_ws/build/Universal_Robots_ROS_Driver/ur_robot_driver && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ur_robot_driver_node.dir/src/hardware_interface.cpp.o -c /home/mpuig/ur5arm_ws/src/Universal_Robots_ROS_Driver/ur_robot_driver/src/hardware_interface.cpp
 
 Universal_Robots_ROS_Driver/ur_robot_driver/CMakeFiles/ur_robot_driver_node.dir/src/hardware_interface.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ur_robot_driver_node.dir/src/hardware_interface.cpp.i"
-	cd /home/manel/ur5arm_ws/build/Universal_Robots_ROS_Driver/ur_robot_driver && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/manel/ur5arm_ws/src/Universal_Robots_ROS_Driver/ur_robot_driver/src/hardware_interface.cpp > CMakeFiles/ur_robot_driver_node.dir/src/hardware_interface.cpp.i
+	cd /home/mpuig/ur5arm_ws/build/Universal_Robots_ROS_Driver/ur_robot_driver && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mpuig/ur5arm_ws/src/Universal_Robots_ROS_Driver/ur_robot_driver/src/hardware_interface.cpp > CMakeFiles/ur_robot_driver_node.dir/src/hardware_interface.cpp.i
 
 Universal_Robots_ROS_Driver/ur_robot_driver/CMakeFiles/ur_robot_driver_node.dir/src/hardware_interface.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ur_robot_driver_node.dir/src/hardware_interface.cpp.s"
-	cd /home/manel/ur5arm_ws/build/Universal_Robots_ROS_Driver/ur_robot_driver && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/manel/ur5arm_ws/src/Universal_Robots_ROS_Driver/ur_robot_driver/src/hardware_interface.cpp -o CMakeFiles/ur_robot_driver_node.dir/src/hardware_interface.cpp.s
+	cd /home/mpuig/ur5arm_ws/build/Universal_Robots_ROS_Driver/ur_robot_driver && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mpuig/ur5arm_ws/src/Universal_Robots_ROS_Driver/ur_robot_driver/src/hardware_interface.cpp -o CMakeFiles/ur_robot_driver_node.dir/src/hardware_interface.cpp.s
 
 Universal_Robots_ROS_Driver/ur_robot_driver/CMakeFiles/ur_robot_driver_node.dir/src/hardware_interface.cpp.o.requires:
 
@@ -106,17 +106,17 @@ Universal_Robots_ROS_Driver/ur_robot_driver/CMakeFiles/ur_robot_driver_node.dir/
 
 
 Universal_Robots_ROS_Driver/ur_robot_driver/CMakeFiles/ur_robot_driver_node.dir/src/hardware_interface_node.cpp.o: Universal_Robots_ROS_Driver/ur_robot_driver/CMakeFiles/ur_robot_driver_node.dir/flags.make
-Universal_Robots_ROS_Driver/ur_robot_driver/CMakeFiles/ur_robot_driver_node.dir/src/hardware_interface_node.cpp.o: /home/manel/ur5arm_ws/src/Universal_Robots_ROS_Driver/ur_robot_driver/src/hardware_interface_node.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/manel/ur5arm_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object Universal_Robots_ROS_Driver/ur_robot_driver/CMakeFiles/ur_robot_driver_node.dir/src/hardware_interface_node.cpp.o"
-	cd /home/manel/ur5arm_ws/build/Universal_Robots_ROS_Driver/ur_robot_driver && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ur_robot_driver_node.dir/src/hardware_interface_node.cpp.o -c /home/manel/ur5arm_ws/src/Universal_Robots_ROS_Driver/ur_robot_driver/src/hardware_interface_node.cpp
+Universal_Robots_ROS_Driver/ur_robot_driver/CMakeFiles/ur_robot_driver_node.dir/src/hardware_interface_node.cpp.o: /home/mpuig/ur5arm_ws/src/Universal_Robots_ROS_Driver/ur_robot_driver/src/hardware_interface_node.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mpuig/ur5arm_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object Universal_Robots_ROS_Driver/ur_robot_driver/CMakeFiles/ur_robot_driver_node.dir/src/hardware_interface_node.cpp.o"
+	cd /home/mpuig/ur5arm_ws/build/Universal_Robots_ROS_Driver/ur_robot_driver && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ur_robot_driver_node.dir/src/hardware_interface_node.cpp.o -c /home/mpuig/ur5arm_ws/src/Universal_Robots_ROS_Driver/ur_robot_driver/src/hardware_interface_node.cpp
 
 Universal_Robots_ROS_Driver/ur_robot_driver/CMakeFiles/ur_robot_driver_node.dir/src/hardware_interface_node.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ur_robot_driver_node.dir/src/hardware_interface_node.cpp.i"
-	cd /home/manel/ur5arm_ws/build/Universal_Robots_ROS_Driver/ur_robot_driver && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/manel/ur5arm_ws/src/Universal_Robots_ROS_Driver/ur_robot_driver/src/hardware_interface_node.cpp > CMakeFiles/ur_robot_driver_node.dir/src/hardware_interface_node.cpp.i
+	cd /home/mpuig/ur5arm_ws/build/Universal_Robots_ROS_Driver/ur_robot_driver && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mpuig/ur5arm_ws/src/Universal_Robots_ROS_Driver/ur_robot_driver/src/hardware_interface_node.cpp > CMakeFiles/ur_robot_driver_node.dir/src/hardware_interface_node.cpp.i
 
 Universal_Robots_ROS_Driver/ur_robot_driver/CMakeFiles/ur_robot_driver_node.dir/src/hardware_interface_node.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ur_robot_driver_node.dir/src/hardware_interface_node.cpp.s"
-	cd /home/manel/ur5arm_ws/build/Universal_Robots_ROS_Driver/ur_robot_driver && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/manel/ur5arm_ws/src/Universal_Robots_ROS_Driver/ur_robot_driver/src/hardware_interface_node.cpp -o CMakeFiles/ur_robot_driver_node.dir/src/hardware_interface_node.cpp.s
+	cd /home/mpuig/ur5arm_ws/build/Universal_Robots_ROS_Driver/ur_robot_driver && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mpuig/ur5arm_ws/src/Universal_Robots_ROS_Driver/ur_robot_driver/src/hardware_interface_node.cpp -o CMakeFiles/ur_robot_driver_node.dir/src/hardware_interface_node.cpp.s
 
 Universal_Robots_ROS_Driver/ur_robot_driver/CMakeFiles/ur_robot_driver_node.dir/src/hardware_interface_node.cpp.o.requires:
 
@@ -138,63 +138,63 @@ ur_robot_driver_node_OBJECTS = \
 # External object files for target ur_robot_driver_node
 ur_robot_driver_node_EXTERNAL_OBJECTS =
 
-/home/manel/ur5arm_ws/devel/lib/ur_robot_driver/ur_robot_driver_node: Universal_Robots_ROS_Driver/ur_robot_driver/CMakeFiles/ur_robot_driver_node.dir/src/dashboard_client_ros.cpp.o
-/home/manel/ur5arm_ws/devel/lib/ur_robot_driver/ur_robot_driver_node: Universal_Robots_ROS_Driver/ur_robot_driver/CMakeFiles/ur_robot_driver_node.dir/src/hardware_interface.cpp.o
-/home/manel/ur5arm_ws/devel/lib/ur_robot_driver/ur_robot_driver_node: Universal_Robots_ROS_Driver/ur_robot_driver/CMakeFiles/ur_robot_driver_node.dir/src/hardware_interface_node.cpp.o
-/home/manel/ur5arm_ws/devel/lib/ur_robot_driver/ur_robot_driver_node: Universal_Robots_ROS_Driver/ur_robot_driver/CMakeFiles/ur_robot_driver_node.dir/build.make
-/home/manel/ur5arm_ws/devel/lib/ur_robot_driver/ur_robot_driver_node: /opt/ros/melodic/lib/libcontroller_manager.so
-/home/manel/ur5arm_ws/devel/lib/ur_robot_driver/ur_robot_driver_node: /opt/ros/melodic/lib/libtf.so
-/home/manel/ur5arm_ws/devel/lib/ur_robot_driver/ur_robot_driver_node: /opt/ros/melodic/lib/liborocos-kdl.so
-/home/manel/ur5arm_ws/devel/lib/ur_robot_driver/ur_robot_driver_node: /opt/ros/melodic/lib/liborocos-kdl.so.1.4.0
-/home/manel/ur5arm_ws/devel/lib/ur_robot_driver/ur_robot_driver_node: /opt/ros/melodic/lib/libtf2_ros.so
-/home/manel/ur5arm_ws/devel/lib/ur_robot_driver/ur_robot_driver_node: /opt/ros/melodic/lib/libmessage_filters.so
-/home/manel/ur5arm_ws/devel/lib/ur_robot_driver/ur_robot_driver_node: /opt/ros/melodic/lib/libtf2.so
-/home/manel/ur5arm_ws/devel/lib/ur_robot_driver/ur_robot_driver_node: /home/manel/ur5arm_ws/devel/lib/libur_controllers.so
-/home/manel/ur5arm_ws/devel/lib/ur_robot_driver/ur_robot_driver_node: /opt/ros/melodic/lib/libjoint_trajectory_controller.so
-/home/manel/ur5arm_ws/devel/lib/ur_robot_driver/ur_robot_driver_node: /opt/ros/melodic/lib/libactionlib.so
-/home/manel/ur5arm_ws/devel/lib/ur_robot_driver/ur_robot_driver_node: /opt/ros/melodic/lib/liburdf.so
-/home/manel/ur5arm_ws/devel/lib/ur_robot_driver/ur_robot_driver_node: /usr/lib/x86_64-linux-gnu/liburdfdom_sensor.so
-/home/manel/ur5arm_ws/devel/lib/ur_robot_driver/ur_robot_driver_node: /usr/lib/x86_64-linux-gnu/liburdfdom_model_state.so
-/home/manel/ur5arm_ws/devel/lib/ur_robot_driver/ur_robot_driver_node: /usr/lib/x86_64-linux-gnu/liburdfdom_model.so
-/home/manel/ur5arm_ws/devel/lib/ur_robot_driver/ur_robot_driver_node: /usr/lib/x86_64-linux-gnu/liburdfdom_world.so
-/home/manel/ur5arm_ws/devel/lib/ur_robot_driver/ur_robot_driver_node: /opt/ros/melodic/lib/librosconsole_bridge.so
-/home/manel/ur5arm_ws/devel/lib/ur_robot_driver/ur_robot_driver_node: /opt/ros/melodic/lib/libcontrol_toolbox.so
-/home/manel/ur5arm_ws/devel/lib/ur_robot_driver/ur_robot_driver_node: /usr/lib/x86_64-linux-gnu/libtinyxml.so
-/home/manel/ur5arm_ws/devel/lib/ur_robot_driver/ur_robot_driver_node: /opt/ros/melodic/lib/libdynamic_reconfigure_config_init_mutex.so
-/home/manel/ur5arm_ws/devel/lib/ur_robot_driver/ur_robot_driver_node: /opt/ros/melodic/lib/libclass_loader.so
-/home/manel/ur5arm_ws/devel/lib/ur_robot_driver/ur_robot_driver_node: /usr/lib/libPocoFoundation.so
-/home/manel/ur5arm_ws/devel/lib/ur_robot_driver/ur_robot_driver_node: /usr/lib/x86_64-linux-gnu/libdl.so
-/home/manel/ur5arm_ws/devel/lib/ur_robot_driver/ur_robot_driver_node: /opt/ros/melodic/lib/libroslib.so
-/home/manel/ur5arm_ws/devel/lib/ur_robot_driver/ur_robot_driver_node: /opt/ros/melodic/lib/librospack.so
-/home/manel/ur5arm_ws/devel/lib/ur_robot_driver/ur_robot_driver_node: /usr/lib/x86_64-linux-gnu/libpython2.7.so
-/home/manel/ur5arm_ws/devel/lib/ur_robot_driver/ur_robot_driver_node: /usr/lib/x86_64-linux-gnu/libboost_program_options.so
-/home/manel/ur5arm_ws/devel/lib/ur_robot_driver/ur_robot_driver_node: /usr/lib/x86_64-linux-gnu/libtinyxml2.so
-/home/manel/ur5arm_ws/devel/lib/ur_robot_driver/ur_robot_driver_node: /opt/ros/melodic/lib/librealtime_tools.so
-/home/manel/ur5arm_ws/devel/lib/ur_robot_driver/ur_robot_driver_node: /opt/ros/melodic/lib/libroscpp.so
-/home/manel/ur5arm_ws/devel/lib/ur_robot_driver/ur_robot_driver_node: /usr/lib/x86_64-linux-gnu/libboost_filesystem.so
-/home/manel/ur5arm_ws/devel/lib/ur_robot_driver/ur_robot_driver_node: /opt/ros/melodic/lib/librosconsole.so
-/home/manel/ur5arm_ws/devel/lib/ur_robot_driver/ur_robot_driver_node: /opt/ros/melodic/lib/librosconsole_log4cxx.so
-/home/manel/ur5arm_ws/devel/lib/ur_robot_driver/ur_robot_driver_node: /opt/ros/melodic/lib/librosconsole_backend_interface.so
-/home/manel/ur5arm_ws/devel/lib/ur_robot_driver/ur_robot_driver_node: /usr/lib/x86_64-linux-gnu/liblog4cxx.so
-/home/manel/ur5arm_ws/devel/lib/ur_robot_driver/ur_robot_driver_node: /usr/lib/x86_64-linux-gnu/libboost_regex.so
-/home/manel/ur5arm_ws/devel/lib/ur_robot_driver/ur_robot_driver_node: /opt/ros/melodic/lib/libxmlrpcpp.so
-/home/manel/ur5arm_ws/devel/lib/ur_robot_driver/ur_robot_driver_node: /opt/ros/melodic/lib/libroscpp_serialization.so
-/home/manel/ur5arm_ws/devel/lib/ur_robot_driver/ur_robot_driver_node: /opt/ros/melodic/lib/librostime.so
-/home/manel/ur5arm_ws/devel/lib/ur_robot_driver/ur_robot_driver_node: /opt/ros/melodic/lib/libcpp_common.so
-/home/manel/ur5arm_ws/devel/lib/ur_robot_driver/ur_robot_driver_node: /usr/lib/x86_64-linux-gnu/libboost_system.so
-/home/manel/ur5arm_ws/devel/lib/ur_robot_driver/ur_robot_driver_node: /usr/lib/x86_64-linux-gnu/libboost_thread.so
-/home/manel/ur5arm_ws/devel/lib/ur_robot_driver/ur_robot_driver_node: /usr/lib/x86_64-linux-gnu/libboost_chrono.so
-/home/manel/ur5arm_ws/devel/lib/ur_robot_driver/ur_robot_driver_node: /usr/lib/x86_64-linux-gnu/libboost_date_time.so
-/home/manel/ur5arm_ws/devel/lib/ur_robot_driver/ur_robot_driver_node: /usr/lib/x86_64-linux-gnu/libboost_atomic.so
-/home/manel/ur5arm_ws/devel/lib/ur_robot_driver/ur_robot_driver_node: /usr/lib/x86_64-linux-gnu/libpthread.so
-/home/manel/ur5arm_ws/devel/lib/ur_robot_driver/ur_robot_driver_node: /usr/lib/x86_64-linux-gnu/libconsole_bridge.so.0.4
-/home/manel/ur5arm_ws/devel/lib/ur_robot_driver/ur_robot_driver_node: /opt/ros/melodic/lib/liburcl.so
-/home/manel/ur5arm_ws/devel/lib/ur_robot_driver/ur_robot_driver_node: Universal_Robots_ROS_Driver/ur_robot_driver/CMakeFiles/ur_robot_driver_node.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/manel/ur5arm_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable /home/manel/ur5arm_ws/devel/lib/ur_robot_driver/ur_robot_driver_node"
-	cd /home/manel/ur5arm_ws/build/Universal_Robots_ROS_Driver/ur_robot_driver && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/ur_robot_driver_node.dir/link.txt --verbose=$(VERBOSE)
+/home/mpuig/ur5arm_ws/devel/lib/ur_robot_driver/ur_robot_driver_node: Universal_Robots_ROS_Driver/ur_robot_driver/CMakeFiles/ur_robot_driver_node.dir/src/dashboard_client_ros.cpp.o
+/home/mpuig/ur5arm_ws/devel/lib/ur_robot_driver/ur_robot_driver_node: Universal_Robots_ROS_Driver/ur_robot_driver/CMakeFiles/ur_robot_driver_node.dir/src/hardware_interface.cpp.o
+/home/mpuig/ur5arm_ws/devel/lib/ur_robot_driver/ur_robot_driver_node: Universal_Robots_ROS_Driver/ur_robot_driver/CMakeFiles/ur_robot_driver_node.dir/src/hardware_interface_node.cpp.o
+/home/mpuig/ur5arm_ws/devel/lib/ur_robot_driver/ur_robot_driver_node: Universal_Robots_ROS_Driver/ur_robot_driver/CMakeFiles/ur_robot_driver_node.dir/build.make
+/home/mpuig/ur5arm_ws/devel/lib/ur_robot_driver/ur_robot_driver_node: /opt/ros/melodic/lib/libcontroller_manager.so
+/home/mpuig/ur5arm_ws/devel/lib/ur_robot_driver/ur_robot_driver_node: /opt/ros/melodic/lib/libtf.so
+/home/mpuig/ur5arm_ws/devel/lib/ur_robot_driver/ur_robot_driver_node: /opt/ros/melodic/lib/liborocos-kdl.so
+/home/mpuig/ur5arm_ws/devel/lib/ur_robot_driver/ur_robot_driver_node: /opt/ros/melodic/lib/liborocos-kdl.so.1.4.0
+/home/mpuig/ur5arm_ws/devel/lib/ur_robot_driver/ur_robot_driver_node: /opt/ros/melodic/lib/libtf2_ros.so
+/home/mpuig/ur5arm_ws/devel/lib/ur_robot_driver/ur_robot_driver_node: /opt/ros/melodic/lib/libmessage_filters.so
+/home/mpuig/ur5arm_ws/devel/lib/ur_robot_driver/ur_robot_driver_node: /opt/ros/melodic/lib/libtf2.so
+/home/mpuig/ur5arm_ws/devel/lib/ur_robot_driver/ur_robot_driver_node: /home/mpuig/ur5arm_ws/devel/lib/libur_controllers.so
+/home/mpuig/ur5arm_ws/devel/lib/ur_robot_driver/ur_robot_driver_node: /opt/ros/melodic/lib/libjoint_trajectory_controller.so
+/home/mpuig/ur5arm_ws/devel/lib/ur_robot_driver/ur_robot_driver_node: /opt/ros/melodic/lib/libactionlib.so
+/home/mpuig/ur5arm_ws/devel/lib/ur_robot_driver/ur_robot_driver_node: /opt/ros/melodic/lib/liburdf.so
+/home/mpuig/ur5arm_ws/devel/lib/ur_robot_driver/ur_robot_driver_node: /usr/lib/x86_64-linux-gnu/liburdfdom_sensor.so
+/home/mpuig/ur5arm_ws/devel/lib/ur_robot_driver/ur_robot_driver_node: /usr/lib/x86_64-linux-gnu/liburdfdom_model_state.so
+/home/mpuig/ur5arm_ws/devel/lib/ur_robot_driver/ur_robot_driver_node: /usr/lib/x86_64-linux-gnu/liburdfdom_model.so
+/home/mpuig/ur5arm_ws/devel/lib/ur_robot_driver/ur_robot_driver_node: /usr/lib/x86_64-linux-gnu/liburdfdom_world.so
+/home/mpuig/ur5arm_ws/devel/lib/ur_robot_driver/ur_robot_driver_node: /opt/ros/melodic/lib/librosconsole_bridge.so
+/home/mpuig/ur5arm_ws/devel/lib/ur_robot_driver/ur_robot_driver_node: /opt/ros/melodic/lib/libcontrol_toolbox.so
+/home/mpuig/ur5arm_ws/devel/lib/ur_robot_driver/ur_robot_driver_node: /usr/lib/x86_64-linux-gnu/libtinyxml.so
+/home/mpuig/ur5arm_ws/devel/lib/ur_robot_driver/ur_robot_driver_node: /opt/ros/melodic/lib/libdynamic_reconfigure_config_init_mutex.so
+/home/mpuig/ur5arm_ws/devel/lib/ur_robot_driver/ur_robot_driver_node: /opt/ros/melodic/lib/libclass_loader.so
+/home/mpuig/ur5arm_ws/devel/lib/ur_robot_driver/ur_robot_driver_node: /usr/lib/libPocoFoundation.so
+/home/mpuig/ur5arm_ws/devel/lib/ur_robot_driver/ur_robot_driver_node: /usr/lib/x86_64-linux-gnu/libdl.so
+/home/mpuig/ur5arm_ws/devel/lib/ur_robot_driver/ur_robot_driver_node: /opt/ros/melodic/lib/libroslib.so
+/home/mpuig/ur5arm_ws/devel/lib/ur_robot_driver/ur_robot_driver_node: /opt/ros/melodic/lib/librospack.so
+/home/mpuig/ur5arm_ws/devel/lib/ur_robot_driver/ur_robot_driver_node: /usr/lib/x86_64-linux-gnu/libpython2.7.so
+/home/mpuig/ur5arm_ws/devel/lib/ur_robot_driver/ur_robot_driver_node: /usr/lib/x86_64-linux-gnu/libboost_program_options.so
+/home/mpuig/ur5arm_ws/devel/lib/ur_robot_driver/ur_robot_driver_node: /usr/lib/x86_64-linux-gnu/libtinyxml2.so
+/home/mpuig/ur5arm_ws/devel/lib/ur_robot_driver/ur_robot_driver_node: /opt/ros/melodic/lib/librealtime_tools.so
+/home/mpuig/ur5arm_ws/devel/lib/ur_robot_driver/ur_robot_driver_node: /opt/ros/melodic/lib/libroscpp.so
+/home/mpuig/ur5arm_ws/devel/lib/ur_robot_driver/ur_robot_driver_node: /usr/lib/x86_64-linux-gnu/libboost_filesystem.so
+/home/mpuig/ur5arm_ws/devel/lib/ur_robot_driver/ur_robot_driver_node: /opt/ros/melodic/lib/librosconsole.so
+/home/mpuig/ur5arm_ws/devel/lib/ur_robot_driver/ur_robot_driver_node: /opt/ros/melodic/lib/librosconsole_log4cxx.so
+/home/mpuig/ur5arm_ws/devel/lib/ur_robot_driver/ur_robot_driver_node: /opt/ros/melodic/lib/librosconsole_backend_interface.so
+/home/mpuig/ur5arm_ws/devel/lib/ur_robot_driver/ur_robot_driver_node: /usr/lib/x86_64-linux-gnu/liblog4cxx.so
+/home/mpuig/ur5arm_ws/devel/lib/ur_robot_driver/ur_robot_driver_node: /usr/lib/x86_64-linux-gnu/libboost_regex.so
+/home/mpuig/ur5arm_ws/devel/lib/ur_robot_driver/ur_robot_driver_node: /opt/ros/melodic/lib/libxmlrpcpp.so
+/home/mpuig/ur5arm_ws/devel/lib/ur_robot_driver/ur_robot_driver_node: /opt/ros/melodic/lib/libroscpp_serialization.so
+/home/mpuig/ur5arm_ws/devel/lib/ur_robot_driver/ur_robot_driver_node: /opt/ros/melodic/lib/librostime.so
+/home/mpuig/ur5arm_ws/devel/lib/ur_robot_driver/ur_robot_driver_node: /opt/ros/melodic/lib/libcpp_common.so
+/home/mpuig/ur5arm_ws/devel/lib/ur_robot_driver/ur_robot_driver_node: /usr/lib/x86_64-linux-gnu/libboost_system.so
+/home/mpuig/ur5arm_ws/devel/lib/ur_robot_driver/ur_robot_driver_node: /usr/lib/x86_64-linux-gnu/libboost_thread.so
+/home/mpuig/ur5arm_ws/devel/lib/ur_robot_driver/ur_robot_driver_node: /usr/lib/x86_64-linux-gnu/libboost_chrono.so
+/home/mpuig/ur5arm_ws/devel/lib/ur_robot_driver/ur_robot_driver_node: /usr/lib/x86_64-linux-gnu/libboost_date_time.so
+/home/mpuig/ur5arm_ws/devel/lib/ur_robot_driver/ur_robot_driver_node: /usr/lib/x86_64-linux-gnu/libboost_atomic.so
+/home/mpuig/ur5arm_ws/devel/lib/ur_robot_driver/ur_robot_driver_node: /usr/lib/x86_64-linux-gnu/libpthread.so
+/home/mpuig/ur5arm_ws/devel/lib/ur_robot_driver/ur_robot_driver_node: /usr/lib/x86_64-linux-gnu/libconsole_bridge.so.0.4
+/home/mpuig/ur5arm_ws/devel/lib/ur_robot_driver/ur_robot_driver_node: /opt/ros/melodic/lib/liburcl.so
+/home/mpuig/ur5arm_ws/devel/lib/ur_robot_driver/ur_robot_driver_node: Universal_Robots_ROS_Driver/ur_robot_driver/CMakeFiles/ur_robot_driver_node.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/mpuig/ur5arm_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable /home/mpuig/ur5arm_ws/devel/lib/ur_robot_driver/ur_robot_driver_node"
+	cd /home/mpuig/ur5arm_ws/build/Universal_Robots_ROS_Driver/ur_robot_driver && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/ur_robot_driver_node.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
-Universal_Robots_ROS_Driver/ur_robot_driver/CMakeFiles/ur_robot_driver_node.dir/build: /home/manel/ur5arm_ws/devel/lib/ur_robot_driver/ur_robot_driver_node
+Universal_Robots_ROS_Driver/ur_robot_driver/CMakeFiles/ur_robot_driver_node.dir/build: /home/mpuig/ur5arm_ws/devel/lib/ur_robot_driver/ur_robot_driver_node
 
 .PHONY : Universal_Robots_ROS_Driver/ur_robot_driver/CMakeFiles/ur_robot_driver_node.dir/build
 
@@ -205,10 +205,10 @@ Universal_Robots_ROS_Driver/ur_robot_driver/CMakeFiles/ur_robot_driver_node.dir/
 .PHONY : Universal_Robots_ROS_Driver/ur_robot_driver/CMakeFiles/ur_robot_driver_node.dir/requires
 
 Universal_Robots_ROS_Driver/ur_robot_driver/CMakeFiles/ur_robot_driver_node.dir/clean:
-	cd /home/manel/ur5arm_ws/build/Universal_Robots_ROS_Driver/ur_robot_driver && $(CMAKE_COMMAND) -P CMakeFiles/ur_robot_driver_node.dir/cmake_clean.cmake
+	cd /home/mpuig/ur5arm_ws/build/Universal_Robots_ROS_Driver/ur_robot_driver && $(CMAKE_COMMAND) -P CMakeFiles/ur_robot_driver_node.dir/cmake_clean.cmake
 .PHONY : Universal_Robots_ROS_Driver/ur_robot_driver/CMakeFiles/ur_robot_driver_node.dir/clean
 
 Universal_Robots_ROS_Driver/ur_robot_driver/CMakeFiles/ur_robot_driver_node.dir/depend:
-	cd /home/manel/ur5arm_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/manel/ur5arm_ws/src /home/manel/ur5arm_ws/src/Universal_Robots_ROS_Driver/ur_robot_driver /home/manel/ur5arm_ws/build /home/manel/ur5arm_ws/build/Universal_Robots_ROS_Driver/ur_robot_driver /home/manel/ur5arm_ws/build/Universal_Robots_ROS_Driver/ur_robot_driver/CMakeFiles/ur_robot_driver_node.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/mpuig/ur5arm_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/mpuig/ur5arm_ws/src /home/mpuig/ur5arm_ws/src/Universal_Robots_ROS_Driver/ur_robot_driver /home/mpuig/ur5arm_ws/build /home/mpuig/ur5arm_ws/build/Universal_Robots_ROS_Driver/ur_robot_driver /home/mpuig/ur5arm_ws/build/Universal_Robots_ROS_Driver/ur_robot_driver/CMakeFiles/ur_robot_driver_node.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : Universal_Robots_ROS_Driver/ur_robot_driver/CMakeFiles/ur_robot_driver_node.dir/depend
 

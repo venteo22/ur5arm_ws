@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/manel/ur5arm_ws/src
+CMAKE_SOURCE_DIR = /home/mpuig/ur5arm_ws/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/manel/ur5arm_ws/build
+CMAKE_BINARY_DIR = /home/mpuig/ur5arm_ws/build
 
 # Utility rule file for ur_msgs_genlisp.
 
@@ -63,10 +63,10 @@ fmauch_universal_robot/ur_msgs/CMakeFiles/ur_msgs_genlisp.dir/build: ur_msgs_gen
 .PHONY : fmauch_universal_robot/ur_msgs/CMakeFiles/ur_msgs_genlisp.dir/build
 
 fmauch_universal_robot/ur_msgs/CMakeFiles/ur_msgs_genlisp.dir/clean:
-	cd /home/manel/ur5arm_ws/build/fmauch_universal_robot/ur_msgs && $(CMAKE_COMMAND) -P CMakeFiles/ur_msgs_genlisp.dir/cmake_clean.cmake
+	cd /home/mpuig/ur5arm_ws/build/fmauch_universal_robot/ur_msgs && $(CMAKE_COMMAND) -P CMakeFiles/ur_msgs_genlisp.dir/cmake_clean.cmake
 .PHONY : fmauch_universal_robot/ur_msgs/CMakeFiles/ur_msgs_genlisp.dir/clean
 
 fmauch_universal_robot/ur_msgs/CMakeFiles/ur_msgs_genlisp.dir/depend:
-	cd /home/manel/ur5arm_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/manel/ur5arm_ws/src /home/manel/ur5arm_ws/src/fmauch_universal_robot/ur_msgs /home/manel/ur5arm_ws/build /home/manel/ur5arm_ws/build/fmauch_universal_robot/ur_msgs /home/manel/ur5arm_ws/build/fmauch_universal_robot/ur_msgs/CMakeFiles/ur_msgs_genlisp.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/mpuig/ur5arm_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/mpuig/ur5arm_ws/src /home/mpuig/ur5arm_ws/src/fmauch_universal_robot/ur_msgs /home/mpuig/ur5arm_ws/build /home/mpuig/ur5arm_ws/build/fmauch_universal_robot/ur_msgs /home/mpuig/ur5arm_ws/build/fmauch_universal_robot/ur_msgs/CMakeFiles/ur_msgs_genlisp.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : fmauch_universal_robot/ur_msgs/CMakeFiles/ur_msgs_genlisp.dir/depend
 

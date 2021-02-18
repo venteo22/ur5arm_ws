@@ -1,4 +1,4 @@
-prefix=/home/manel/ur5arm_ws/devel
+prefix=/home/mpuig/ur5arm_ws/devel
 
 Name: controller_stopper
 Description: Description of controller_stopper

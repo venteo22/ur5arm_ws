@@ -1,4 +1,4 @@
-prefix=/home/manel/ur5arm_ws/install
+prefix=/home/mpuig/ur5arm_ws/install
 
 Name: ur5control
 Description: Description of ur5control

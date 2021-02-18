@@ -2,8 +2,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/ur_robot_driver_node.dir/src/dashboard_client_ros.cpp.o"
   "CMakeFiles/ur_robot_driver_node.dir/src/hardware_interface.cpp.o"
   "CMakeFiles/ur_robot_driver_node.dir/src/hardware_interface_node.cpp.o"
-  "/home/manel/ur5arm_ws/devel/lib/ur_robot_driver/ur_robot_driver_node.pdb"
-  "/home/manel/ur5arm_ws/devel/lib/ur_robot_driver/ur_robot_driver_node"
+  "/home/mpuig/ur5arm_ws/devel/lib/ur_robot_driver/ur_robot_driver_node.pdb"
+  "/home/mpuig/ur5arm_ws/devel/lib/ur_robot_driver/ur_robot_driver_node"
 )
 
 # Per-language clean rules from dependency scanning.

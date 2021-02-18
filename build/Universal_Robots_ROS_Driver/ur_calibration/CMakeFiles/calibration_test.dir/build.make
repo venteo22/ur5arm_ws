@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/manel/ur5arm_ws/src
+CMAKE_SOURCE_DIR = /home/mpuig/ur5arm_ws/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/manel/ur5arm_ws/build
+CMAKE_BINARY_DIR = /home/mpuig/ur5arm_ws/build
 
 # Include any dependencies generated for this target.
 include Universal_Robots_ROS_Driver/ur_calibration/CMakeFiles/calibration_test.dir/depend.make
@@ -58,17 +58,17 @@ include Universal_Robots_ROS_Driver/ur_calibration/CMakeFiles/calibration_test.d
 include Universal_Robots_ROS_Driver/ur_calibration/CMakeFiles/calibration_test.dir/flags.make
 
 Universal_Robots_ROS_Driver/ur_calibration/CMakeFiles/calibration_test.dir/test/calibration_test.cpp.o: Universal_Robots_ROS_Driver/ur_calibration/CMakeFiles/calibration_test.dir/flags.make
-Universal_Robots_ROS_Driver/ur_calibration/CMakeFiles/calibration_test.dir/test/calibration_test.cpp.o: /home/manel/ur5arm_ws/src/Universal_Robots_ROS_Driver/ur_calibration/test/calibration_test.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/manel/ur5arm_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object Universal_Robots_ROS_Driver/ur_calibration/CMakeFiles/calibration_test.dir/test/calibration_test.cpp.o"
-	cd /home/manel/ur5arm_ws/build/Universal_Robots_ROS_Driver/ur_calibration && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/calibration_test.dir/test/calibration_test.cpp.o -c /home/manel/ur5arm_ws/src/Universal_Robots_ROS_Driver/ur_calibration/test/calibration_test.cpp
+Universal_Robots_ROS_Driver/ur_calibration/CMakeFiles/calibration_test.dir/test/calibration_test.cpp.o: /home/mpuig/ur5arm_ws/src/Universal_Robots_ROS_Driver/ur_calibration/test/calibration_test.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mpuig/ur5arm_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object Universal_Robots_ROS_Driver/ur_calibration/CMakeFiles/calibration_test.dir/test/calibration_test.cpp.o"
+	cd /home/mpuig/ur5arm_ws/build/Universal_Robots_ROS_Driver/ur_calibration && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/calibration_test.dir/test/calibration_test.cpp.o -c /home/mpuig/ur5arm_ws/src/Universal_Robots_ROS_Driver/ur_calibration/test/calibration_test.cpp
 
 Universal_Robots_ROS_Driver/ur_calibration/CMakeFiles/calibration_test.dir/test/calibration_test.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/calibration_test.dir/test/calibration_test.cpp.i"
-	cd /home/manel/ur5arm_ws/build/Universal_Robots_ROS_Driver/ur_calibration && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/manel/ur5arm_ws/src/Universal_Robots_ROS_Driver/ur_calibration/test/calibration_test.cpp > CMakeFiles/calibration_test.dir/test/calibration_test.cpp.i
+	cd /home/mpuig/ur5arm_ws/build/Universal_Robots_ROS_Driver/ur_calibration && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mpuig/ur5arm_ws/src/Universal_Robots_ROS_Driver/ur_calibration/test/calibration_test.cpp > CMakeFiles/calibration_test.dir/test/calibration_test.cpp.i
 
 Universal_Robots_ROS_Driver/ur_calibration/CMakeFiles/calibration_test.dir/test/calibration_test.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/calibration_test.dir/test/calibration_test.cpp.s"
-	cd /home/manel/ur5arm_ws/build/Universal_Robots_ROS_Driver/ur_calibration && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/manel/ur5arm_ws/src/Universal_Robots_ROS_Driver/ur_calibration/test/calibration_test.cpp -o CMakeFiles/calibration_test.dir/test/calibration_test.cpp.s
+	cd /home/mpuig/ur5arm_ws/build/Universal_Robots_ROS_Driver/ur_calibration && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mpuig/ur5arm_ws/src/Universal_Robots_ROS_Driver/ur_calibration/test/calibration_test.cpp -o CMakeFiles/calibration_test.dir/test/calibration_test.cpp.s
 
 Universal_Robots_ROS_Driver/ur_calibration/CMakeFiles/calibration_test.dir/test/calibration_test.cpp.o.requires:
 
@@ -82,17 +82,17 @@ Universal_Robots_ROS_Driver/ur_calibration/CMakeFiles/calibration_test.dir/test/
 
 
 Universal_Robots_ROS_Driver/ur_calibration/CMakeFiles/calibration_test.dir/src/calibration.cpp.o: Universal_Robots_ROS_Driver/ur_calibration/CMakeFiles/calibration_test.dir/flags.make
-Universal_Robots_ROS_Driver/ur_calibration/CMakeFiles/calibration_test.dir/src/calibration.cpp.o: /home/manel/ur5arm_ws/src/Universal_Robots_ROS_Driver/ur_calibration/src/calibration.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/manel/ur5arm_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object Universal_Robots_ROS_Driver/ur_calibration/CMakeFiles/calibration_test.dir/src/calibration.cpp.o"
-	cd /home/manel/ur5arm_ws/build/Universal_Robots_ROS_Driver/ur_calibration && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/calibration_test.dir/src/calibration.cpp.o -c /home/manel/ur5arm_ws/src/Universal_Robots_ROS_Driver/ur_calibration/src/calibration.cpp
+Universal_Robots_ROS_Driver/ur_calibration/CMakeFiles/calibration_test.dir/src/calibration.cpp.o: /home/mpuig/ur5arm_ws/src/Universal_Robots_ROS_Driver/ur_calibration/src/calibration.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mpuig/ur5arm_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object Universal_Robots_ROS_Driver/ur_calibration/CMakeFiles/calibration_test.dir/src/calibration.cpp.o"
+	cd /home/mpuig/ur5arm_ws/build/Universal_Robots_ROS_Driver/ur_calibration && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/calibration_test.dir/src/calibration.cpp.o -c /home/mpuig/ur5arm_ws/src/Universal_Robots_ROS_Driver/ur_calibration/src/calibration.cpp
 
 Universal_Robots_ROS_Driver/ur_calibration/CMakeFiles/calibration_test.dir/src/calibration.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/calibration_test.dir/src/calibration.cpp.i"
-	cd /home/manel/ur5arm_ws/build/Universal_Robots_ROS_Driver/ur_calibration && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/manel/ur5arm_ws/src/Universal_Robots_ROS_Driver/ur_calibration/src/calibration.cpp > CMakeFiles/calibration_test.dir/src/calibration.cpp.i
+	cd /home/mpuig/ur5arm_ws/build/Universal_Robots_ROS_Driver/ur_calibration && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mpuig/ur5arm_ws/src/Universal_Robots_ROS_Driver/ur_calibration/src/calibration.cpp > CMakeFiles/calibration_test.dir/src/calibration.cpp.i
 
 Universal_Robots_ROS_Driver/ur_calibration/CMakeFiles/calibration_test.dir/src/calibration.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/calibration_test.dir/src/calibration.cpp.s"
-	cd /home/manel/ur5arm_ws/build/Universal_Robots_ROS_Driver/ur_calibration && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/manel/ur5arm_ws/src/Universal_Robots_ROS_Driver/ur_calibration/src/calibration.cpp -o CMakeFiles/calibration_test.dir/src/calibration.cpp.s
+	cd /home/mpuig/ur5arm_ws/build/Universal_Robots_ROS_Driver/ur_calibration && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mpuig/ur5arm_ws/src/Universal_Robots_ROS_Driver/ur_calibration/src/calibration.cpp -o CMakeFiles/calibration_test.dir/src/calibration.cpp.s
 
 Universal_Robots_ROS_Driver/ur_calibration/CMakeFiles/calibration_test.dir/src/calibration.cpp.o.requires:
 
@@ -113,36 +113,36 @@ calibration_test_OBJECTS = \
 # External object files for target calibration_test
 calibration_test_EXTERNAL_OBJECTS =
 
-/home/manel/ur5arm_ws/devel/lib/ur_calibration/calibration_test: Universal_Robots_ROS_Driver/ur_calibration/CMakeFiles/calibration_test.dir/test/calibration_test.cpp.o
-/home/manel/ur5arm_ws/devel/lib/ur_calibration/calibration_test: Universal_Robots_ROS_Driver/ur_calibration/CMakeFiles/calibration_test.dir/src/calibration.cpp.o
-/home/manel/ur5arm_ws/devel/lib/ur_calibration/calibration_test: Universal_Robots_ROS_Driver/ur_calibration/CMakeFiles/calibration_test.dir/build.make
-/home/manel/ur5arm_ws/devel/lib/ur_calibration/calibration_test: gtest/googlemock/gtest/libgtest.so
-/home/manel/ur5arm_ws/devel/lib/ur_calibration/calibration_test: /opt/ros/melodic/lib/libroscpp.so
-/home/manel/ur5arm_ws/devel/lib/ur_calibration/calibration_test: /usr/lib/x86_64-linux-gnu/libboost_filesystem.so
-/home/manel/ur5arm_ws/devel/lib/ur_calibration/calibration_test: /opt/ros/melodic/lib/librosconsole.so
-/home/manel/ur5arm_ws/devel/lib/ur_calibration/calibration_test: /opt/ros/melodic/lib/librosconsole_log4cxx.so
-/home/manel/ur5arm_ws/devel/lib/ur_calibration/calibration_test: /opt/ros/melodic/lib/librosconsole_backend_interface.so
-/home/manel/ur5arm_ws/devel/lib/ur_calibration/calibration_test: /usr/lib/x86_64-linux-gnu/liblog4cxx.so
-/home/manel/ur5arm_ws/devel/lib/ur_calibration/calibration_test: /usr/lib/x86_64-linux-gnu/libboost_regex.so
-/home/manel/ur5arm_ws/devel/lib/ur_calibration/calibration_test: /opt/ros/melodic/lib/libroscpp_serialization.so
-/home/manel/ur5arm_ws/devel/lib/ur_calibration/calibration_test: /opt/ros/melodic/lib/libxmlrpcpp.so
-/home/manel/ur5arm_ws/devel/lib/ur_calibration/calibration_test: /opt/ros/melodic/lib/librostime.so
-/home/manel/ur5arm_ws/devel/lib/ur_calibration/calibration_test: /opt/ros/melodic/lib/libcpp_common.so
-/home/manel/ur5arm_ws/devel/lib/ur_calibration/calibration_test: /usr/lib/x86_64-linux-gnu/libboost_system.so
-/home/manel/ur5arm_ws/devel/lib/ur_calibration/calibration_test: /usr/lib/x86_64-linux-gnu/libboost_thread.so
-/home/manel/ur5arm_ws/devel/lib/ur_calibration/calibration_test: /usr/lib/x86_64-linux-gnu/libboost_chrono.so
-/home/manel/ur5arm_ws/devel/lib/ur_calibration/calibration_test: /usr/lib/x86_64-linux-gnu/libboost_date_time.so
-/home/manel/ur5arm_ws/devel/lib/ur_calibration/calibration_test: /usr/lib/x86_64-linux-gnu/libboost_atomic.so
-/home/manel/ur5arm_ws/devel/lib/ur_calibration/calibration_test: /usr/lib/x86_64-linux-gnu/libpthread.so
-/home/manel/ur5arm_ws/devel/lib/ur_calibration/calibration_test: /usr/lib/x86_64-linux-gnu/libconsole_bridge.so.0.4
-/home/manel/ur5arm_ws/devel/lib/ur_calibration/calibration_test: /usr/lib/x86_64-linux-gnu/libyaml-cpp.so.0.5.2
-/home/manel/ur5arm_ws/devel/lib/ur_calibration/calibration_test: /opt/ros/melodic/lib/liburcl.so
-/home/manel/ur5arm_ws/devel/lib/ur_calibration/calibration_test: Universal_Robots_ROS_Driver/ur_calibration/CMakeFiles/calibration_test.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/manel/ur5arm_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable /home/manel/ur5arm_ws/devel/lib/ur_calibration/calibration_test"
-	cd /home/manel/ur5arm_ws/build/Universal_Robots_ROS_Driver/ur_calibration && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/calibration_test.dir/link.txt --verbose=$(VERBOSE)
+/home/mpuig/ur5arm_ws/devel/lib/ur_calibration/calibration_test: Universal_Robots_ROS_Driver/ur_calibration/CMakeFiles/calibration_test.dir/test/calibration_test.cpp.o
+/home/mpuig/ur5arm_ws/devel/lib/ur_calibration/calibration_test: Universal_Robots_ROS_Driver/ur_calibration/CMakeFiles/calibration_test.dir/src/calibration.cpp.o
+/home/mpuig/ur5arm_ws/devel/lib/ur_calibration/calibration_test: Universal_Robots_ROS_Driver/ur_calibration/CMakeFiles/calibration_test.dir/build.make
+/home/mpuig/ur5arm_ws/devel/lib/ur_calibration/calibration_test: gtest/googlemock/gtest/libgtest.so
+/home/mpuig/ur5arm_ws/devel/lib/ur_calibration/calibration_test: /opt/ros/melodic/lib/libroscpp.so
+/home/mpuig/ur5arm_ws/devel/lib/ur_calibration/calibration_test: /usr/lib/x86_64-linux-gnu/libboost_filesystem.so
+/home/mpuig/ur5arm_ws/devel/lib/ur_calibration/calibration_test: /opt/ros/melodic/lib/librosconsole.so
+/home/mpuig/ur5arm_ws/devel/lib/ur_calibration/calibration_test: /opt/ros/melodic/lib/librosconsole_log4cxx.so
+/home/mpuig/ur5arm_ws/devel/lib/ur_calibration/calibration_test: /opt/ros/melodic/lib/librosconsole_backend_interface.so
+/home/mpuig/ur5arm_ws/devel/lib/ur_calibration/calibration_test: /usr/lib/x86_64-linux-gnu/liblog4cxx.so
+/home/mpuig/ur5arm_ws/devel/lib/ur_calibration/calibration_test: /usr/lib/x86_64-linux-gnu/libboost_regex.so
+/home/mpuig/ur5arm_ws/devel/lib/ur_calibration/calibration_test: /opt/ros/melodic/lib/libroscpp_serialization.so
+/home/mpuig/ur5arm_ws/devel/lib/ur_calibration/calibration_test: /opt/ros/melodic/lib/libxmlrpcpp.so
+/home/mpuig/ur5arm_ws/devel/lib/ur_calibration/calibration_test: /opt/ros/melodic/lib/librostime.so
+/home/mpuig/ur5arm_ws/devel/lib/ur_calibration/calibration_test: /opt/ros/melodic/lib/libcpp_common.so
+/home/mpuig/ur5arm_ws/devel/lib/ur_calibration/calibration_test: /usr/lib/x86_64-linux-gnu/libboost_system.so
+/home/mpuig/ur5arm_ws/devel/lib/ur_calibration/calibration_test: /usr/lib/x86_64-linux-gnu/libboost_thread.so
+/home/mpuig/ur5arm_ws/devel/lib/ur_calibration/calibration_test: /usr/lib/x86_64-linux-gnu/libboost_chrono.so
+/home/mpuig/ur5arm_ws/devel/lib/ur_calibration/calibration_test: /usr/lib/x86_64-linux-gnu/libboost_date_time.so
+/home/mpuig/ur5arm_ws/devel/lib/ur_calibration/calibration_test: /usr/lib/x86_64-linux-gnu/libboost_atomic.so
+/home/mpuig/ur5arm_ws/devel/lib/ur_calibration/calibration_test: /usr/lib/x86_64-linux-gnu/libpthread.so
+/home/mpuig/ur5arm_ws/devel/lib/ur_calibration/calibration_test: /usr/lib/x86_64-linux-gnu/libconsole_bridge.so.0.4
+/home/mpuig/ur5arm_ws/devel/lib/ur_calibration/calibration_test: /usr/lib/x86_64-linux-gnu/libyaml-cpp.so.0.5.2
+/home/mpuig/ur5arm_ws/devel/lib/ur_calibration/calibration_test: /opt/ros/melodic/lib/liburcl.so
+/home/mpuig/ur5arm_ws/devel/lib/ur_calibration/calibration_test: Universal_Robots_ROS_Driver/ur_calibration/CMakeFiles/calibration_test.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/mpuig/ur5arm_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable /home/mpuig/ur5arm_ws/devel/lib/ur_calibration/calibration_test"
+	cd /home/mpuig/ur5arm_ws/build/Universal_Robots_ROS_Driver/ur_calibration && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/calibration_test.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
-Universal_Robots_ROS_Driver/ur_calibration/CMakeFiles/calibration_test.dir/build: /home/manel/ur5arm_ws/devel/lib/ur_calibration/calibration_test
+Universal_Robots_ROS_Driver/ur_calibration/CMakeFiles/calibration_test.dir/build: /home/mpuig/ur5arm_ws/devel/lib/ur_calibration/calibration_test
 
 .PHONY : Universal_Robots_ROS_Driver/ur_calibration/CMakeFiles/calibration_test.dir/build
 
@@ -152,10 +152,10 @@ Universal_Robots_ROS_Driver/ur_calibration/CMakeFiles/calibration_test.dir/requi
 .PHONY : Universal_Robots_ROS_Driver/ur_calibration/CMakeFiles/calibration_test.dir/requires
 
 Universal_Robots_ROS_Driver/ur_calibration/CMakeFiles/calibration_test.dir/clean:
-	cd /home/manel/ur5arm_ws/build/Universal_Robots_ROS_Driver/ur_calibration && $(CMAKE_COMMAND) -P CMakeFiles/calibration_test.dir/cmake_clean.cmake
+	cd /home/mpuig/ur5arm_ws/build/Universal_Robots_ROS_Driver/ur_calibration && $(CMAKE_COMMAND) -P CMakeFiles/calibration_test.dir/cmake_clean.cmake
 .PHONY : Universal_Robots_ROS_Driver/ur_calibration/CMakeFiles/calibration_test.dir/clean
 
 Universal_Robots_ROS_Driver/ur_calibration/CMakeFiles/calibration_test.dir/depend:
-	cd /home/manel/ur5arm_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/manel/ur5arm_ws/src /home/manel/ur5arm_ws/src/Universal_Robots_ROS_Driver/ur_calibration /home/manel/ur5arm_ws/build /home/manel/ur5arm_ws/build/Universal_Robots_ROS_Driver/ur_calibration /home/manel/ur5arm_ws/build/Universal_Robots_ROS_Driver/ur_calibration/CMakeFiles/calibration_test.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/mpuig/ur5arm_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/mpuig/ur5arm_ws/src /home/mpuig/ur5arm_ws/src/Universal_Robots_ROS_Driver/ur_calibration /home/mpuig/ur5arm_ws/build /home/mpuig/ur5arm_ws/build/Universal_Robots_ROS_Driver/ur_calibration /home/mpuig/ur5arm_ws/build/Universal_Robots_ROS_Driver/ur_calibration/CMakeFiles/calibration_test.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : Universal_Robots_ROS_Driver/ur_calibration/CMakeFiles/calibration_test.dir/depend
 

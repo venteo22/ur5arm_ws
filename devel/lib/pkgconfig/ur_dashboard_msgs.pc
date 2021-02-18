@@ -1,8 +1,8 @@
-prefix=/home/manel/ur5arm_ws/devel
+prefix=/home/mpuig/ur5arm_ws/devel
 
 Name: ur_dashboard_msgs
 Description: Description of ur_dashboard_msgs
 Version: 0.0.0
-Cflags: -I/home/manel/ur5arm_ws/devel/include
+Cflags: -I/home/mpuig/ur5arm_ws/devel/include
 Libs: -L${prefix}/lib 
 Requires: actionlib_msgs message_runtime std_msgs

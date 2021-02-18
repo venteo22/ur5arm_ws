@@ -1,4 +1,4 @@
-prefix=/home/manel/ur5arm_ws/install
+prefix=/home/mpuig/ur5arm_ws/install
 
 Name: ur_calibration
 Description: Description of ur_calibration

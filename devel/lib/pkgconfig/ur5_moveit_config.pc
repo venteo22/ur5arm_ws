@@ -1,4 +1,4 @@
-prefix=/home/manel/ur5arm_ws/devel
+prefix=/home/mpuig/ur5arm_ws/devel
 
 Name: ur5_moveit_config
 Description: Description of ur5_moveit_config

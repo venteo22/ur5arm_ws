@@ -6,13 +6,13 @@
 
 #IncludeRegexTransform: 
 
-/home/manel/ur5arm_ws/src/Universal_Robots_ROS_Driver/ur_controllers/include/ur_controllers/hardware_interface_adapter.h
+/home/mpuig/ur5arm_ws/src/Universal_Robots_ROS_Driver/ur_controllers/include/ur_controllers/hardware_interface_adapter.h
 joint_trajectory_controller/hardware_interface_adapter.h
 -
 ur_controllers/scaled_joint_command_interface.h
-/home/manel/ur5arm_ws/src/Universal_Robots_ROS_Driver/ur_controllers/include/ur_controllers/ur_controllers/scaled_joint_command_interface.h
+/home/mpuig/ur5arm_ws/src/Universal_Robots_ROS_Driver/ur_controllers/include/ur_controllers/ur_controllers/scaled_joint_command_interface.h
 
-/home/manel/ur5arm_ws/src/Universal_Robots_ROS_Driver/ur_controllers/include/ur_controllers/scaled_joint_command_interface.h
+/home/mpuig/ur5arm_ws/src/Universal_Robots_ROS_Driver/ur_controllers/include/ur_controllers/scaled_joint_command_interface.h
 hardware_interface/internal/hardware_resource_manager.h
 -
 hardware_interface/joint_state_interface.h
@@ -20,17 +20,17 @@ hardware_interface/joint_state_interface.h
 hardware_interface/joint_command_interface.h
 -
 
-/home/manel/ur5arm_ws/src/Universal_Robots_ROS_Driver/ur_controllers/include/ur_controllers/scaled_joint_trajectory_controller.h
+/home/mpuig/ur5arm_ws/src/Universal_Robots_ROS_Driver/ur_controllers/include/ur_controllers/scaled_joint_trajectory_controller.h
 ur_controllers/hardware_interface_adapter.h
-/home/manel/ur5arm_ws/src/Universal_Robots_ROS_Driver/ur_controllers/include/ur_controllers/ur_controllers/hardware_interface_adapter.h
+/home/mpuig/ur5arm_ws/src/Universal_Robots_ROS_Driver/ur_controllers/include/ur_controllers/ur_controllers/hardware_interface_adapter.h
 joint_trajectory_controller/joint_trajectory_controller.h
 -
 
-/home/manel/ur5arm_ws/src/Universal_Robots_ROS_Driver/ur_controllers/include/ur_controllers/speed_scaling_interface.h
+/home/mpuig/ur5arm_ws/src/Universal_Robots_ROS_Driver/ur_controllers/include/ur_controllers/speed_scaling_interface.h
 hardware_interface/internal/hardware_resource_manager.h
 -
 
-/home/manel/ur5arm_ws/src/Universal_Robots_ROS_Driver/ur_controllers/include/ur_controllers/speed_scaling_state_controller.h
+/home/mpuig/ur5arm_ws/src/Universal_Robots_ROS_Driver/ur_controllers/include/ur_controllers/speed_scaling_state_controller.h
 controller_interface/controller.h
 -
 realtime_tools/realtime_publisher.h
@@ -38,21 +38,21 @@ realtime_tools/realtime_publisher.h
 std_msgs/Float64.h
 -
 ur_controllers/speed_scaling_interface.h
-/home/manel/ur5arm_ws/src/Universal_Robots_ROS_Driver/ur_controllers/include/ur_controllers/ur_controllers/speed_scaling_interface.h
+/home/mpuig/ur5arm_ws/src/Universal_Robots_ROS_Driver/ur_controllers/include/ur_controllers/ur_controllers/speed_scaling_interface.h
 
-/home/manel/ur5arm_ws/src/Universal_Robots_ROS_Driver/ur_controllers/src/scaled_joint_trajectory_controller.cpp
+/home/mpuig/ur5arm_ws/src/Universal_Robots_ROS_Driver/ur_controllers/src/scaled_joint_trajectory_controller.cpp
 ur_controllers/scaled_joint_trajectory_controller.h
-/home/manel/ur5arm_ws/src/Universal_Robots_ROS_Driver/ur_controllers/src/ur_controllers/scaled_joint_trajectory_controller.h
+/home/mpuig/ur5arm_ws/src/Universal_Robots_ROS_Driver/ur_controllers/src/ur_controllers/scaled_joint_trajectory_controller.h
 ur_controllers/scaled_joint_command_interface.h
-/home/manel/ur5arm_ws/src/Universal_Robots_ROS_Driver/ur_controllers/src/ur_controllers/scaled_joint_command_interface.h
+/home/mpuig/ur5arm_ws/src/Universal_Robots_ROS_Driver/ur_controllers/src/ur_controllers/scaled_joint_command_interface.h
 pluginlib/class_list_macros.hpp
 -
 trajectory_interface/quintic_spline_segment.h
 -
 
-/home/manel/ur5arm_ws/src/Universal_Robots_ROS_Driver/ur_controllers/src/speed_scaling_state_controller.cpp
+/home/mpuig/ur5arm_ws/src/Universal_Robots_ROS_Driver/ur_controllers/src/speed_scaling_state_controller.cpp
 ur_controllers/speed_scaling_state_controller.h
-/home/manel/ur5arm_ws/src/Universal_Robots_ROS_Driver/ur_controllers/src/ur_controllers/speed_scaling_state_controller.h
+/home/mpuig/ur5arm_ws/src/Universal_Robots_ROS_Driver/ur_controllers/src/ur_controllers/speed_scaling_state_controller.h
 pluginlib/class_list_macros.hpp
 -
 

@@ -1,4 +1,4 @@
-prefix=/home/manel/ur5arm_ws/install
+prefix=/home/mpuig/ur5arm_ws/install
 
 Name: ur10_e_moveit_config
 Description: Description of ur10_e_moveit_config

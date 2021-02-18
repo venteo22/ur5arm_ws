@@ -1,12 +1,12 @@
 
 "use strict";
 
-let SetIO = require('./SetIO.js')
 let SetPayload = require('./SetPayload.js')
+let SetIO = require('./SetIO.js')
 let SetSpeedSliderFraction = require('./SetSpeedSliderFraction.js')
 
 module.exports = {
-  SetIO: SetIO,
   SetPayload: SetPayload,
+  SetIO: SetIO,
   SetSpeedSliderFraction: SetSpeedSliderFraction,
 };
