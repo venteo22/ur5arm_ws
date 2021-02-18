@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/mpuig/ur5arm_ws/src
+CMAKE_SOURCE_DIR = /home/manel/ur5arm_ws/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/mpuig/ur5arm_ws/build
+CMAKE_BINARY_DIR = /home/manel/ur5arm_ws/build
 
 # Include any dependencies generated for this target.
 include fmauch_universal_robot/ur_kinematics/CMakeFiles/ur5_kin.dir/depend.make
@@ -58,17 +58,17 @@ include fmauch_universal_robot/ur_kinematics/CMakeFiles/ur5_kin.dir/progress.mak
 include fmauch_universal_robot/ur_kinematics/CMakeFiles/ur5_kin.dir/flags.make
 
 fmauch_universal_robot/ur_kinematics/CMakeFiles/ur5_kin.dir/src/ur_kin.cpp.o: fmauch_universal_robot/ur_kinematics/CMakeFiles/ur5_kin.dir/flags.make
-fmauch_universal_robot/ur_kinematics/CMakeFiles/ur5_kin.dir/src/ur_kin.cpp.o: /home/mpuig/ur5arm_ws/src/fmauch_universal_robot/ur_kinematics/src/ur_kin.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mpuig/ur5arm_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object fmauch_universal_robot/ur_kinematics/CMakeFiles/ur5_kin.dir/src/ur_kin.cpp.o"
-	cd /home/mpuig/ur5arm_ws/build/fmauch_universal_robot/ur_kinematics && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ur5_kin.dir/src/ur_kin.cpp.o -c /home/mpuig/ur5arm_ws/src/fmauch_universal_robot/ur_kinematics/src/ur_kin.cpp
+fmauch_universal_robot/ur_kinematics/CMakeFiles/ur5_kin.dir/src/ur_kin.cpp.o: /home/manel/ur5arm_ws/src/fmauch_universal_robot/ur_kinematics/src/ur_kin.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/manel/ur5arm_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object fmauch_universal_robot/ur_kinematics/CMakeFiles/ur5_kin.dir/src/ur_kin.cpp.o"
+	cd /home/manel/ur5arm_ws/build/fmauch_universal_robot/ur_kinematics && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ur5_kin.dir/src/ur_kin.cpp.o -c /home/manel/ur5arm_ws/src/fmauch_universal_robot/ur_kinematics/src/ur_kin.cpp
 
 fmauch_universal_robot/ur_kinematics/CMakeFiles/ur5_kin.dir/src/ur_kin.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ur5_kin.dir/src/ur_kin.cpp.i"
-	cd /home/mpuig/ur5arm_ws/build/fmauch_universal_robot/ur_kinematics && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mpuig/ur5arm_ws/src/fmauch_universal_robot/ur_kinematics/src/ur_kin.cpp > CMakeFiles/ur5_kin.dir/src/ur_kin.cpp.i
+	cd /home/manel/ur5arm_ws/build/fmauch_universal_robot/ur_kinematics && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/manel/ur5arm_ws/src/fmauch_universal_robot/ur_kinematics/src/ur_kin.cpp > CMakeFiles/ur5_kin.dir/src/ur_kin.cpp.i
 
 fmauch_universal_robot/ur_kinematics/CMakeFiles/ur5_kin.dir/src/ur_kin.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ur5_kin.dir/src/ur_kin.cpp.s"
-	cd /home/mpuig/ur5arm_ws/build/fmauch_universal_robot/ur_kinematics && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mpuig/ur5arm_ws/src/fmauch_universal_robot/ur_kinematics/src/ur_kin.cpp -o CMakeFiles/ur5_kin.dir/src/ur_kin.cpp.s
+	cd /home/manel/ur5arm_ws/build/fmauch_universal_robot/ur_kinematics && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/manel/ur5arm_ws/src/fmauch_universal_robot/ur_kinematics/src/ur_kin.cpp -o CMakeFiles/ur5_kin.dir/src/ur_kin.cpp.s
 
 fmauch_universal_robot/ur_kinematics/CMakeFiles/ur5_kin.dir/src/ur_kin.cpp.o.requires:
 
@@ -88,14 +88,14 @@ ur5_kin_OBJECTS = \
 # External object files for target ur5_kin
 ur5_kin_EXTERNAL_OBJECTS =
 
-/home/mpuig/ur5arm_ws/devel/lib/libur5_kin.so: fmauch_universal_robot/ur_kinematics/CMakeFiles/ur5_kin.dir/src/ur_kin.cpp.o
-/home/mpuig/ur5arm_ws/devel/lib/libur5_kin.so: fmauch_universal_robot/ur_kinematics/CMakeFiles/ur5_kin.dir/build.make
-/home/mpuig/ur5arm_ws/devel/lib/libur5_kin.so: fmauch_universal_robot/ur_kinematics/CMakeFiles/ur5_kin.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/mpuig/ur5arm_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX shared library /home/mpuig/ur5arm_ws/devel/lib/libur5_kin.so"
-	cd /home/mpuig/ur5arm_ws/build/fmauch_universal_robot/ur_kinematics && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/ur5_kin.dir/link.txt --verbose=$(VERBOSE)
+/home/manel/ur5arm_ws/devel/lib/libur5_kin.so: fmauch_universal_robot/ur_kinematics/CMakeFiles/ur5_kin.dir/src/ur_kin.cpp.o
+/home/manel/ur5arm_ws/devel/lib/libur5_kin.so: fmauch_universal_robot/ur_kinematics/CMakeFiles/ur5_kin.dir/build.make
+/home/manel/ur5arm_ws/devel/lib/libur5_kin.so: fmauch_universal_robot/ur_kinematics/CMakeFiles/ur5_kin.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/manel/ur5arm_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX shared library /home/manel/ur5arm_ws/devel/lib/libur5_kin.so"
+	cd /home/manel/ur5arm_ws/build/fmauch_universal_robot/ur_kinematics && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/ur5_kin.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
-fmauch_universal_robot/ur_kinematics/CMakeFiles/ur5_kin.dir/build: /home/mpuig/ur5arm_ws/devel/lib/libur5_kin.so
+fmauch_universal_robot/ur_kinematics/CMakeFiles/ur5_kin.dir/build: /home/manel/ur5arm_ws/devel/lib/libur5_kin.so
 
 .PHONY : fmauch_universal_robot/ur_kinematics/CMakeFiles/ur5_kin.dir/build
 
@@ -104,10 +104,10 @@ fmauch_universal_robot/ur_kinematics/CMakeFiles/ur5_kin.dir/requires: fmauch_uni
 .PHONY : fmauch_universal_robot/ur_kinematics/CMakeFiles/ur5_kin.dir/requires
 
 fmauch_universal_robot/ur_kinematics/CMakeFiles/ur5_kin.dir/clean:
-	cd /home/mpuig/ur5arm_ws/build/fmauch_universal_robot/ur_kinematics && $(CMAKE_COMMAND) -P CMakeFiles/ur5_kin.dir/cmake_clean.cmake
+	cd /home/manel/ur5arm_ws/build/fmauch_universal_robot/ur_kinematics && $(CMAKE_COMMAND) -P CMakeFiles/ur5_kin.dir/cmake_clean.cmake
 .PHONY : fmauch_universal_robot/ur_kinematics/CMakeFiles/ur5_kin.dir/clean
 
 fmauch_universal_robot/ur_kinematics/CMakeFiles/ur5_kin.dir/depend:
-	cd /home/mpuig/ur5arm_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/mpuig/ur5arm_ws/src /home/mpuig/ur5arm_ws/src/fmauch_universal_robot/ur_kinematics /home/mpuig/ur5arm_ws/build /home/mpuig/ur5arm_ws/build/fmauch_universal_robot/ur_kinematics /home/mpuig/ur5arm_ws/build/fmauch_universal_robot/ur_kinematics/CMakeFiles/ur5_kin.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/manel/ur5arm_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/manel/ur5arm_ws/src /home/manel/ur5arm_ws/src/fmauch_universal_robot/ur_kinematics /home/manel/ur5arm_ws/build /home/manel/ur5arm_ws/build/fmauch_universal_robot/ur_kinematics /home/manel/ur5arm_ws/build/fmauch_universal_robot/ur_kinematics/CMakeFiles/ur5_kin.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : fmauch_universal_robot/ur_kinematics/CMakeFiles/ur5_kin.dir/depend
 

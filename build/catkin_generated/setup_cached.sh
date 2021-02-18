@@ -7,4 +7,5 @@
 # new environment variables
 
 # modified environment variables
-export PWD='/home/mpuig/ur5arm_ws/build'
+export PWD='/home/manel/ur5arm_ws/build'
+export ROS_PACKAGE_PATH='/home/manel/ur5arm_ws/src:/opt/ros/melodic/share'

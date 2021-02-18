@@ -1,8 +1,8 @@
 file(REMOVE_RECURSE
   "CMakeFiles/dashboard_client.dir/src/dashboard_client_ros.cpp.o"
   "CMakeFiles/dashboard_client.dir/src/dashboard_client_node.cpp.o"
-  "/home/mpuig/ur5arm_ws/devel/lib/ur_robot_driver/dashboard_client.pdb"
-  "/home/mpuig/ur5arm_ws/devel/lib/ur_robot_driver/dashboard_client"
+  "/home/manel/ur5arm_ws/devel/lib/ur_robot_driver/dashboard_client.pdb"
+  "/home/manel/ur5arm_ws/devel/lib/ur_robot_driver/dashboard_client"
 )
 
 # Per-language clean rules from dependency scanning.

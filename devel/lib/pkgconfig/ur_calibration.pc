@@ -1,4 +1,4 @@
-prefix=/home/mpuig/ur5arm_ws/devel
+prefix=/home/manel/ur5arm_ws/devel
 
 Name: ur_calibration
 Description: Description of ur_calibration

@@ -1,10 +1,11 @@
 # CMake generated Testfile for 
-# Source directory: /home/mpuig/ur5arm_ws/src
-# Build directory: /home/mpuig/ur5arm_ws/build
+# Source directory: /home/manel/ur5arm_ws/src
+# Build directory: /home/manel/ur5arm_ws/build
 # 
 # This file includes the relevant testing commands required for 
 # testing this directory and lists subdirectories to be tested as well.
 subdirs("gtest")
+subdirs("myur5e_moveit_config")
 subdirs("fmauch_universal_robot/universal_robot")
 subdirs("fmauch_universal_robot/universal_robots")
 subdirs("Universal_Robots_ROS_Driver/ur_dashboard_msgs")

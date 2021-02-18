@@ -1,8 +1,8 @@
-# Install script for directory: /home/mpuig/ur5arm_ws/src/ur5control
+# Install script for directory: /home/manel/ur5arm_ws/src/ur5control
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/mpuig/ur5arm_ws/install")
+  set(CMAKE_INSTALL_PREFIX "/home/manel/ur5arm_ws/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -38,17 +38,17 @@ if(NOT DEFINED CMAKE_CROSSCOMPILING)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/mpuig/ur5arm_ws/build/ur5control/catkin_generated/installspace/ur5control.pc")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/manel/ur5arm_ws/build/ur5control/catkin_generated/installspace/ur5control.pc")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ur5control/cmake" TYPE FILE FILES
-    "/home/mpuig/ur5arm_ws/build/ur5control/catkin_generated/installspace/ur5controlConfig.cmake"
-    "/home/mpuig/ur5arm_ws/build/ur5control/catkin_generated/installspace/ur5controlConfig-version.cmake"
+    "/home/manel/ur5arm_ws/build/ur5control/catkin_generated/installspace/ur5controlConfig.cmake"
+    "/home/manel/ur5arm_ws/build/ur5control/catkin_generated/installspace/ur5controlConfig-version.cmake"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ur5control" TYPE FILE FILES "/home/mpuig/ur5arm_ws/src/ur5control/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ur5control" TYPE FILE FILES "/home/manel/ur5arm_ws/src/ur5control/package.xml")
 endif()
 

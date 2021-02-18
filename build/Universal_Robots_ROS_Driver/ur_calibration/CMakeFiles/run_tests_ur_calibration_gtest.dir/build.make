@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/mpuig/ur5arm_ws/src
+CMAKE_SOURCE_DIR = /home/manel/ur5arm_ws/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/mpuig/ur5arm_ws/build
+CMAKE_BINARY_DIR = /home/manel/ur5arm_ws/build
 
 # Utility rule file for run_tests_ur_calibration_gtest.
 
@@ -63,10 +63,10 @@ Universal_Robots_ROS_Driver/ur_calibration/CMakeFiles/run_tests_ur_calibration_g
 .PHONY : Universal_Robots_ROS_Driver/ur_calibration/CMakeFiles/run_tests_ur_calibration_gtest.dir/build
 
 Universal_Robots_ROS_Driver/ur_calibration/CMakeFiles/run_tests_ur_calibration_gtest.dir/clean:
-	cd /home/mpuig/ur5arm_ws/build/Universal_Robots_ROS_Driver/ur_calibration && $(CMAKE_COMMAND) -P CMakeFiles/run_tests_ur_calibration_gtest.dir/cmake_clean.cmake
+	cd /home/manel/ur5arm_ws/build/Universal_Robots_ROS_Driver/ur_calibration && $(CMAKE_COMMAND) -P CMakeFiles/run_tests_ur_calibration_gtest.dir/cmake_clean.cmake
 .PHONY : Universal_Robots_ROS_Driver/ur_calibration/CMakeFiles/run_tests_ur_calibration_gtest.dir/clean
 
 Universal_Robots_ROS_Driver/ur_calibration/CMakeFiles/run_tests_ur_calibration_gtest.dir/depend:
-	cd /home/mpuig/ur5arm_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/mpuig/ur5arm_ws/src /home/mpuig/ur5arm_ws/src/Universal_Robots_ROS_Driver/ur_calibration /home/mpuig/ur5arm_ws/build /home/mpuig/ur5arm_ws/build/Universal_Robots_ROS_Driver/ur_calibration /home/mpuig/ur5arm_ws/build/Universal_Robots_ROS_Driver/ur_calibration/CMakeFiles/run_tests_ur_calibration_gtest.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/manel/ur5arm_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/manel/ur5arm_ws/src /home/manel/ur5arm_ws/src/Universal_Robots_ROS_Driver/ur_calibration /home/manel/ur5arm_ws/build /home/manel/ur5arm_ws/build/Universal_Robots_ROS_Driver/ur_calibration /home/manel/ur5arm_ws/build/Universal_Robots_ROS_Driver/ur_calibration/CMakeFiles/run_tests_ur_calibration_gtest.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : Universal_Robots_ROS_Driver/ur_calibration/CMakeFiles/run_tests_ur_calibration_gtest.dir/depend
 

@@ -13,21 +13,21 @@ fi
 
 echo_and_run() { echo "+ $@" ; "$@" ; }
 
-echo_and_run cd "/home/mpuig/ur5arm_ws/src/fmauch_universal_robot/ur_driver"
+echo_and_run cd "/home/manel/ur5arm_ws/src/fmauch_universal_robot/ur_driver"
 
 # ensure that Python install destination exists
-echo_and_run mkdir -p "$DESTDIR/home/mpuig/ur5arm_ws/install/lib/python2.7/dist-packages"
+echo_and_run mkdir -p "$DESTDIR/home/manel/ur5arm_ws/install/lib/python2.7/dist-packages"
 
 # Note that PYTHONPATH is pulled from the environment to support installing
 # into one location when some dependencies were installed in another
 # location, #123.
 echo_and_run /usr/bin/env \
-    PYTHONPATH="/home/mpuig/ur5arm_ws/install/lib/python2.7/dist-packages:/home/mpuig/ur5arm_ws/build/lib/python2.7/dist-packages:$PYTHONPATH" \
-    CATKIN_BINARY_DIR="/home/mpuig/ur5arm_ws/build" \
+    PYTHONPATH="/home/manel/ur5arm_ws/install/lib/python2.7/dist-packages:/home/manel/ur5arm_ws/build/lib/python2.7/dist-packages:$PYTHONPATH" \
+    CATKIN_BINARY_DIR="/home/manel/ur5arm_ws/build" \
     "/usr/bin/python2" \
-    "/home/mpuig/ur5arm_ws/src/fmauch_universal_robot/ur_driver/setup.py" \
+    "/home/manel/ur5arm_ws/src/fmauch_universal_robot/ur_driver/setup.py" \
      \
-    build --build-base "/home/mpuig/ur5arm_ws/build/fmauch_universal_robot/ur_driver" \
+    build --build-base "/home/manel/ur5arm_ws/build/fmauch_universal_robot/ur_driver" \
     install \
     --root="${DESTDIR-/}" \
-    --install-layout=deb --prefix="/home/mpuig/ur5arm_ws/install" --install-scripts="/home/mpuig/ur5arm_ws/install/bin"
+    --install-layout=deb --prefix="/home/manel/ur5arm_ws/install" --install-scripts="/home/manel/ur5arm_ws/install/bin"

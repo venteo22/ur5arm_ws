@@ -1,8 +1,8 @@
 file(REMOVE_RECURSE
   "CMakeFiles/controller_stopper_node.dir/src/controller_stopper.cpp.o"
   "CMakeFiles/controller_stopper_node.dir/src/controller_stopper_node.cpp.o"
-  "/home/mpuig/ur5arm_ws/devel/lib/controller_stopper/node.pdb"
-  "/home/mpuig/ur5arm_ws/devel/lib/controller_stopper/node"
+  "/home/manel/ur5arm_ws/devel/lib/controller_stopper/node.pdb"
+  "/home/manel/ur5arm_ws/devel/lib/controller_stopper/node"
 )
 
 # Per-language clean rules from dependency scanning.
