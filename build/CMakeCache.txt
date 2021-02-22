@@ -356,6 +356,12 @@ eigen_conversions_DIR:PATH=/opt/ros/melodic/share/eigen_conversions/cmake
 //The directory containing a CMake configuration file for eigen_stl_containers.
 eigen_stl_containers_DIR:PATH=/opt/ros/melodic/share/eigen_stl_containers/cmake
 
+//Value Computed by CMake
+fetch_moveit_config_BINARY_DIR:STATIC=/home/mpuig/ur5arm_ws/build/fetch_moveit_config
+
+//Value Computed by CMake
+fetch_moveit_config_SOURCE_DIR:STATIC=/home/mpuig/ur5arm_ws/src/fetch_moveit_config
+
 //The directory containing a CMake configuration file for gencpp.
 gencpp_DIR:PATH=/opt/ros/melodic/share/gencpp/cmake
 
@@ -491,6 +497,12 @@ moveit_ros_warehouse_DIR:PATH=/opt/ros/melodic/share/moveit_ros_warehouse/cmake
 
 //The directory containing a CMake configuration file for moveit_visual_tools.
 moveit_visual_tools_DIR:PATH=/opt/ros/melodic/share/moveit_visual_tools/cmake
+
+//Value Computed by CMake
+myur5_moveit_config_BINARY_DIR:STATIC=/home/mpuig/ur5arm_ws/build/myur5_moveit_config
+
+//Value Computed by CMake
+myur5_moveit_config_SOURCE_DIR:STATIC=/home/mpuig/ur5arm_ws/src/myur5_moveit_config
 
 //Value Computed by CMake
 myur5e_moveit_config_BINARY_DIR:STATIC=/home/mpuig/ur5arm_ws/build/myur5e_moveit_config
@@ -896,7 +908,7 @@ CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_NM
 CMAKE_NM-ADVANCED:INTERNAL=1
 //number of local generators
-CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=27
+CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=29
 //ADVANCED property for variable: CMAKE_OBJCOPY
 CMAKE_OBJCOPY-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_OBJDUMP

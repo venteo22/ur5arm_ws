@@ -7,8 +7,4 @@
 # new environment variables
 
 # modified environment variables
-export LD_LIBRARY_PATH='/opt/ros/melodic/lib'
-export PKG_CONFIG_PATH='/opt/ros/melodic/lib/pkgconfig'
 export PWD='/home/mpuig/ur5arm_ws/build'
-export PYTHONPATH='/opt/ros/melodic/lib/python2.7/dist-packages'
-export ROS_PACKAGE_PATH='/home/mpuig/ur5arm_ws/src:/opt/ros/melodic/share'

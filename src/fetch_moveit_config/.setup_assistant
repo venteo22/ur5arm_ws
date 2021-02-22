@@ -1,0 +1,11 @@
+moveit_setup_assistant_config:
+  URDF:
+    package: fetch_description
+    relative_path: robots/fetch.urdf
+    xacro_args: "--inorder "
+  SRDF:
+    relative_path: config/fetch.srdf
+  CONFIG:
+    author_name: aezquerro
+    author_email: aezquerro@theconstructsim.com
+    generated_timestamp: 1577112116

@@ -5,6 +5,7 @@
 # This file includes the relevant testing commands required for 
 # testing this directory and lists subdirectories to be tested as well.
 subdirs("gtest")
+subdirs("fetch_moveit_config")
 subdirs("myur5e_moveit_config")
 subdirs("fmauch_universal_robot/universal_robot")
 subdirs("fmauch_universal_robot/universal_robots")
@@ -18,6 +19,7 @@ subdirs("Universal_Robots_ROS_Driver/ur_calibration")
 subdirs("fmauch_universal_robot/ur_driver")
 subdirs("fmauch_universal_robot/ur_e_gazebo")
 subdirs("fmauch_universal_robot/ur_gazebo")
+subdirs("myur5_moveit_config")
 subdirs("fmauch_universal_robot/ur10_e_moveit_config")
 subdirs("fmauch_universal_robot/ur10_moveit_config")
 subdirs("fmauch_universal_robot/ur3_e_moveit_config")
