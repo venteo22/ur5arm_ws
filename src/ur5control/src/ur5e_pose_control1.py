@@ -15,24 +15,24 @@ scene = moveit_commander.PlanningSceneInterface()
 group = moveit_commander.MoveGroupCommander("manipulator")
 display_trajectory_publisher = rospy.Publisher('/move_group/display_planned_path', moveit_msgs.msg.DisplayTrajectory, queue_size=1)
 
-group_variable_values = group.get_current_joint_values()
+pose_target = geometry_msgs.msg.Pose()
+pose_target.position.x = 0.5
+pose_target.position.y = 0
+pose_target.position.z = 0.9
+pose_target.orientation.x = 0.0
+pose_target.orientation.y = 0.0
+pose_target.orientation.z = 0.0
+pose_target.orientation.w = 1.0
+group.set_pose_target(pose_target)
 
-group_variable_values[1] = -1.5
-group.set_joint_value_target(group_variable_values)
-
-plan2 = group.plan()
-
-rospy.sleep(5)
-group.go(wait=True)
-rospy.sleep(5)
-
-group_variable_values[2] = 1.5
-group.set_joint_value_target(group_variable_values)
-
-plan2 = group.plan()
+plan1 = group.plan()
 
 rospy.sleep(5)
 group.go(wait=True)
 rospy.sleep(5)
+print ("Current Joint Values:")
+print (group.get_current_joint_values())
+print ("Current Pose:")
+print (group.get_current_pose())
 
 moveit_commander.roscpp_shutdown()
