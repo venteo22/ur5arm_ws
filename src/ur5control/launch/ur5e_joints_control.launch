@@ -1,0 +1,6 @@
+<launch>
+
+  <node name="move_group_python_interface_tutorial" pkg="ur5control" type="ur5e_joints_control1.py" respawn="false" output="screen">
+  </node>
+
+</launch>
