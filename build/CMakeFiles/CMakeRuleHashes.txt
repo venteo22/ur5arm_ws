@@ -1,4 +1,7 @@
 # Hashes of file build rules.
+67570b5410709614e85d453146a5bee5 /home/mpuig/ur5arm_ws/devel/include/omni_msgs/OmniButtonEvent.h
+d531b1e4efd7f26765fff9d3357544a7 /home/mpuig/ur5arm_ws/devel/include/omni_msgs/OmniFeedback.h
+8db6847e3c4515ebe4dc2904714da9dc /home/mpuig/ur5arm_ws/devel/include/omni_msgs/OmniState.h
 8e127bb74c84f973e25592da381ae72e /home/mpuig/ur5arm_ws/devel/include/ur_dashboard_msgs/AddToLog.h
 f7957648d0151389c9747bc8c3f6ea56 /home/mpuig/ur5arm_ws/devel/include/ur_dashboard_msgs/GetLoadedProgram.h
 45687e4e3c7f6abc0afd855139e8ca22 /home/mpuig/ur5arm_ws/devel/include/ur_dashboard_msgs/GetProgramState.h
@@ -30,6 +33,10 @@ eda88dbf4aaf7e03f5a768b9b167fab2 /home/mpuig/ur5arm_ws/devel/include/ur_msgs/Rob
 cbcf38321136544bd22a526c4e79b964 /home/mpuig/ur5arm_ws/devel/include/ur_msgs/SetPayload.h
 cc4852a638464fb11e3e6f458e47684a /home/mpuig/ur5arm_ws/devel/include/ur_msgs/SetSpeedSliderFraction.h
 e04658c17d9635ac528b10d359d4c9c8 /home/mpuig/ur5arm_ws/devel/include/ur_msgs/ToolDataMsg.h
+48957c34b34b66e1e3d34f1e2e2588fa /home/mpuig/ur5arm_ws/devel/lib/python2.7/dist-packages/omni_msgs/msg/_OmniButtonEvent.py
+4a5c267226d5059600171095a03539dd /home/mpuig/ur5arm_ws/devel/lib/python2.7/dist-packages/omni_msgs/msg/_OmniFeedback.py
+da380139ae9bac398b08ac3bccfd5155 /home/mpuig/ur5arm_ws/devel/lib/python2.7/dist-packages/omni_msgs/msg/_OmniState.py
+059a04a1865ec4bcc3d3fa69ea109272 /home/mpuig/ur5arm_ws/devel/lib/python2.7/dist-packages/omni_msgs/msg/__init__.py
 65378ec4d9fe204115d34c03ef123dfd /home/mpuig/ur5arm_ws/devel/lib/python2.7/dist-packages/ur_dashboard_msgs/msg/_ProgramState.py
 1ddbbe7793d92fcf6bea4a2e995736a6 /home/mpuig/ur5arm_ws/devel/lib/python2.7/dist-packages/ur_dashboard_msgs/msg/_RobotMode.py
 2bf16d307abbd14f356118f154ee668c /home/mpuig/ur5arm_ws/devel/lib/python2.7/dist-packages/ur_dashboard_msgs/msg/_SafetyMode.py
@@ -64,6 +71,9 @@ fcc91e5382e5c51a9e3259592fcc7b77 /home/mpuig/ur5arm_ws/devel/lib/python2.7/dist-
 ceb3e85d6c3d044885da72b7d3ce6084 /home/mpuig/ur5arm_ws/devel/lib/python2.7/dist-packages/ur_msgs/srv/_SetPayload.py
 c45e4948628b859f73f4d92a8c44eeec /home/mpuig/ur5arm_ws/devel/lib/python2.7/dist-packages/ur_msgs/srv/_SetSpeedSliderFraction.py
 3921c82c4342a73fb56a97c64a9db417 /home/mpuig/ur5arm_ws/devel/lib/python2.7/dist-packages/ur_msgs/srv/__init__.py
+76b503b789ef2361449a646f4b70c7de /home/mpuig/ur5arm_ws/devel/share/common-lisp/ros/omni_msgs/msg/OmniButtonEvent.lisp
+a40463ccf05badcd44793e0c805d38ab /home/mpuig/ur5arm_ws/devel/share/common-lisp/ros/omni_msgs/msg/OmniFeedback.lisp
+0142e22e4750a1482ff4f9f4bfcc82d4 /home/mpuig/ur5arm_ws/devel/share/common-lisp/ros/omni_msgs/msg/OmniState.lisp
 320147d51e343c7e1436617123443781 /home/mpuig/ur5arm_ws/devel/share/common-lisp/ros/ur_dashboard_msgs/msg/ProgramState.lisp
 83839aad2deb987a9aa1fa6bf33822b8 /home/mpuig/ur5arm_ws/devel/share/common-lisp/ros/ur_dashboard_msgs/msg/RobotMode.lisp
 c5bd0664ce09b238b8d3354b4963cf98 /home/mpuig/ur5arm_ws/devel/share/common-lisp/ros/ur_dashboard_msgs/msg/SafetyMode.lisp
@@ -94,6 +104,9 @@ ac5c9021dd65423c34cbc447b38ce1be /home/mpuig/ur5arm_ws/devel/share/common-lisp/r
 b4c5d46176be83c7163afa1992bf4804 /home/mpuig/ur5arm_ws/devel/share/common-lisp/ros/ur_msgs/srv/SetIO.lisp
 ef34ef5f5837dc2e7227e19ee4bd43c2 /home/mpuig/ur5arm_ws/devel/share/common-lisp/ros/ur_msgs/srv/SetPayload.lisp
 8e3b8f7d092463507de4dda2f631d188 /home/mpuig/ur5arm_ws/devel/share/common-lisp/ros/ur_msgs/srv/SetSpeedSliderFraction.lisp
+3ed94315cac15676ce38c404baa56d02 /home/mpuig/ur5arm_ws/devel/share/gennodejs/ros/omni_msgs/msg/OmniButtonEvent.js
+33da8e5df2b4ba21af17edcc7a2d8d55 /home/mpuig/ur5arm_ws/devel/share/gennodejs/ros/omni_msgs/msg/OmniFeedback.js
+4341b1a2394a506b42a354273cd87043 /home/mpuig/ur5arm_ws/devel/share/gennodejs/ros/omni_msgs/msg/OmniState.js
 75259118c7696ab7b7a24a55ed5590e3 /home/mpuig/ur5arm_ws/devel/share/gennodejs/ros/ur_dashboard_msgs/msg/ProgramState.js
 27cd4f35911f3b018bfd44f77d95c8d5 /home/mpuig/ur5arm_ws/devel/share/gennodejs/ros/ur_dashboard_msgs/msg/RobotMode.js
 b8f9a774bc9c572726526e442b58f34a /home/mpuig/ur5arm_ws/devel/share/gennodejs/ros/ur_dashboard_msgs/msg/SafetyMode.js
@@ -124,6 +137,10 @@ a951fd5c3839b494bd63976c859fa6e0 /home/mpuig/ur5arm_ws/devel/share/gennodejs/ros
 d7aadecc90d0fd79601bf3c53f483d04 /home/mpuig/ur5arm_ws/devel/share/gennodejs/ros/ur_msgs/srv/SetIO.js
 1b1ea6dbdae5629a9ff3e88049a58cdc /home/mpuig/ur5arm_ws/devel/share/gennodejs/ros/ur_msgs/srv/SetPayload.js
 82b1973c82b575eb95554fc6583c7114 /home/mpuig/ur5arm_ws/devel/share/gennodejs/ros/ur_msgs/srv/SetSpeedSliderFraction.js
+8c4e4755eaec21a7f78b8b7fac667775 /home/mpuig/ur5arm_ws/devel/share/roseus/ros/omni_msgs/manifest.l
+3d6607116182c9da5d7fe46d313327de /home/mpuig/ur5arm_ws/devel/share/roseus/ros/omni_msgs/msg/OmniButtonEvent.l
+623763221da3d85565477960b90b74e2 /home/mpuig/ur5arm_ws/devel/share/roseus/ros/omni_msgs/msg/OmniFeedback.l
+44a679d89b289e6cc586cab96cb3e621 /home/mpuig/ur5arm_ws/devel/share/roseus/ros/omni_msgs/msg/OmniState.l
 70517c756e2e5f97cd9967d13f8b258a /home/mpuig/ur5arm_ws/devel/share/roseus/ros/ur_dashboard_msgs/manifest.l
 4d6e97b7c6bee4480f385d346141fcf6 /home/mpuig/ur5arm_ws/devel/share/roseus/ros/ur_dashboard_msgs/msg/ProgramState.l
 8a3f119d394f5b0e4f06c5273dc5d2b6 /home/mpuig/ur5arm_ws/devel/share/roseus/ros/ur_dashboard_msgs/msg/RobotMode.l
@@ -231,3 +248,11 @@ caee8623309479c8cb6eec24402ec7a8 fmauch_universal_robot/ur_msgs/CMakeFiles/_ur_m
 6d19c847f11e078db2a6cce51c5498ef fmauch_universal_robot/ur_msgs/CMakeFiles/ur_msgs_generate_messages_lisp
 6d19c847f11e078db2a6cce51c5498ef fmauch_universal_robot/ur_msgs/CMakeFiles/ur_msgs_generate_messages_nodejs
 6d19c847f11e078db2a6cce51c5498ef fmauch_universal_robot/ur_msgs/CMakeFiles/ur_msgs_generate_messages_py
+aba91ece116de5c8b3cf2543afaa3689 phantom_omni/omni_msgs/CMakeFiles/_omni_msgs_generate_messages_check_deps_OmniButtonEvent
+d6b1d1a97e4517f2605fdf2e6cfe40df phantom_omni/omni_msgs/CMakeFiles/_omni_msgs_generate_messages_check_deps_OmniFeedback
+7aea56441c46e7482b0cde79cd6be9b4 phantom_omni/omni_msgs/CMakeFiles/_omni_msgs_generate_messages_check_deps_OmniState
+1573a6f7d3fdd9369ee84586d65b0d3b phantom_omni/omni_msgs/CMakeFiles/omni_msgs_generate_messages_cpp
+1573a6f7d3fdd9369ee84586d65b0d3b phantom_omni/omni_msgs/CMakeFiles/omni_msgs_generate_messages_eus
+1573a6f7d3fdd9369ee84586d65b0d3b phantom_omni/omni_msgs/CMakeFiles/omni_msgs_generate_messages_lisp
+1573a6f7d3fdd9369ee84586d65b0d3b phantom_omni/omni_msgs/CMakeFiles/omni_msgs_generate_messages_nodejs
+1573a6f7d3fdd9369ee84586d65b0d3b phantom_omni/omni_msgs/CMakeFiles/omni_msgs_generate_messages_py

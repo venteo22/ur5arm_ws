@@ -1,0 +1,11 @@
+UR5e
+RT
+https://github.com/UniversalRobots/Universal_Robots_ROS_Driver/blob/master/ur_robot_driver/doc/real_time.md
+Driver
+https://github.com/UniversalRobots/Universal_Robots_ROS_Driver
+PC Address
+sudo ip addr add 192.168.1.1/24 dev enp6s0
+UR5e address
+192.168.1.2 (Settings / Network )
+
+Connection refused 192.168.1.1 500002 (Driver needs to be launched firsts on the ROS PC)
