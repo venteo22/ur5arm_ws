@@ -43,49 +43,49 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/mpuig/ur5arm_ws/src
+CMAKE_SOURCE_DIR = /home/manel/ur5arm_ws/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/mpuig/ur5arm_ws/build
+CMAKE_BINARY_DIR = /home/manel/ur5arm_ws/build
 
 # Utility rule file for omni_msgs_generate_messages_cpp.
 
 # Include the progress variables for this target.
 include phantom_omni/omni_msgs/CMakeFiles/omni_msgs_generate_messages_cpp.dir/progress.make
 
-phantom_omni/omni_msgs/CMakeFiles/omni_msgs_generate_messages_cpp: /home/mpuig/ur5arm_ws/devel/include/omni_msgs/OmniButtonEvent.h
-phantom_omni/omni_msgs/CMakeFiles/omni_msgs_generate_messages_cpp: /home/mpuig/ur5arm_ws/devel/include/omni_msgs/OmniState.h
-phantom_omni/omni_msgs/CMakeFiles/omni_msgs_generate_messages_cpp: /home/mpuig/ur5arm_ws/devel/include/omni_msgs/OmniFeedback.h
+phantom_omni/omni_msgs/CMakeFiles/omni_msgs_generate_messages_cpp: /home/manel/ur5arm_ws/devel/include/omni_msgs/OmniState.h
+phantom_omni/omni_msgs/CMakeFiles/omni_msgs_generate_messages_cpp: /home/manel/ur5arm_ws/devel/include/omni_msgs/OmniFeedback.h
+phantom_omni/omni_msgs/CMakeFiles/omni_msgs_generate_messages_cpp: /home/manel/ur5arm_ws/devel/include/omni_msgs/OmniButtonEvent.h
 
 
-/home/mpuig/ur5arm_ws/devel/include/omni_msgs/OmniButtonEvent.h: /opt/ros/melodic/lib/gencpp/gen_cpp.py
-/home/mpuig/ur5arm_ws/devel/include/omni_msgs/OmniButtonEvent.h: /home/mpuig/ur5arm_ws/src/phantom_omni/omni_msgs/msg/OmniButtonEvent.msg
-/home/mpuig/ur5arm_ws/devel/include/omni_msgs/OmniButtonEvent.h: /opt/ros/melodic/share/gencpp/msg.h.template
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/mpuig/ur5arm_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating C++ code from omni_msgs/OmniButtonEvent.msg"
-	cd /home/mpuig/ur5arm_ws/src/phantom_omni/omni_msgs && /home/mpuig/ur5arm_ws/build/catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/mpuig/ur5arm_ws/src/phantom_omni/omni_msgs/msg/OmniButtonEvent.msg -Iomni_msgs:/home/mpuig/ur5arm_ws/src/phantom_omni/omni_msgs/msg -Igeometry_msgs:/opt/ros/melodic/share/geometry_msgs/cmake/../msg -Isensor_msgs:/opt/ros/melodic/share/sensor_msgs/cmake/../msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p omni_msgs -o /home/mpuig/ur5arm_ws/devel/include/omni_msgs -e /opt/ros/melodic/share/gencpp/cmake/..
+/home/manel/ur5arm_ws/devel/include/omni_msgs/OmniState.h: /opt/ros/melodic/lib/gencpp/gen_cpp.py
+/home/manel/ur5arm_ws/devel/include/omni_msgs/OmniState.h: /home/manel/ur5arm_ws/src/phantom_omni/omni_msgs/msg/OmniState.msg
+/home/manel/ur5arm_ws/devel/include/omni_msgs/OmniState.h: /opt/ros/melodic/share/geometry_msgs/msg/Vector3.msg
+/home/manel/ur5arm_ws/devel/include/omni_msgs/OmniState.h: /opt/ros/melodic/share/geometry_msgs/msg/Pose.msg
+/home/manel/ur5arm_ws/devel/include/omni_msgs/OmniState.h: /opt/ros/melodic/share/geometry_msgs/msg/Point.msg
+/home/manel/ur5arm_ws/devel/include/omni_msgs/OmniState.h: /opt/ros/melodic/share/geometry_msgs/msg/Quaternion.msg
+/home/manel/ur5arm_ws/devel/include/omni_msgs/OmniState.h: /opt/ros/melodic/share/std_msgs/msg/Header.msg
+/home/manel/ur5arm_ws/devel/include/omni_msgs/OmniState.h: /opt/ros/melodic/share/gencpp/msg.h.template
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/manel/ur5arm_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating C++ code from omni_msgs/OmniState.msg"
+	cd /home/manel/ur5arm_ws/src/phantom_omni/omni_msgs && /home/manel/ur5arm_ws/build/catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/manel/ur5arm_ws/src/phantom_omni/omni_msgs/msg/OmniState.msg -Iomni_msgs:/home/manel/ur5arm_ws/src/phantom_omni/omni_msgs/msg -Igeometry_msgs:/opt/ros/melodic/share/geometry_msgs/cmake/../msg -Isensor_msgs:/opt/ros/melodic/share/sensor_msgs/cmake/../msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p omni_msgs -o /home/manel/ur5arm_ws/devel/include/omni_msgs -e /opt/ros/melodic/share/gencpp/cmake/..
 
-/home/mpuig/ur5arm_ws/devel/include/omni_msgs/OmniState.h: /opt/ros/melodic/lib/gencpp/gen_cpp.py
-/home/mpuig/ur5arm_ws/devel/include/omni_msgs/OmniState.h: /home/mpuig/ur5arm_ws/src/phantom_omni/omni_msgs/msg/OmniState.msg
-/home/mpuig/ur5arm_ws/devel/include/omni_msgs/OmniState.h: /opt/ros/melodic/share/geometry_msgs/msg/Vector3.msg
-/home/mpuig/ur5arm_ws/devel/include/omni_msgs/OmniState.h: /opt/ros/melodic/share/geometry_msgs/msg/Pose.msg
-/home/mpuig/ur5arm_ws/devel/include/omni_msgs/OmniState.h: /opt/ros/melodic/share/geometry_msgs/msg/Point.msg
-/home/mpuig/ur5arm_ws/devel/include/omni_msgs/OmniState.h: /opt/ros/melodic/share/geometry_msgs/msg/Quaternion.msg
-/home/mpuig/ur5arm_ws/devel/include/omni_msgs/OmniState.h: /opt/ros/melodic/share/std_msgs/msg/Header.msg
-/home/mpuig/ur5arm_ws/devel/include/omni_msgs/OmniState.h: /opt/ros/melodic/share/gencpp/msg.h.template
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/mpuig/ur5arm_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating C++ code from omni_msgs/OmniState.msg"
-	cd /home/mpuig/ur5arm_ws/src/phantom_omni/omni_msgs && /home/mpuig/ur5arm_ws/build/catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/mpuig/ur5arm_ws/src/phantom_omni/omni_msgs/msg/OmniState.msg -Iomni_msgs:/home/mpuig/ur5arm_ws/src/phantom_omni/omni_msgs/msg -Igeometry_msgs:/opt/ros/melodic/share/geometry_msgs/cmake/../msg -Isensor_msgs:/opt/ros/melodic/share/sensor_msgs/cmake/../msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p omni_msgs -o /home/mpuig/ur5arm_ws/devel/include/omni_msgs -e /opt/ros/melodic/share/gencpp/cmake/..
+/home/manel/ur5arm_ws/devel/include/omni_msgs/OmniFeedback.h: /opt/ros/melodic/lib/gencpp/gen_cpp.py
+/home/manel/ur5arm_ws/devel/include/omni_msgs/OmniFeedback.h: /home/manel/ur5arm_ws/src/phantom_omni/omni_msgs/msg/OmniFeedback.msg
+/home/manel/ur5arm_ws/devel/include/omni_msgs/OmniFeedback.h: /opt/ros/melodic/share/geometry_msgs/msg/Vector3.msg
+/home/manel/ur5arm_ws/devel/include/omni_msgs/OmniFeedback.h: /opt/ros/melodic/share/gencpp/msg.h.template
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/manel/ur5arm_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating C++ code from omni_msgs/OmniFeedback.msg"
+	cd /home/manel/ur5arm_ws/src/phantom_omni/omni_msgs && /home/manel/ur5arm_ws/build/catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/manel/ur5arm_ws/src/phantom_omni/omni_msgs/msg/OmniFeedback.msg -Iomni_msgs:/home/manel/ur5arm_ws/src/phantom_omni/omni_msgs/msg -Igeometry_msgs:/opt/ros/melodic/share/geometry_msgs/cmake/../msg -Isensor_msgs:/opt/ros/melodic/share/sensor_msgs/cmake/../msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p omni_msgs -o /home/manel/ur5arm_ws/devel/include/omni_msgs -e /opt/ros/melodic/share/gencpp/cmake/..
 
-/home/mpuig/ur5arm_ws/devel/include/omni_msgs/OmniFeedback.h: /opt/ros/melodic/lib/gencpp/gen_cpp.py
-/home/mpuig/ur5arm_ws/devel/include/omni_msgs/OmniFeedback.h: /home/mpuig/ur5arm_ws/src/phantom_omni/omni_msgs/msg/OmniFeedback.msg
-/home/mpuig/ur5arm_ws/devel/include/omni_msgs/OmniFeedback.h: /opt/ros/melodic/share/geometry_msgs/msg/Vector3.msg
-/home/mpuig/ur5arm_ws/devel/include/omni_msgs/OmniFeedback.h: /opt/ros/melodic/share/gencpp/msg.h.template
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/mpuig/ur5arm_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Generating C++ code from omni_msgs/OmniFeedback.msg"
-	cd /home/mpuig/ur5arm_ws/src/phantom_omni/omni_msgs && /home/mpuig/ur5arm_ws/build/catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/mpuig/ur5arm_ws/src/phantom_omni/omni_msgs/msg/OmniFeedback.msg -Iomni_msgs:/home/mpuig/ur5arm_ws/src/phantom_omni/omni_msgs/msg -Igeometry_msgs:/opt/ros/melodic/share/geometry_msgs/cmake/../msg -Isensor_msgs:/opt/ros/melodic/share/sensor_msgs/cmake/../msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p omni_msgs -o /home/mpuig/ur5arm_ws/devel/include/omni_msgs -e /opt/ros/melodic/share/gencpp/cmake/..
+/home/manel/ur5arm_ws/devel/include/omni_msgs/OmniButtonEvent.h: /opt/ros/melodic/lib/gencpp/gen_cpp.py
+/home/manel/ur5arm_ws/devel/include/omni_msgs/OmniButtonEvent.h: /home/manel/ur5arm_ws/src/phantom_omni/omni_msgs/msg/OmniButtonEvent.msg
+/home/manel/ur5arm_ws/devel/include/omni_msgs/OmniButtonEvent.h: /opt/ros/melodic/share/gencpp/msg.h.template
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/manel/ur5arm_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Generating C++ code from omni_msgs/OmniButtonEvent.msg"
+	cd /home/manel/ur5arm_ws/src/phantom_omni/omni_msgs && /home/manel/ur5arm_ws/build/catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/manel/ur5arm_ws/src/phantom_omni/omni_msgs/msg/OmniButtonEvent.msg -Iomni_msgs:/home/manel/ur5arm_ws/src/phantom_omni/omni_msgs/msg -Igeometry_msgs:/opt/ros/melodic/share/geometry_msgs/cmake/../msg -Isensor_msgs:/opt/ros/melodic/share/sensor_msgs/cmake/../msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p omni_msgs -o /home/manel/ur5arm_ws/devel/include/omni_msgs -e /opt/ros/melodic/share/gencpp/cmake/..
 
 omni_msgs_generate_messages_cpp: phantom_omni/omni_msgs/CMakeFiles/omni_msgs_generate_messages_cpp
-omni_msgs_generate_messages_cpp: /home/mpuig/ur5arm_ws/devel/include/omni_msgs/OmniButtonEvent.h
-omni_msgs_generate_messages_cpp: /home/mpuig/ur5arm_ws/devel/include/omni_msgs/OmniState.h
-omni_msgs_generate_messages_cpp: /home/mpuig/ur5arm_ws/devel/include/omni_msgs/OmniFeedback.h
+omni_msgs_generate_messages_cpp: /home/manel/ur5arm_ws/devel/include/omni_msgs/OmniState.h
+omni_msgs_generate_messages_cpp: /home/manel/ur5arm_ws/devel/include/omni_msgs/OmniFeedback.h
+omni_msgs_generate_messages_cpp: /home/manel/ur5arm_ws/devel/include/omni_msgs/OmniButtonEvent.h
 omni_msgs_generate_messages_cpp: phantom_omni/omni_msgs/CMakeFiles/omni_msgs_generate_messages_cpp.dir/build.make
 
 .PHONY : omni_msgs_generate_messages_cpp
@@ -96,10 +96,10 @@ phantom_omni/omni_msgs/CMakeFiles/omni_msgs_generate_messages_cpp.dir/build: omn
 .PHONY : phantom_omni/omni_msgs/CMakeFiles/omni_msgs_generate_messages_cpp.dir/build
 
 phantom_omni/omni_msgs/CMakeFiles/omni_msgs_generate_messages_cpp.dir/clean:
-	cd /home/mpuig/ur5arm_ws/build/phantom_omni/omni_msgs && $(CMAKE_COMMAND) -P CMakeFiles/omni_msgs_generate_messages_cpp.dir/cmake_clean.cmake
+	cd /home/manel/ur5arm_ws/build/phantom_omni/omni_msgs && $(CMAKE_COMMAND) -P CMakeFiles/omni_msgs_generate_messages_cpp.dir/cmake_clean.cmake
 .PHONY : phantom_omni/omni_msgs/CMakeFiles/omni_msgs_generate_messages_cpp.dir/clean
 
 phantom_omni/omni_msgs/CMakeFiles/omni_msgs_generate_messages_cpp.dir/depend:
-	cd /home/mpuig/ur5arm_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/mpuig/ur5arm_ws/src /home/mpuig/ur5arm_ws/src/phantom_omni/omni_msgs /home/mpuig/ur5arm_ws/build /home/mpuig/ur5arm_ws/build/phantom_omni/omni_msgs /home/mpuig/ur5arm_ws/build/phantom_omni/omni_msgs/CMakeFiles/omni_msgs_generate_messages_cpp.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/manel/ur5arm_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/manel/ur5arm_ws/src /home/manel/ur5arm_ws/src/phantom_omni/omni_msgs /home/manel/ur5arm_ws/build /home/manel/ur5arm_ws/build/phantom_omni/omni_msgs /home/manel/ur5arm_ws/build/phantom_omni/omni_msgs/CMakeFiles/omni_msgs_generate_messages_cpp.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : phantom_omni/omni_msgs/CMakeFiles/omni_msgs_generate_messages_cpp.dir/depend
 

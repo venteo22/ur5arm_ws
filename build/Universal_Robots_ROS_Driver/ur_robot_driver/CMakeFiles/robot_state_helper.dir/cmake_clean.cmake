@@ -1,8 +1,8 @@
 file(REMOVE_RECURSE
   "CMakeFiles/robot_state_helper.dir/src/robot_state_helper.cpp.o"
   "CMakeFiles/robot_state_helper.dir/src/robot_state_helper_node.cpp.o"
-  "/home/mpuig/ur5arm_ws/devel/lib/ur_robot_driver/robot_state_helper.pdb"
-  "/home/mpuig/ur5arm_ws/devel/lib/ur_robot_driver/robot_state_helper"
+  "/home/manel/ur5arm_ws/devel/lib/ur_robot_driver/robot_state_helper.pdb"
+  "/home/manel/ur5arm_ws/devel/lib/ur_robot_driver/robot_state_helper"
 )
 
 # Per-language clean rules from dependency scanning.

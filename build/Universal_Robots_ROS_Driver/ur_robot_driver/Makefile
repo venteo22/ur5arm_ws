@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/mpuig/ur5arm_ws/src
+CMAKE_SOURCE_DIR = /home/manel/ur5arm_ws/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/mpuig/ur5arm_ws/build
+CMAKE_BINARY_DIR = /home/manel/ur5arm_ws/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -137,14 +137,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/mpuig/ur5arm_ws/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/mpuig/ur5arm_ws/build/CMakeFiles /home/mpuig/ur5arm_ws/build/Universal_Robots_ROS_Driver/ur_robot_driver/CMakeFiles/progress.marks
-	cd /home/mpuig/ur5arm_ws/build && $(MAKE) -f CMakeFiles/Makefile2 Universal_Robots_ROS_Driver/ur_robot_driver/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/mpuig/ur5arm_ws/build/CMakeFiles 0
+	cd /home/manel/ur5arm_ws/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/manel/ur5arm_ws/build/CMakeFiles /home/manel/ur5arm_ws/build/Universal_Robots_ROS_Driver/ur_robot_driver/CMakeFiles/progress.marks
+	cd /home/manel/ur5arm_ws/build && $(MAKE) -f CMakeFiles/Makefile2 Universal_Robots_ROS_Driver/ur_robot_driver/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/manel/ur5arm_ws/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/mpuig/ur5arm_ws/build && $(MAKE) -f CMakeFiles/Makefile2 Universal_Robots_ROS_Driver/ur_robot_driver/clean
+	cd /home/manel/ur5arm_ws/build && $(MAKE) -f CMakeFiles/Makefile2 Universal_Robots_ROS_Driver/ur_robot_driver/clean
 .PHONY : clean
 
 # The main clean target
@@ -154,22 +154,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/mpuig/ur5arm_ws/build && $(MAKE) -f CMakeFiles/Makefile2 Universal_Robots_ROS_Driver/ur_robot_driver/preinstall
+	cd /home/manel/ur5arm_ws/build && $(MAKE) -f CMakeFiles/Makefile2 Universal_Robots_ROS_Driver/ur_robot_driver/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/mpuig/ur5arm_ws/build && $(MAKE) -f CMakeFiles/Makefile2 Universal_Robots_ROS_Driver/ur_robot_driver/preinstall
+	cd /home/manel/ur5arm_ws/build && $(MAKE) -f CMakeFiles/Makefile2 Universal_Robots_ROS_Driver/ur_robot_driver/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/mpuig/ur5arm_ws/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/manel/ur5arm_ws/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 Universal_Robots_ROS_Driver/ur_robot_driver/CMakeFiles/dashboard_client.dir/rule:
-	cd /home/mpuig/ur5arm_ws/build && $(MAKE) -f CMakeFiles/Makefile2 Universal_Robots_ROS_Driver/ur_robot_driver/CMakeFiles/dashboard_client.dir/rule
+	cd /home/manel/ur5arm_ws/build && $(MAKE) -f CMakeFiles/Makefile2 Universal_Robots_ROS_Driver/ur_robot_driver/CMakeFiles/dashboard_client.dir/rule
 .PHONY : Universal_Robots_ROS_Driver/ur_robot_driver/CMakeFiles/dashboard_client.dir/rule
 
 # Convenience name for target.
@@ -179,12 +179,12 @@ dashboard_client: Universal_Robots_ROS_Driver/ur_robot_driver/CMakeFiles/dashboa
 
 # fast build rule for target.
 dashboard_client/fast:
-	cd /home/mpuig/ur5arm_ws/build && $(MAKE) -f Universal_Robots_ROS_Driver/ur_robot_driver/CMakeFiles/dashboard_client.dir/build.make Universal_Robots_ROS_Driver/ur_robot_driver/CMakeFiles/dashboard_client.dir/build
+	cd /home/manel/ur5arm_ws/build && $(MAKE) -f Universal_Robots_ROS_Driver/ur_robot_driver/CMakeFiles/dashboard_client.dir/build.make Universal_Robots_ROS_Driver/ur_robot_driver/CMakeFiles/dashboard_client.dir/build
 .PHONY : dashboard_client/fast
 
 # Convenience name for target.
 Universal_Robots_ROS_Driver/ur_robot_driver/CMakeFiles/_run_tests_ur_robot_driver.dir/rule:
-	cd /home/mpuig/ur5arm_ws/build && $(MAKE) -f CMakeFiles/Makefile2 Universal_Robots_ROS_Driver/ur_robot_driver/CMakeFiles/_run_tests_ur_robot_driver.dir/rule
+	cd /home/manel/ur5arm_ws/build && $(MAKE) -f CMakeFiles/Makefile2 Universal_Robots_ROS_Driver/ur_robot_driver/CMakeFiles/_run_tests_ur_robot_driver.dir/rule
 .PHONY : Universal_Robots_ROS_Driver/ur_robot_driver/CMakeFiles/_run_tests_ur_robot_driver.dir/rule
 
 # Convenience name for target.
@@ -194,12 +194,12 @@ _run_tests_ur_robot_driver: Universal_Robots_ROS_Driver/ur_robot_driver/CMakeFil
 
 # fast build rule for target.
 _run_tests_ur_robot_driver/fast:
-	cd /home/mpuig/ur5arm_ws/build && $(MAKE) -f Universal_Robots_ROS_Driver/ur_robot_driver/CMakeFiles/_run_tests_ur_robot_driver.dir/build.make Universal_Robots_ROS_Driver/ur_robot_driver/CMakeFiles/_run_tests_ur_robot_driver.dir/build
+	cd /home/manel/ur5arm_ws/build && $(MAKE) -f Universal_Robots_ROS_Driver/ur_robot_driver/CMakeFiles/_run_tests_ur_robot_driver.dir/build.make Universal_Robots_ROS_Driver/ur_robot_driver/CMakeFiles/_run_tests_ur_robot_driver.dir/build
 .PHONY : _run_tests_ur_robot_driver/fast
 
 # Convenience name for target.
 Universal_Robots_ROS_Driver/ur_robot_driver/CMakeFiles/run_tests_ur_robot_driver.dir/rule:
-	cd /home/mpuig/ur5arm_ws/build && $(MAKE) -f CMakeFiles/Makefile2 Universal_Robots_ROS_Driver/ur_robot_driver/CMakeFiles/run_tests_ur_robot_driver.dir/rule
+	cd /home/manel/ur5arm_ws/build && $(MAKE) -f CMakeFiles/Makefile2 Universal_Robots_ROS_Driver/ur_robot_driver/CMakeFiles/run_tests_ur_robot_driver.dir/rule
 .PHONY : Universal_Robots_ROS_Driver/ur_robot_driver/CMakeFiles/run_tests_ur_robot_driver.dir/rule
 
 # Convenience name for target.
@@ -209,12 +209,12 @@ run_tests_ur_robot_driver: Universal_Robots_ROS_Driver/ur_robot_driver/CMakeFile
 
 # fast build rule for target.
 run_tests_ur_robot_driver/fast:
-	cd /home/mpuig/ur5arm_ws/build && $(MAKE) -f Universal_Robots_ROS_Driver/ur_robot_driver/CMakeFiles/run_tests_ur_robot_driver.dir/build.make Universal_Robots_ROS_Driver/ur_robot_driver/CMakeFiles/run_tests_ur_robot_driver.dir/build
+	cd /home/manel/ur5arm_ws/build && $(MAKE) -f Universal_Robots_ROS_Driver/ur_robot_driver/CMakeFiles/run_tests_ur_robot_driver.dir/build.make Universal_Robots_ROS_Driver/ur_robot_driver/CMakeFiles/run_tests_ur_robot_driver.dir/build
 .PHONY : run_tests_ur_robot_driver/fast
 
 # Convenience name for target.
 Universal_Robots_ROS_Driver/ur_robot_driver/CMakeFiles/robot_state_helper.dir/rule:
-	cd /home/mpuig/ur5arm_ws/build && $(MAKE) -f CMakeFiles/Makefile2 Universal_Robots_ROS_Driver/ur_robot_driver/CMakeFiles/robot_state_helper.dir/rule
+	cd /home/manel/ur5arm_ws/build && $(MAKE) -f CMakeFiles/Makefile2 Universal_Robots_ROS_Driver/ur_robot_driver/CMakeFiles/robot_state_helper.dir/rule
 .PHONY : Universal_Robots_ROS_Driver/ur_robot_driver/CMakeFiles/robot_state_helper.dir/rule
 
 # Convenience name for target.
@@ -224,12 +224,12 @@ robot_state_helper: Universal_Robots_ROS_Driver/ur_robot_driver/CMakeFiles/robot
 
 # fast build rule for target.
 robot_state_helper/fast:
-	cd /home/mpuig/ur5arm_ws/build && $(MAKE) -f Universal_Robots_ROS_Driver/ur_robot_driver/CMakeFiles/robot_state_helper.dir/build.make Universal_Robots_ROS_Driver/ur_robot_driver/CMakeFiles/robot_state_helper.dir/build
+	cd /home/manel/ur5arm_ws/build && $(MAKE) -f Universal_Robots_ROS_Driver/ur_robot_driver/CMakeFiles/robot_state_helper.dir/build.make Universal_Robots_ROS_Driver/ur_robot_driver/CMakeFiles/robot_state_helper.dir/build
 .PHONY : robot_state_helper/fast
 
 # Convenience name for target.
 Universal_Robots_ROS_Driver/ur_robot_driver/CMakeFiles/run_tests_ur_robot_driver_rostest.dir/rule:
-	cd /home/mpuig/ur5arm_ws/build && $(MAKE) -f CMakeFiles/Makefile2 Universal_Robots_ROS_Driver/ur_robot_driver/CMakeFiles/run_tests_ur_robot_driver_rostest.dir/rule
+	cd /home/manel/ur5arm_ws/build && $(MAKE) -f CMakeFiles/Makefile2 Universal_Robots_ROS_Driver/ur_robot_driver/CMakeFiles/run_tests_ur_robot_driver_rostest.dir/rule
 .PHONY : Universal_Robots_ROS_Driver/ur_robot_driver/CMakeFiles/run_tests_ur_robot_driver_rostest.dir/rule
 
 # Convenience name for target.
@@ -239,12 +239,12 @@ run_tests_ur_robot_driver_rostest: Universal_Robots_ROS_Driver/ur_robot_driver/C
 
 # fast build rule for target.
 run_tests_ur_robot_driver_rostest/fast:
-	cd /home/mpuig/ur5arm_ws/build && $(MAKE) -f Universal_Robots_ROS_Driver/ur_robot_driver/CMakeFiles/run_tests_ur_robot_driver_rostest.dir/build.make Universal_Robots_ROS_Driver/ur_robot_driver/CMakeFiles/run_tests_ur_robot_driver_rostest.dir/build
+	cd /home/manel/ur5arm_ws/build && $(MAKE) -f Universal_Robots_ROS_Driver/ur_robot_driver/CMakeFiles/run_tests_ur_robot_driver_rostest.dir/build.make Universal_Robots_ROS_Driver/ur_robot_driver/CMakeFiles/run_tests_ur_robot_driver_rostest.dir/build
 .PHONY : run_tests_ur_robot_driver_rostest/fast
 
 # Convenience name for target.
 Universal_Robots_ROS_Driver/ur_robot_driver/CMakeFiles/ur_robot_driver_node.dir/rule:
-	cd /home/mpuig/ur5arm_ws/build && $(MAKE) -f CMakeFiles/Makefile2 Universal_Robots_ROS_Driver/ur_robot_driver/CMakeFiles/ur_robot_driver_node.dir/rule
+	cd /home/manel/ur5arm_ws/build && $(MAKE) -f CMakeFiles/Makefile2 Universal_Robots_ROS_Driver/ur_robot_driver/CMakeFiles/ur_robot_driver_node.dir/rule
 .PHONY : Universal_Robots_ROS_Driver/ur_robot_driver/CMakeFiles/ur_robot_driver_node.dir/rule
 
 # Convenience name for target.
@@ -254,12 +254,12 @@ ur_robot_driver_node: Universal_Robots_ROS_Driver/ur_robot_driver/CMakeFiles/ur_
 
 # fast build rule for target.
 ur_robot_driver_node/fast:
-	cd /home/mpuig/ur5arm_ws/build && $(MAKE) -f Universal_Robots_ROS_Driver/ur_robot_driver/CMakeFiles/ur_robot_driver_node.dir/build.make Universal_Robots_ROS_Driver/ur_robot_driver/CMakeFiles/ur_robot_driver_node.dir/build
+	cd /home/manel/ur5arm_ws/build && $(MAKE) -f Universal_Robots_ROS_Driver/ur_robot_driver/CMakeFiles/ur_robot_driver_node.dir/build.make Universal_Robots_ROS_Driver/ur_robot_driver/CMakeFiles/ur_robot_driver_node.dir/build
 .PHONY : ur_robot_driver_node/fast
 
 # Convenience name for target.
 Universal_Robots_ROS_Driver/ur_robot_driver/CMakeFiles/ur_robot_driver_plugin.dir/rule:
-	cd /home/mpuig/ur5arm_ws/build && $(MAKE) -f CMakeFiles/Makefile2 Universal_Robots_ROS_Driver/ur_robot_driver/CMakeFiles/ur_robot_driver_plugin.dir/rule
+	cd /home/manel/ur5arm_ws/build && $(MAKE) -f CMakeFiles/Makefile2 Universal_Robots_ROS_Driver/ur_robot_driver/CMakeFiles/ur_robot_driver_plugin.dir/rule
 .PHONY : Universal_Robots_ROS_Driver/ur_robot_driver/CMakeFiles/ur_robot_driver_plugin.dir/rule
 
 # Convenience name for target.
@@ -269,12 +269,12 @@ ur_robot_driver_plugin: Universal_Robots_ROS_Driver/ur_robot_driver/CMakeFiles/u
 
 # fast build rule for target.
 ur_robot_driver_plugin/fast:
-	cd /home/mpuig/ur5arm_ws/build && $(MAKE) -f Universal_Robots_ROS_Driver/ur_robot_driver/CMakeFiles/ur_robot_driver_plugin.dir/build.make Universal_Robots_ROS_Driver/ur_robot_driver/CMakeFiles/ur_robot_driver_plugin.dir/build
+	cd /home/manel/ur5arm_ws/build && $(MAKE) -f Universal_Robots_ROS_Driver/ur_robot_driver/CMakeFiles/ur_robot_driver_plugin.dir/build.make Universal_Robots_ROS_Driver/ur_robot_driver/CMakeFiles/ur_robot_driver_plugin.dir/build
 .PHONY : ur_robot_driver_plugin/fast
 
 # Convenience name for target.
 Universal_Robots_ROS_Driver/ur_robot_driver/CMakeFiles/_run_tests_ur_robot_driver_rostest.dir/rule:
-	cd /home/mpuig/ur5arm_ws/build && $(MAKE) -f CMakeFiles/Makefile2 Universal_Robots_ROS_Driver/ur_robot_driver/CMakeFiles/_run_tests_ur_robot_driver_rostest.dir/rule
+	cd /home/manel/ur5arm_ws/build && $(MAKE) -f CMakeFiles/Makefile2 Universal_Robots_ROS_Driver/ur_robot_driver/CMakeFiles/_run_tests_ur_robot_driver_rostest.dir/rule
 .PHONY : Universal_Robots_ROS_Driver/ur_robot_driver/CMakeFiles/_run_tests_ur_robot_driver_rostest.dir/rule
 
 # Convenience name for target.
@@ -284,12 +284,12 @@ _run_tests_ur_robot_driver_rostest: Universal_Robots_ROS_Driver/ur_robot_driver/
 
 # fast build rule for target.
 _run_tests_ur_robot_driver_rostest/fast:
-	cd /home/mpuig/ur5arm_ws/build && $(MAKE) -f Universal_Robots_ROS_Driver/ur_robot_driver/CMakeFiles/_run_tests_ur_robot_driver_rostest.dir/build.make Universal_Robots_ROS_Driver/ur_robot_driver/CMakeFiles/_run_tests_ur_robot_driver_rostest.dir/build
+	cd /home/manel/ur5arm_ws/build && $(MAKE) -f Universal_Robots_ROS_Driver/ur_robot_driver/CMakeFiles/_run_tests_ur_robot_driver_rostest.dir/build.make Universal_Robots_ROS_Driver/ur_robot_driver/CMakeFiles/_run_tests_ur_robot_driver_rostest.dir/build
 .PHONY : _run_tests_ur_robot_driver_rostest/fast
 
 # Convenience name for target.
 Universal_Robots_ROS_Driver/ur_robot_driver/CMakeFiles/run_tests_ur_robot_driver_rostest_test_driver.test.dir/rule:
-	cd /home/mpuig/ur5arm_ws/build && $(MAKE) -f CMakeFiles/Makefile2 Universal_Robots_ROS_Driver/ur_robot_driver/CMakeFiles/run_tests_ur_robot_driver_rostest_test_driver.test.dir/rule
+	cd /home/manel/ur5arm_ws/build && $(MAKE) -f CMakeFiles/Makefile2 Universal_Robots_ROS_Driver/ur_robot_driver/CMakeFiles/run_tests_ur_robot_driver_rostest_test_driver.test.dir/rule
 .PHONY : Universal_Robots_ROS_Driver/ur_robot_driver/CMakeFiles/run_tests_ur_robot_driver_rostest_test_driver.test.dir/rule
 
 # Convenience name for target.
@@ -299,12 +299,12 @@ run_tests_ur_robot_driver_rostest_test_driver.test: Universal_Robots_ROS_Driver/
 
 # fast build rule for target.
 run_tests_ur_robot_driver_rostest_test_driver.test/fast:
-	cd /home/mpuig/ur5arm_ws/build && $(MAKE) -f Universal_Robots_ROS_Driver/ur_robot_driver/CMakeFiles/run_tests_ur_robot_driver_rostest_test_driver.test.dir/build.make Universal_Robots_ROS_Driver/ur_robot_driver/CMakeFiles/run_tests_ur_robot_driver_rostest_test_driver.test.dir/build
+	cd /home/manel/ur5arm_ws/build && $(MAKE) -f Universal_Robots_ROS_Driver/ur_robot_driver/CMakeFiles/run_tests_ur_robot_driver_rostest_test_driver.test.dir/build.make Universal_Robots_ROS_Driver/ur_robot_driver/CMakeFiles/run_tests_ur_robot_driver_rostest_test_driver.test.dir/build
 .PHONY : run_tests_ur_robot_driver_rostest_test_driver.test/fast
 
 # Convenience name for target.
 Universal_Robots_ROS_Driver/ur_robot_driver/CMakeFiles/clean_test_results_ur_robot_driver.dir/rule:
-	cd /home/mpuig/ur5arm_ws/build && $(MAKE) -f CMakeFiles/Makefile2 Universal_Robots_ROS_Driver/ur_robot_driver/CMakeFiles/clean_test_results_ur_robot_driver.dir/rule
+	cd /home/manel/ur5arm_ws/build && $(MAKE) -f CMakeFiles/Makefile2 Universal_Robots_ROS_Driver/ur_robot_driver/CMakeFiles/clean_test_results_ur_robot_driver.dir/rule
 .PHONY : Universal_Robots_ROS_Driver/ur_robot_driver/CMakeFiles/clean_test_results_ur_robot_driver.dir/rule
 
 # Convenience name for target.
@@ -314,12 +314,12 @@ clean_test_results_ur_robot_driver: Universal_Robots_ROS_Driver/ur_robot_driver/
 
 # fast build rule for target.
 clean_test_results_ur_robot_driver/fast:
-	cd /home/mpuig/ur5arm_ws/build && $(MAKE) -f Universal_Robots_ROS_Driver/ur_robot_driver/CMakeFiles/clean_test_results_ur_robot_driver.dir/build.make Universal_Robots_ROS_Driver/ur_robot_driver/CMakeFiles/clean_test_results_ur_robot_driver.dir/build
+	cd /home/manel/ur5arm_ws/build && $(MAKE) -f Universal_Robots_ROS_Driver/ur_robot_driver/CMakeFiles/clean_test_results_ur_robot_driver.dir/build.make Universal_Robots_ROS_Driver/ur_robot_driver/CMakeFiles/clean_test_results_ur_robot_driver.dir/build
 .PHONY : clean_test_results_ur_robot_driver/fast
 
 # Convenience name for target.
 Universal_Robots_ROS_Driver/ur_robot_driver/CMakeFiles/_run_tests_ur_robot_driver_rostest_test_driver.test.dir/rule:
-	cd /home/mpuig/ur5arm_ws/build && $(MAKE) -f CMakeFiles/Makefile2 Universal_Robots_ROS_Driver/ur_robot_driver/CMakeFiles/_run_tests_ur_robot_driver_rostest_test_driver.test.dir/rule
+	cd /home/manel/ur5arm_ws/build && $(MAKE) -f CMakeFiles/Makefile2 Universal_Robots_ROS_Driver/ur_robot_driver/CMakeFiles/_run_tests_ur_robot_driver_rostest_test_driver.test.dir/rule
 .PHONY : Universal_Robots_ROS_Driver/ur_robot_driver/CMakeFiles/_run_tests_ur_robot_driver_rostest_test_driver.test.dir/rule
 
 # Convenience name for target.
@@ -329,7 +329,7 @@ _run_tests_ur_robot_driver_rostest_test_driver.test: Universal_Robots_ROS_Driver
 
 # fast build rule for target.
 _run_tests_ur_robot_driver_rostest_test_driver.test/fast:
-	cd /home/mpuig/ur5arm_ws/build && $(MAKE) -f Universal_Robots_ROS_Driver/ur_robot_driver/CMakeFiles/_run_tests_ur_robot_driver_rostest_test_driver.test.dir/build.make Universal_Robots_ROS_Driver/ur_robot_driver/CMakeFiles/_run_tests_ur_robot_driver_rostest_test_driver.test.dir/build
+	cd /home/manel/ur5arm_ws/build && $(MAKE) -f Universal_Robots_ROS_Driver/ur_robot_driver/CMakeFiles/_run_tests_ur_robot_driver_rostest_test_driver.test.dir/build.make Universal_Robots_ROS_Driver/ur_robot_driver/CMakeFiles/_run_tests_ur_robot_driver_rostest_test_driver.test.dir/build
 .PHONY : _run_tests_ur_robot_driver_rostest_test_driver.test/fast
 
 src/dashboard_client_node.o: src/dashboard_client_node.cpp.o
@@ -338,7 +338,7 @@ src/dashboard_client_node.o: src/dashboard_client_node.cpp.o
 
 # target to build an object file
 src/dashboard_client_node.cpp.o:
-	cd /home/mpuig/ur5arm_ws/build && $(MAKE) -f Universal_Robots_ROS_Driver/ur_robot_driver/CMakeFiles/dashboard_client.dir/build.make Universal_Robots_ROS_Driver/ur_robot_driver/CMakeFiles/dashboard_client.dir/src/dashboard_client_node.cpp.o
+	cd /home/manel/ur5arm_ws/build && $(MAKE) -f Universal_Robots_ROS_Driver/ur_robot_driver/CMakeFiles/dashboard_client.dir/build.make Universal_Robots_ROS_Driver/ur_robot_driver/CMakeFiles/dashboard_client.dir/src/dashboard_client_node.cpp.o
 .PHONY : src/dashboard_client_node.cpp.o
 
 src/dashboard_client_node.i: src/dashboard_client_node.cpp.i
@@ -347,7 +347,7 @@ src/dashboard_client_node.i: src/dashboard_client_node.cpp.i
 
 # target to preprocess a source file
 src/dashboard_client_node.cpp.i:
-	cd /home/mpuig/ur5arm_ws/build && $(MAKE) -f Universal_Robots_ROS_Driver/ur_robot_driver/CMakeFiles/dashboard_client.dir/build.make Universal_Robots_ROS_Driver/ur_robot_driver/CMakeFiles/dashboard_client.dir/src/dashboard_client_node.cpp.i
+	cd /home/manel/ur5arm_ws/build && $(MAKE) -f Universal_Robots_ROS_Driver/ur_robot_driver/CMakeFiles/dashboard_client.dir/build.make Universal_Robots_ROS_Driver/ur_robot_driver/CMakeFiles/dashboard_client.dir/src/dashboard_client_node.cpp.i
 .PHONY : src/dashboard_client_node.cpp.i
 
 src/dashboard_client_node.s: src/dashboard_client_node.cpp.s
@@ -356,7 +356,7 @@ src/dashboard_client_node.s: src/dashboard_client_node.cpp.s
 
 # target to generate assembly for a file
 src/dashboard_client_node.cpp.s:
-	cd /home/mpuig/ur5arm_ws/build && $(MAKE) -f Universal_Robots_ROS_Driver/ur_robot_driver/CMakeFiles/dashboard_client.dir/build.make Universal_Robots_ROS_Driver/ur_robot_driver/CMakeFiles/dashboard_client.dir/src/dashboard_client_node.cpp.s
+	cd /home/manel/ur5arm_ws/build && $(MAKE) -f Universal_Robots_ROS_Driver/ur_robot_driver/CMakeFiles/dashboard_client.dir/build.make Universal_Robots_ROS_Driver/ur_robot_driver/CMakeFiles/dashboard_client.dir/src/dashboard_client_node.cpp.s
 .PHONY : src/dashboard_client_node.cpp.s
 
 src/dashboard_client_ros.o: src/dashboard_client_ros.cpp.o
@@ -365,9 +365,9 @@ src/dashboard_client_ros.o: src/dashboard_client_ros.cpp.o
 
 # target to build an object file
 src/dashboard_client_ros.cpp.o:
-	cd /home/mpuig/ur5arm_ws/build && $(MAKE) -f Universal_Robots_ROS_Driver/ur_robot_driver/CMakeFiles/dashboard_client.dir/build.make Universal_Robots_ROS_Driver/ur_robot_driver/CMakeFiles/dashboard_client.dir/src/dashboard_client_ros.cpp.o
-	cd /home/mpuig/ur5arm_ws/build && $(MAKE) -f Universal_Robots_ROS_Driver/ur_robot_driver/CMakeFiles/ur_robot_driver_node.dir/build.make Universal_Robots_ROS_Driver/ur_robot_driver/CMakeFiles/ur_robot_driver_node.dir/src/dashboard_client_ros.cpp.o
-	cd /home/mpuig/ur5arm_ws/build && $(MAKE) -f Universal_Robots_ROS_Driver/ur_robot_driver/CMakeFiles/ur_robot_driver_plugin.dir/build.make Universal_Robots_ROS_Driver/ur_robot_driver/CMakeFiles/ur_robot_driver_plugin.dir/src/dashboard_client_ros.cpp.o
+	cd /home/manel/ur5arm_ws/build && $(MAKE) -f Universal_Robots_ROS_Driver/ur_robot_driver/CMakeFiles/dashboard_client.dir/build.make Universal_Robots_ROS_Driver/ur_robot_driver/CMakeFiles/dashboard_client.dir/src/dashboard_client_ros.cpp.o
+	cd /home/manel/ur5arm_ws/build && $(MAKE) -f Universal_Robots_ROS_Driver/ur_robot_driver/CMakeFiles/ur_robot_driver_node.dir/build.make Universal_Robots_ROS_Driver/ur_robot_driver/CMakeFiles/ur_robot_driver_node.dir/src/dashboard_client_ros.cpp.o
+	cd /home/manel/ur5arm_ws/build && $(MAKE) -f Universal_Robots_ROS_Driver/ur_robot_driver/CMakeFiles/ur_robot_driver_plugin.dir/build.make Universal_Robots_ROS_Driver/ur_robot_driver/CMakeFiles/ur_robot_driver_plugin.dir/src/dashboard_client_ros.cpp.o
 .PHONY : src/dashboard_client_ros.cpp.o
 
 src/dashboard_client_ros.i: src/dashboard_client_ros.cpp.i
@@ -376,9 +376,9 @@ src/dashboard_client_ros.i: src/dashboard_client_ros.cpp.i
 
 # target to preprocess a source file
 src/dashboard_client_ros.cpp.i:
-	cd /home/mpuig/ur5arm_ws/build && $(MAKE) -f Universal_Robots_ROS_Driver/ur_robot_driver/CMakeFiles/dashboard_client.dir/build.make Universal_Robots_ROS_Driver/ur_robot_driver/CMakeFiles/dashboard_client.dir/src/dashboard_client_ros.cpp.i
-	cd /home/mpuig/ur5arm_ws/build && $(MAKE) -f Universal_Robots_ROS_Driver/ur_robot_driver/CMakeFiles/ur_robot_driver_node.dir/build.make Universal_Robots_ROS_Driver/ur_robot_driver/CMakeFiles/ur_robot_driver_node.dir/src/dashboard_client_ros.cpp.i
-	cd /home/mpuig/ur5arm_ws/build && $(MAKE) -f Universal_Robots_ROS_Driver/ur_robot_driver/CMakeFiles/ur_robot_driver_plugin.dir/build.make Universal_Robots_ROS_Driver/ur_robot_driver/CMakeFiles/ur_robot_driver_plugin.dir/src/dashboard_client_ros.cpp.i
+	cd /home/manel/ur5arm_ws/build && $(MAKE) -f Universal_Robots_ROS_Driver/ur_robot_driver/CMakeFiles/dashboard_client.dir/build.make Universal_Robots_ROS_Driver/ur_robot_driver/CMakeFiles/dashboard_client.dir/src/dashboard_client_ros.cpp.i
+	cd /home/manel/ur5arm_ws/build && $(MAKE) -f Universal_Robots_ROS_Driver/ur_robot_driver/CMakeFiles/ur_robot_driver_node.dir/build.make Universal_Robots_ROS_Driver/ur_robot_driver/CMakeFiles/ur_robot_driver_node.dir/src/dashboard_client_ros.cpp.i
+	cd /home/manel/ur5arm_ws/build && $(MAKE) -f Universal_Robots_ROS_Driver/ur_robot_driver/CMakeFiles/ur_robot_driver_plugin.dir/build.make Universal_Robots_ROS_Driver/ur_robot_driver/CMakeFiles/ur_robot_driver_plugin.dir/src/dashboard_client_ros.cpp.i
 .PHONY : src/dashboard_client_ros.cpp.i
 
 src/dashboard_client_ros.s: src/dashboard_client_ros.cpp.s
@@ -387,9 +387,9 @@ src/dashboard_client_ros.s: src/dashboard_client_ros.cpp.s
 
 # target to generate assembly for a file
 src/dashboard_client_ros.cpp.s:
-	cd /home/mpuig/ur5arm_ws/build && $(MAKE) -f Universal_Robots_ROS_Driver/ur_robot_driver/CMakeFiles/dashboard_client.dir/build.make Universal_Robots_ROS_Driver/ur_robot_driver/CMakeFiles/dashboard_client.dir/src/dashboard_client_ros.cpp.s
-	cd /home/mpuig/ur5arm_ws/build && $(MAKE) -f Universal_Robots_ROS_Driver/ur_robot_driver/CMakeFiles/ur_robot_driver_node.dir/build.make Universal_Robots_ROS_Driver/ur_robot_driver/CMakeFiles/ur_robot_driver_node.dir/src/dashboard_client_ros.cpp.s
-	cd /home/mpuig/ur5arm_ws/build && $(MAKE) -f Universal_Robots_ROS_Driver/ur_robot_driver/CMakeFiles/ur_robot_driver_plugin.dir/build.make Universal_Robots_ROS_Driver/ur_robot_driver/CMakeFiles/ur_robot_driver_plugin.dir/src/dashboard_client_ros.cpp.s
+	cd /home/manel/ur5arm_ws/build && $(MAKE) -f Universal_Robots_ROS_Driver/ur_robot_driver/CMakeFiles/dashboard_client.dir/build.make Universal_Robots_ROS_Driver/ur_robot_driver/CMakeFiles/dashboard_client.dir/src/dashboard_client_ros.cpp.s
+	cd /home/manel/ur5arm_ws/build && $(MAKE) -f Universal_Robots_ROS_Driver/ur_robot_driver/CMakeFiles/ur_robot_driver_node.dir/build.make Universal_Robots_ROS_Driver/ur_robot_driver/CMakeFiles/ur_robot_driver_node.dir/src/dashboard_client_ros.cpp.s
+	cd /home/manel/ur5arm_ws/build && $(MAKE) -f Universal_Robots_ROS_Driver/ur_robot_driver/CMakeFiles/ur_robot_driver_plugin.dir/build.make Universal_Robots_ROS_Driver/ur_robot_driver/CMakeFiles/ur_robot_driver_plugin.dir/src/dashboard_client_ros.cpp.s
 .PHONY : src/dashboard_client_ros.cpp.s
 
 src/hardware_interface.o: src/hardware_interface.cpp.o
@@ -398,8 +398,8 @@ src/hardware_interface.o: src/hardware_interface.cpp.o
 
 # target to build an object file
 src/hardware_interface.cpp.o:
-	cd /home/mpuig/ur5arm_ws/build && $(MAKE) -f Universal_Robots_ROS_Driver/ur_robot_driver/CMakeFiles/ur_robot_driver_node.dir/build.make Universal_Robots_ROS_Driver/ur_robot_driver/CMakeFiles/ur_robot_driver_node.dir/src/hardware_interface.cpp.o
-	cd /home/mpuig/ur5arm_ws/build && $(MAKE) -f Universal_Robots_ROS_Driver/ur_robot_driver/CMakeFiles/ur_robot_driver_plugin.dir/build.make Universal_Robots_ROS_Driver/ur_robot_driver/CMakeFiles/ur_robot_driver_plugin.dir/src/hardware_interface.cpp.o
+	cd /home/manel/ur5arm_ws/build && $(MAKE) -f Universal_Robots_ROS_Driver/ur_robot_driver/CMakeFiles/ur_robot_driver_node.dir/build.make Universal_Robots_ROS_Driver/ur_robot_driver/CMakeFiles/ur_robot_driver_node.dir/src/hardware_interface.cpp.o
+	cd /home/manel/ur5arm_ws/build && $(MAKE) -f Universal_Robots_ROS_Driver/ur_robot_driver/CMakeFiles/ur_robot_driver_plugin.dir/build.make Universal_Robots_ROS_Driver/ur_robot_driver/CMakeFiles/ur_robot_driver_plugin.dir/src/hardware_interface.cpp.o
 .PHONY : src/hardware_interface.cpp.o
 
 src/hardware_interface.i: src/hardware_interface.cpp.i
@@ -408,8 +408,8 @@ src/hardware_interface.i: src/hardware_interface.cpp.i
 
 # target to preprocess a source file
 src/hardware_interface.cpp.i:
-	cd /home/mpuig/ur5arm_ws/build && $(MAKE) -f Universal_Robots_ROS_Driver/ur_robot_driver/CMakeFiles/ur_robot_driver_node.dir/build.make Universal_Robots_ROS_Driver/ur_robot_driver/CMakeFiles/ur_robot_driver_node.dir/src/hardware_interface.cpp.i
-	cd /home/mpuig/ur5arm_ws/build && $(MAKE) -f Universal_Robots_ROS_Driver/ur_robot_driver/CMakeFiles/ur_robot_driver_plugin.dir/build.make Universal_Robots_ROS_Driver/ur_robot_driver/CMakeFiles/ur_robot_driver_plugin.dir/src/hardware_interface.cpp.i
+	cd /home/manel/ur5arm_ws/build && $(MAKE) -f Universal_Robots_ROS_Driver/ur_robot_driver/CMakeFiles/ur_robot_driver_node.dir/build.make Universal_Robots_ROS_Driver/ur_robot_driver/CMakeFiles/ur_robot_driver_node.dir/src/hardware_interface.cpp.i
+	cd /home/manel/ur5arm_ws/build && $(MAKE) -f Universal_Robots_ROS_Driver/ur_robot_driver/CMakeFiles/ur_robot_driver_plugin.dir/build.make Universal_Robots_ROS_Driver/ur_robot_driver/CMakeFiles/ur_robot_driver_plugin.dir/src/hardware_interface.cpp.i
 .PHONY : src/hardware_interface.cpp.i
 
 src/hardware_interface.s: src/hardware_interface.cpp.s
@@ -418,8 +418,8 @@ src/hardware_interface.s: src/hardware_interface.cpp.s
 
 # target to generate assembly for a file
 src/hardware_interface.cpp.s:
-	cd /home/mpuig/ur5arm_ws/build && $(MAKE) -f Universal_Robots_ROS_Driver/ur_robot_driver/CMakeFiles/ur_robot_driver_node.dir/build.make Universal_Robots_ROS_Driver/ur_robot_driver/CMakeFiles/ur_robot_driver_node.dir/src/hardware_interface.cpp.s
-	cd /home/mpuig/ur5arm_ws/build && $(MAKE) -f Universal_Robots_ROS_Driver/ur_robot_driver/CMakeFiles/ur_robot_driver_plugin.dir/build.make Universal_Robots_ROS_Driver/ur_robot_driver/CMakeFiles/ur_robot_driver_plugin.dir/src/hardware_interface.cpp.s
+	cd /home/manel/ur5arm_ws/build && $(MAKE) -f Universal_Robots_ROS_Driver/ur_robot_driver/CMakeFiles/ur_robot_driver_node.dir/build.make Universal_Robots_ROS_Driver/ur_robot_driver/CMakeFiles/ur_robot_driver_node.dir/src/hardware_interface.cpp.s
+	cd /home/manel/ur5arm_ws/build && $(MAKE) -f Universal_Robots_ROS_Driver/ur_robot_driver/CMakeFiles/ur_robot_driver_plugin.dir/build.make Universal_Robots_ROS_Driver/ur_robot_driver/CMakeFiles/ur_robot_driver_plugin.dir/src/hardware_interface.cpp.s
 .PHONY : src/hardware_interface.cpp.s
 
 src/hardware_interface_node.o: src/hardware_interface_node.cpp.o
@@ -428,7 +428,7 @@ src/hardware_interface_node.o: src/hardware_interface_node.cpp.o
 
 # target to build an object file
 src/hardware_interface_node.cpp.o:
-	cd /home/mpuig/ur5arm_ws/build && $(MAKE) -f Universal_Robots_ROS_Driver/ur_robot_driver/CMakeFiles/ur_robot_driver_node.dir/build.make Universal_Robots_ROS_Driver/ur_robot_driver/CMakeFiles/ur_robot_driver_node.dir/src/hardware_interface_node.cpp.o
+	cd /home/manel/ur5arm_ws/build && $(MAKE) -f Universal_Robots_ROS_Driver/ur_robot_driver/CMakeFiles/ur_robot_driver_node.dir/build.make Universal_Robots_ROS_Driver/ur_robot_driver/CMakeFiles/ur_robot_driver_node.dir/src/hardware_interface_node.cpp.o
 .PHONY : src/hardware_interface_node.cpp.o
 
 src/hardware_interface_node.i: src/hardware_interface_node.cpp.i
@@ -437,7 +437,7 @@ src/hardware_interface_node.i: src/hardware_interface_node.cpp.i
 
 # target to preprocess a source file
 src/hardware_interface_node.cpp.i:
-	cd /home/mpuig/ur5arm_ws/build && $(MAKE) -f Universal_Robots_ROS_Driver/ur_robot_driver/CMakeFiles/ur_robot_driver_node.dir/build.make Universal_Robots_ROS_Driver/ur_robot_driver/CMakeFiles/ur_robot_driver_node.dir/src/hardware_interface_node.cpp.i
+	cd /home/manel/ur5arm_ws/build && $(MAKE) -f Universal_Robots_ROS_Driver/ur_robot_driver/CMakeFiles/ur_robot_driver_node.dir/build.make Universal_Robots_ROS_Driver/ur_robot_driver/CMakeFiles/ur_robot_driver_node.dir/src/hardware_interface_node.cpp.i
 .PHONY : src/hardware_interface_node.cpp.i
 
 src/hardware_interface_node.s: src/hardware_interface_node.cpp.s
@@ -446,7 +446,7 @@ src/hardware_interface_node.s: src/hardware_interface_node.cpp.s
 
 # target to generate assembly for a file
 src/hardware_interface_node.cpp.s:
-	cd /home/mpuig/ur5arm_ws/build && $(MAKE) -f Universal_Robots_ROS_Driver/ur_robot_driver/CMakeFiles/ur_robot_driver_node.dir/build.make Universal_Robots_ROS_Driver/ur_robot_driver/CMakeFiles/ur_robot_driver_node.dir/src/hardware_interface_node.cpp.s
+	cd /home/manel/ur5arm_ws/build && $(MAKE) -f Universal_Robots_ROS_Driver/ur_robot_driver/CMakeFiles/ur_robot_driver_node.dir/build.make Universal_Robots_ROS_Driver/ur_robot_driver/CMakeFiles/ur_robot_driver_node.dir/src/hardware_interface_node.cpp.s
 .PHONY : src/hardware_interface_node.cpp.s
 
 src/robot_state_helper.o: src/robot_state_helper.cpp.o
@@ -455,7 +455,7 @@ src/robot_state_helper.o: src/robot_state_helper.cpp.o
 
 # target to build an object file
 src/robot_state_helper.cpp.o:
-	cd /home/mpuig/ur5arm_ws/build && $(MAKE) -f Universal_Robots_ROS_Driver/ur_robot_driver/CMakeFiles/robot_state_helper.dir/build.make Universal_Robots_ROS_Driver/ur_robot_driver/CMakeFiles/robot_state_helper.dir/src/robot_state_helper.cpp.o
+	cd /home/manel/ur5arm_ws/build && $(MAKE) -f Universal_Robots_ROS_Driver/ur_robot_driver/CMakeFiles/robot_state_helper.dir/build.make Universal_Robots_ROS_Driver/ur_robot_driver/CMakeFiles/robot_state_helper.dir/src/robot_state_helper.cpp.o
 .PHONY : src/robot_state_helper.cpp.o
 
 src/robot_state_helper.i: src/robot_state_helper.cpp.i
@@ -464,7 +464,7 @@ src/robot_state_helper.i: src/robot_state_helper.cpp.i
 
 # target to preprocess a source file
 src/robot_state_helper.cpp.i:
-	cd /home/mpuig/ur5arm_ws/build && $(MAKE) -f Universal_Robots_ROS_Driver/ur_robot_driver/CMakeFiles/robot_state_helper.dir/build.make Universal_Robots_ROS_Driver/ur_robot_driver/CMakeFiles/robot_state_helper.dir/src/robot_state_helper.cpp.i
+	cd /home/manel/ur5arm_ws/build && $(MAKE) -f Universal_Robots_ROS_Driver/ur_robot_driver/CMakeFiles/robot_state_helper.dir/build.make Universal_Robots_ROS_Driver/ur_robot_driver/CMakeFiles/robot_state_helper.dir/src/robot_state_helper.cpp.i
 .PHONY : src/robot_state_helper.cpp.i
 
 src/robot_state_helper.s: src/robot_state_helper.cpp.s
@@ -473,7 +473,7 @@ src/robot_state_helper.s: src/robot_state_helper.cpp.s
 
 # target to generate assembly for a file
 src/robot_state_helper.cpp.s:
-	cd /home/mpuig/ur5arm_ws/build && $(MAKE) -f Universal_Robots_ROS_Driver/ur_robot_driver/CMakeFiles/robot_state_helper.dir/build.make Universal_Robots_ROS_Driver/ur_robot_driver/CMakeFiles/robot_state_helper.dir/src/robot_state_helper.cpp.s
+	cd /home/manel/ur5arm_ws/build && $(MAKE) -f Universal_Robots_ROS_Driver/ur_robot_driver/CMakeFiles/robot_state_helper.dir/build.make Universal_Robots_ROS_Driver/ur_robot_driver/CMakeFiles/robot_state_helper.dir/src/robot_state_helper.cpp.s
 .PHONY : src/robot_state_helper.cpp.s
 
 src/robot_state_helper_node.o: src/robot_state_helper_node.cpp.o
@@ -482,7 +482,7 @@ src/robot_state_helper_node.o: src/robot_state_helper_node.cpp.o
 
 # target to build an object file
 src/robot_state_helper_node.cpp.o:
-	cd /home/mpuig/ur5arm_ws/build && $(MAKE) -f Universal_Robots_ROS_Driver/ur_robot_driver/CMakeFiles/robot_state_helper.dir/build.make Universal_Robots_ROS_Driver/ur_robot_driver/CMakeFiles/robot_state_helper.dir/src/robot_state_helper_node.cpp.o
+	cd /home/manel/ur5arm_ws/build && $(MAKE) -f Universal_Robots_ROS_Driver/ur_robot_driver/CMakeFiles/robot_state_helper.dir/build.make Universal_Robots_ROS_Driver/ur_robot_driver/CMakeFiles/robot_state_helper.dir/src/robot_state_helper_node.cpp.o
 .PHONY : src/robot_state_helper_node.cpp.o
 
 src/robot_state_helper_node.i: src/robot_state_helper_node.cpp.i
@@ -491,7 +491,7 @@ src/robot_state_helper_node.i: src/robot_state_helper_node.cpp.i
 
 # target to preprocess a source file
 src/robot_state_helper_node.cpp.i:
-	cd /home/mpuig/ur5arm_ws/build && $(MAKE) -f Universal_Robots_ROS_Driver/ur_robot_driver/CMakeFiles/robot_state_helper.dir/build.make Universal_Robots_ROS_Driver/ur_robot_driver/CMakeFiles/robot_state_helper.dir/src/robot_state_helper_node.cpp.i
+	cd /home/manel/ur5arm_ws/build && $(MAKE) -f Universal_Robots_ROS_Driver/ur_robot_driver/CMakeFiles/robot_state_helper.dir/build.make Universal_Robots_ROS_Driver/ur_robot_driver/CMakeFiles/robot_state_helper.dir/src/robot_state_helper_node.cpp.i
 .PHONY : src/robot_state_helper_node.cpp.i
 
 src/robot_state_helper_node.s: src/robot_state_helper_node.cpp.s
@@ -500,7 +500,7 @@ src/robot_state_helper_node.s: src/robot_state_helper_node.cpp.s
 
 # target to generate assembly for a file
 src/robot_state_helper_node.cpp.s:
-	cd /home/mpuig/ur5arm_ws/build && $(MAKE) -f Universal_Robots_ROS_Driver/ur_robot_driver/CMakeFiles/robot_state_helper.dir/build.make Universal_Robots_ROS_Driver/ur_robot_driver/CMakeFiles/robot_state_helper.dir/src/robot_state_helper_node.cpp.s
+	cd /home/manel/ur5arm_ws/build && $(MAKE) -f Universal_Robots_ROS_Driver/ur_robot_driver/CMakeFiles/robot_state_helper.dir/build.make Universal_Robots_ROS_Driver/ur_robot_driver/CMakeFiles/robot_state_helper.dir/src/robot_state_helper_node.cpp.s
 .PHONY : src/robot_state_helper_node.cpp.s
 
 # Help Target
@@ -556,6 +556,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/mpuig/ur5arm_ws/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/manel/ur5arm_ws/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

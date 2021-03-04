@@ -67,14 +67,14 @@ set(omni_msgs_CONFIG_INCLUDED TRUE)
 
 # set variables for source/devel/install prefixes
 if("FALSE" STREQUAL "TRUE")
-  set(omni_msgs_SOURCE_PREFIX /home/mpuig/ur5arm_ws/src/phantom_omni/omni_msgs)
-  set(omni_msgs_DEVEL_PREFIX /home/mpuig/ur5arm_ws/devel)
+  set(omni_msgs_SOURCE_PREFIX /home/manel/ur5arm_ws/src/phantom_omni/omni_msgs)
+  set(omni_msgs_DEVEL_PREFIX /home/manel/ur5arm_ws/devel)
   set(omni_msgs_INSTALL_PREFIX "")
   set(omni_msgs_PREFIX ${omni_msgs_DEVEL_PREFIX})
 else()
   set(omni_msgs_SOURCE_PREFIX "")
   set(omni_msgs_DEVEL_PREFIX "")
-  set(omni_msgs_INSTALL_PREFIX /home/mpuig/ur5arm_ws/install)
+  set(omni_msgs_INSTALL_PREFIX /home/manel/ur5arm_ws/install)
   set(omni_msgs_PREFIX ${omni_msgs_INSTALL_PREFIX})
 endif()
 
@@ -154,7 +154,7 @@ foreach(library ${libraries})
     set(lib_path "")
     set(lib "${library}-NOTFOUND")
     # since the path where the library is found is returned we have to iterate over the paths manually
-    foreach(path /home/mpuig/ur5arm_ws/install/lib;/home/mpuig/ur5arm_ws/devel/lib;/opt/ros/melodic/lib)
+    foreach(path /home/manel/ur5arm_ws/install/lib;/home/manel/ur5arm_ws/devel/lib;/opt/ros/melodic/lib)
       find_library(lib ${library}
         PATHS ${path}
         NO_DEFAULT_PATH NO_CMAKE_FIND_ROOT_PATH)

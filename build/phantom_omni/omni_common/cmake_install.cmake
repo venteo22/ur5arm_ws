@@ -1,8 +1,8 @@
-# Install script for directory: /home/mpuig/ur5arm_ws/src/phantom_omni/omni_common
+# Install script for directory: /home/manel/ur5arm_ws/src/phantom_omni/omni_common
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/mpuig/ur5arm_ws/install")
+  set(CMAKE_INSTALL_PREFIX "/home/manel/ur5arm_ws/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -38,17 +38,17 @@ if(NOT DEFINED CMAKE_CROSSCOMPILING)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/mpuig/ur5arm_ws/build/phantom_omni/omni_common/catkin_generated/installspace/omni_common.pc")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/manel/ur5arm_ws/build/phantom_omni/omni_common/catkin_generated/installspace/omni_common.pc")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/omni_common/cmake" TYPE FILE FILES
-    "/home/mpuig/ur5arm_ws/build/phantom_omni/omni_common/catkin_generated/installspace/omni_commonConfig.cmake"
-    "/home/mpuig/ur5arm_ws/build/phantom_omni/omni_common/catkin_generated/installspace/omni_commonConfig-version.cmake"
+    "/home/manel/ur5arm_ws/build/phantom_omni/omni_common/catkin_generated/installspace/omni_commonConfig.cmake"
+    "/home/manel/ur5arm_ws/build/phantom_omni/omni_common/catkin_generated/installspace/omni_commonConfig-version.cmake"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/omni_common" TYPE FILE FILES "/home/mpuig/ur5arm_ws/src/phantom_omni/omni_common/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/omni_common" TYPE FILE FILES "/home/manel/ur5arm_ws/src/phantom_omni/omni_common/package.xml")
 endif()
 

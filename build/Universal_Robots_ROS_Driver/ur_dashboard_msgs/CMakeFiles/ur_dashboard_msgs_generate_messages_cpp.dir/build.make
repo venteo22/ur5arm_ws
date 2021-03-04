@@ -43,212 +43,212 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/mpuig/ur5arm_ws/src
+CMAKE_SOURCE_DIR = /home/manel/ur5arm_ws/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/mpuig/ur5arm_ws/build
+CMAKE_BINARY_DIR = /home/manel/ur5arm_ws/build
 
 # Utility rule file for ur_dashboard_msgs_generate_messages_cpp.
 
 # Include the progress variables for this target.
 include Universal_Robots_ROS_Driver/ur_dashboard_msgs/CMakeFiles/ur_dashboard_msgs_generate_messages_cpp.dir/progress.make
 
-Universal_Robots_ROS_Driver/ur_dashboard_msgs/CMakeFiles/ur_dashboard_msgs_generate_messages_cpp: /home/mpuig/ur5arm_ws/devel/include/ur_dashboard_msgs/SetModeActionFeedback.h
-Universal_Robots_ROS_Driver/ur_dashboard_msgs/CMakeFiles/ur_dashboard_msgs_generate_messages_cpp: /home/mpuig/ur5arm_ws/devel/include/ur_dashboard_msgs/ProgramState.h
-Universal_Robots_ROS_Driver/ur_dashboard_msgs/CMakeFiles/ur_dashboard_msgs_generate_messages_cpp: /home/mpuig/ur5arm_ws/devel/include/ur_dashboard_msgs/SetModeResult.h
-Universal_Robots_ROS_Driver/ur_dashboard_msgs/CMakeFiles/ur_dashboard_msgs_generate_messages_cpp: /home/mpuig/ur5arm_ws/devel/include/ur_dashboard_msgs/RobotMode.h
-Universal_Robots_ROS_Driver/ur_dashboard_msgs/CMakeFiles/ur_dashboard_msgs_generate_messages_cpp: /home/mpuig/ur5arm_ws/devel/include/ur_dashboard_msgs/SetModeFeedback.h
-Universal_Robots_ROS_Driver/ur_dashboard_msgs/CMakeFiles/ur_dashboard_msgs_generate_messages_cpp: /home/mpuig/ur5arm_ws/devel/include/ur_dashboard_msgs/SetModeGoal.h
-Universal_Robots_ROS_Driver/ur_dashboard_msgs/CMakeFiles/ur_dashboard_msgs_generate_messages_cpp: /home/mpuig/ur5arm_ws/devel/include/ur_dashboard_msgs/SetModeActionGoal.h
-Universal_Robots_ROS_Driver/ur_dashboard_msgs/CMakeFiles/ur_dashboard_msgs_generate_messages_cpp: /home/mpuig/ur5arm_ws/devel/include/ur_dashboard_msgs/SetModeAction.h
-Universal_Robots_ROS_Driver/ur_dashboard_msgs/CMakeFiles/ur_dashboard_msgs_generate_messages_cpp: /home/mpuig/ur5arm_ws/devel/include/ur_dashboard_msgs/SafetyMode.h
-Universal_Robots_ROS_Driver/ur_dashboard_msgs/CMakeFiles/ur_dashboard_msgs_generate_messages_cpp: /home/mpuig/ur5arm_ws/devel/include/ur_dashboard_msgs/SetModeActionResult.h
-Universal_Robots_ROS_Driver/ur_dashboard_msgs/CMakeFiles/ur_dashboard_msgs_generate_messages_cpp: /home/mpuig/ur5arm_ws/devel/include/ur_dashboard_msgs/GetLoadedProgram.h
-Universal_Robots_ROS_Driver/ur_dashboard_msgs/CMakeFiles/ur_dashboard_msgs_generate_messages_cpp: /home/mpuig/ur5arm_ws/devel/include/ur_dashboard_msgs/IsProgramSaved.h
-Universal_Robots_ROS_Driver/ur_dashboard_msgs/CMakeFiles/ur_dashboard_msgs_generate_messages_cpp: /home/mpuig/ur5arm_ws/devel/include/ur_dashboard_msgs/RawRequest.h
-Universal_Robots_ROS_Driver/ur_dashboard_msgs/CMakeFiles/ur_dashboard_msgs_generate_messages_cpp: /home/mpuig/ur5arm_ws/devel/include/ur_dashboard_msgs/GetSafetyMode.h
-Universal_Robots_ROS_Driver/ur_dashboard_msgs/CMakeFiles/ur_dashboard_msgs_generate_messages_cpp: /home/mpuig/ur5arm_ws/devel/include/ur_dashboard_msgs/IsProgramRunning.h
-Universal_Robots_ROS_Driver/ur_dashboard_msgs/CMakeFiles/ur_dashboard_msgs_generate_messages_cpp: /home/mpuig/ur5arm_ws/devel/include/ur_dashboard_msgs/GetProgramState.h
-Universal_Robots_ROS_Driver/ur_dashboard_msgs/CMakeFiles/ur_dashboard_msgs_generate_messages_cpp: /home/mpuig/ur5arm_ws/devel/include/ur_dashboard_msgs/Popup.h
-Universal_Robots_ROS_Driver/ur_dashboard_msgs/CMakeFiles/ur_dashboard_msgs_generate_messages_cpp: /home/mpuig/ur5arm_ws/devel/include/ur_dashboard_msgs/AddToLog.h
-Universal_Robots_ROS_Driver/ur_dashboard_msgs/CMakeFiles/ur_dashboard_msgs_generate_messages_cpp: /home/mpuig/ur5arm_ws/devel/include/ur_dashboard_msgs/Load.h
-Universal_Robots_ROS_Driver/ur_dashboard_msgs/CMakeFiles/ur_dashboard_msgs_generate_messages_cpp: /home/mpuig/ur5arm_ws/devel/include/ur_dashboard_msgs/GetRobotMode.h
+Universal_Robots_ROS_Driver/ur_dashboard_msgs/CMakeFiles/ur_dashboard_msgs_generate_messages_cpp: /home/manel/ur5arm_ws/devel/include/ur_dashboard_msgs/RobotMode.h
+Universal_Robots_ROS_Driver/ur_dashboard_msgs/CMakeFiles/ur_dashboard_msgs_generate_messages_cpp: /home/manel/ur5arm_ws/devel/include/ur_dashboard_msgs/SetModeFeedback.h
+Universal_Robots_ROS_Driver/ur_dashboard_msgs/CMakeFiles/ur_dashboard_msgs_generate_messages_cpp: /home/manel/ur5arm_ws/devel/include/ur_dashboard_msgs/SetModeActionResult.h
+Universal_Robots_ROS_Driver/ur_dashboard_msgs/CMakeFiles/ur_dashboard_msgs_generate_messages_cpp: /home/manel/ur5arm_ws/devel/include/ur_dashboard_msgs/SetModeResult.h
+Universal_Robots_ROS_Driver/ur_dashboard_msgs/CMakeFiles/ur_dashboard_msgs_generate_messages_cpp: /home/manel/ur5arm_ws/devel/include/ur_dashboard_msgs/SafetyMode.h
+Universal_Robots_ROS_Driver/ur_dashboard_msgs/CMakeFiles/ur_dashboard_msgs_generate_messages_cpp: /home/manel/ur5arm_ws/devel/include/ur_dashboard_msgs/ProgramState.h
+Universal_Robots_ROS_Driver/ur_dashboard_msgs/CMakeFiles/ur_dashboard_msgs_generate_messages_cpp: /home/manel/ur5arm_ws/devel/include/ur_dashboard_msgs/SetModeGoal.h
+Universal_Robots_ROS_Driver/ur_dashboard_msgs/CMakeFiles/ur_dashboard_msgs_generate_messages_cpp: /home/manel/ur5arm_ws/devel/include/ur_dashboard_msgs/SetModeAction.h
+Universal_Robots_ROS_Driver/ur_dashboard_msgs/CMakeFiles/ur_dashboard_msgs_generate_messages_cpp: /home/manel/ur5arm_ws/devel/include/ur_dashboard_msgs/SetModeActionGoal.h
+Universal_Robots_ROS_Driver/ur_dashboard_msgs/CMakeFiles/ur_dashboard_msgs_generate_messages_cpp: /home/manel/ur5arm_ws/devel/include/ur_dashboard_msgs/SetModeActionFeedback.h
+Universal_Robots_ROS_Driver/ur_dashboard_msgs/CMakeFiles/ur_dashboard_msgs_generate_messages_cpp: /home/manel/ur5arm_ws/devel/include/ur_dashboard_msgs/IsProgramRunning.h
+Universal_Robots_ROS_Driver/ur_dashboard_msgs/CMakeFiles/ur_dashboard_msgs_generate_messages_cpp: /home/manel/ur5arm_ws/devel/include/ur_dashboard_msgs/GetProgramState.h
+Universal_Robots_ROS_Driver/ur_dashboard_msgs/CMakeFiles/ur_dashboard_msgs_generate_messages_cpp: /home/manel/ur5arm_ws/devel/include/ur_dashboard_msgs/IsProgramSaved.h
+Universal_Robots_ROS_Driver/ur_dashboard_msgs/CMakeFiles/ur_dashboard_msgs_generate_messages_cpp: /home/manel/ur5arm_ws/devel/include/ur_dashboard_msgs/GetRobotMode.h
+Universal_Robots_ROS_Driver/ur_dashboard_msgs/CMakeFiles/ur_dashboard_msgs_generate_messages_cpp: /home/manel/ur5arm_ws/devel/include/ur_dashboard_msgs/Popup.h
+Universal_Robots_ROS_Driver/ur_dashboard_msgs/CMakeFiles/ur_dashboard_msgs_generate_messages_cpp: /home/manel/ur5arm_ws/devel/include/ur_dashboard_msgs/GetLoadedProgram.h
+Universal_Robots_ROS_Driver/ur_dashboard_msgs/CMakeFiles/ur_dashboard_msgs_generate_messages_cpp: /home/manel/ur5arm_ws/devel/include/ur_dashboard_msgs/RawRequest.h
+Universal_Robots_ROS_Driver/ur_dashboard_msgs/CMakeFiles/ur_dashboard_msgs_generate_messages_cpp: /home/manel/ur5arm_ws/devel/include/ur_dashboard_msgs/AddToLog.h
+Universal_Robots_ROS_Driver/ur_dashboard_msgs/CMakeFiles/ur_dashboard_msgs_generate_messages_cpp: /home/manel/ur5arm_ws/devel/include/ur_dashboard_msgs/GetSafetyMode.h
+Universal_Robots_ROS_Driver/ur_dashboard_msgs/CMakeFiles/ur_dashboard_msgs_generate_messages_cpp: /home/manel/ur5arm_ws/devel/include/ur_dashboard_msgs/Load.h
 
 
-/home/mpuig/ur5arm_ws/devel/include/ur_dashboard_msgs/SetModeActionFeedback.h: /opt/ros/melodic/lib/gencpp/gen_cpp.py
-/home/mpuig/ur5arm_ws/devel/include/ur_dashboard_msgs/SetModeActionFeedback.h: /home/mpuig/ur5arm_ws/devel/share/ur_dashboard_msgs/msg/SetModeActionFeedback.msg
-/home/mpuig/ur5arm_ws/devel/include/ur_dashboard_msgs/SetModeActionFeedback.h: /opt/ros/melodic/share/actionlib_msgs/msg/GoalID.msg
-/home/mpuig/ur5arm_ws/devel/include/ur_dashboard_msgs/SetModeActionFeedback.h: /opt/ros/melodic/share/actionlib_msgs/msg/GoalStatus.msg
-/home/mpuig/ur5arm_ws/devel/include/ur_dashboard_msgs/SetModeActionFeedback.h: /home/mpuig/ur5arm_ws/devel/share/ur_dashboard_msgs/msg/SetModeFeedback.msg
-/home/mpuig/ur5arm_ws/devel/include/ur_dashboard_msgs/SetModeActionFeedback.h: /opt/ros/melodic/share/std_msgs/msg/Header.msg
-/home/mpuig/ur5arm_ws/devel/include/ur_dashboard_msgs/SetModeActionFeedback.h: /opt/ros/melodic/share/gencpp/msg.h.template
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/mpuig/ur5arm_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating C++ code from ur_dashboard_msgs/SetModeActionFeedback.msg"
-	cd /home/mpuig/ur5arm_ws/src/Universal_Robots_ROS_Driver/ur_dashboard_msgs && /home/mpuig/ur5arm_ws/build/catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/mpuig/ur5arm_ws/devel/share/ur_dashboard_msgs/msg/SetModeActionFeedback.msg -Iur_dashboard_msgs:/home/mpuig/ur5arm_ws/src/Universal_Robots_ROS_Driver/ur_dashboard_msgs/msg -Iur_dashboard_msgs:/home/mpuig/ur5arm_ws/devel/share/ur_dashboard_msgs/msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/melodic/share/actionlib_msgs/cmake/../msg -p ur_dashboard_msgs -o /home/mpuig/ur5arm_ws/devel/include/ur_dashboard_msgs -e /opt/ros/melodic/share/gencpp/cmake/..
+/home/manel/ur5arm_ws/devel/include/ur_dashboard_msgs/RobotMode.h: /opt/ros/melodic/lib/gencpp/gen_cpp.py
+/home/manel/ur5arm_ws/devel/include/ur_dashboard_msgs/RobotMode.h: /home/manel/ur5arm_ws/src/Universal_Robots_ROS_Driver/ur_dashboard_msgs/msg/RobotMode.msg
+/home/manel/ur5arm_ws/devel/include/ur_dashboard_msgs/RobotMode.h: /opt/ros/melodic/share/gencpp/msg.h.template
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/manel/ur5arm_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating C++ code from ur_dashboard_msgs/RobotMode.msg"
+	cd /home/manel/ur5arm_ws/src/Universal_Robots_ROS_Driver/ur_dashboard_msgs && /home/manel/ur5arm_ws/build/catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/manel/ur5arm_ws/src/Universal_Robots_ROS_Driver/ur_dashboard_msgs/msg/RobotMode.msg -Iur_dashboard_msgs:/home/manel/ur5arm_ws/src/Universal_Robots_ROS_Driver/ur_dashboard_msgs/msg -Iur_dashboard_msgs:/home/manel/ur5arm_ws/devel/share/ur_dashboard_msgs/msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/melodic/share/actionlib_msgs/cmake/../msg -p ur_dashboard_msgs -o /home/manel/ur5arm_ws/devel/include/ur_dashboard_msgs -e /opt/ros/melodic/share/gencpp/cmake/..
 
-/home/mpuig/ur5arm_ws/devel/include/ur_dashboard_msgs/ProgramState.h: /opt/ros/melodic/lib/gencpp/gen_cpp.py
-/home/mpuig/ur5arm_ws/devel/include/ur_dashboard_msgs/ProgramState.h: /home/mpuig/ur5arm_ws/src/Universal_Robots_ROS_Driver/ur_dashboard_msgs/msg/ProgramState.msg
-/home/mpuig/ur5arm_ws/devel/include/ur_dashboard_msgs/ProgramState.h: /opt/ros/melodic/share/gencpp/msg.h.template
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/mpuig/ur5arm_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating C++ code from ur_dashboard_msgs/ProgramState.msg"
-	cd /home/mpuig/ur5arm_ws/src/Universal_Robots_ROS_Driver/ur_dashboard_msgs && /home/mpuig/ur5arm_ws/build/catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/mpuig/ur5arm_ws/src/Universal_Robots_ROS_Driver/ur_dashboard_msgs/msg/ProgramState.msg -Iur_dashboard_msgs:/home/mpuig/ur5arm_ws/src/Universal_Robots_ROS_Driver/ur_dashboard_msgs/msg -Iur_dashboard_msgs:/home/mpuig/ur5arm_ws/devel/share/ur_dashboard_msgs/msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/melodic/share/actionlib_msgs/cmake/../msg -p ur_dashboard_msgs -o /home/mpuig/ur5arm_ws/devel/include/ur_dashboard_msgs -e /opt/ros/melodic/share/gencpp/cmake/..
+/home/manel/ur5arm_ws/devel/include/ur_dashboard_msgs/SetModeFeedback.h: /opt/ros/melodic/lib/gencpp/gen_cpp.py
+/home/manel/ur5arm_ws/devel/include/ur_dashboard_msgs/SetModeFeedback.h: /home/manel/ur5arm_ws/devel/share/ur_dashboard_msgs/msg/SetModeFeedback.msg
+/home/manel/ur5arm_ws/devel/include/ur_dashboard_msgs/SetModeFeedback.h: /opt/ros/melodic/share/gencpp/msg.h.template
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/manel/ur5arm_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating C++ code from ur_dashboard_msgs/SetModeFeedback.msg"
+	cd /home/manel/ur5arm_ws/src/Universal_Robots_ROS_Driver/ur_dashboard_msgs && /home/manel/ur5arm_ws/build/catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/manel/ur5arm_ws/devel/share/ur_dashboard_msgs/msg/SetModeFeedback.msg -Iur_dashboard_msgs:/home/manel/ur5arm_ws/src/Universal_Robots_ROS_Driver/ur_dashboard_msgs/msg -Iur_dashboard_msgs:/home/manel/ur5arm_ws/devel/share/ur_dashboard_msgs/msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/melodic/share/actionlib_msgs/cmake/../msg -p ur_dashboard_msgs -o /home/manel/ur5arm_ws/devel/include/ur_dashboard_msgs -e /opt/ros/melodic/share/gencpp/cmake/..
 
-/home/mpuig/ur5arm_ws/devel/include/ur_dashboard_msgs/SetModeResult.h: /opt/ros/melodic/lib/gencpp/gen_cpp.py
-/home/mpuig/ur5arm_ws/devel/include/ur_dashboard_msgs/SetModeResult.h: /home/mpuig/ur5arm_ws/devel/share/ur_dashboard_msgs/msg/SetModeResult.msg
-/home/mpuig/ur5arm_ws/devel/include/ur_dashboard_msgs/SetModeResult.h: /opt/ros/melodic/share/gencpp/msg.h.template
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/mpuig/ur5arm_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Generating C++ code from ur_dashboard_msgs/SetModeResult.msg"
-	cd /home/mpuig/ur5arm_ws/src/Universal_Robots_ROS_Driver/ur_dashboard_msgs && /home/mpuig/ur5arm_ws/build/catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/mpuig/ur5arm_ws/devel/share/ur_dashboard_msgs/msg/SetModeResult.msg -Iur_dashboard_msgs:/home/mpuig/ur5arm_ws/src/Universal_Robots_ROS_Driver/ur_dashboard_msgs/msg -Iur_dashboard_msgs:/home/mpuig/ur5arm_ws/devel/share/ur_dashboard_msgs/msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/melodic/share/actionlib_msgs/cmake/../msg -p ur_dashboard_msgs -o /home/mpuig/ur5arm_ws/devel/include/ur_dashboard_msgs -e /opt/ros/melodic/share/gencpp/cmake/..
+/home/manel/ur5arm_ws/devel/include/ur_dashboard_msgs/SetModeActionResult.h: /opt/ros/melodic/lib/gencpp/gen_cpp.py
+/home/manel/ur5arm_ws/devel/include/ur_dashboard_msgs/SetModeActionResult.h: /home/manel/ur5arm_ws/devel/share/ur_dashboard_msgs/msg/SetModeActionResult.msg
+/home/manel/ur5arm_ws/devel/include/ur_dashboard_msgs/SetModeActionResult.h: /opt/ros/melodic/share/actionlib_msgs/msg/GoalID.msg
+/home/manel/ur5arm_ws/devel/include/ur_dashboard_msgs/SetModeActionResult.h: /opt/ros/melodic/share/actionlib_msgs/msg/GoalStatus.msg
+/home/manel/ur5arm_ws/devel/include/ur_dashboard_msgs/SetModeActionResult.h: /home/manel/ur5arm_ws/devel/share/ur_dashboard_msgs/msg/SetModeResult.msg
+/home/manel/ur5arm_ws/devel/include/ur_dashboard_msgs/SetModeActionResult.h: /opt/ros/melodic/share/std_msgs/msg/Header.msg
+/home/manel/ur5arm_ws/devel/include/ur_dashboard_msgs/SetModeActionResult.h: /opt/ros/melodic/share/gencpp/msg.h.template
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/manel/ur5arm_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Generating C++ code from ur_dashboard_msgs/SetModeActionResult.msg"
+	cd /home/manel/ur5arm_ws/src/Universal_Robots_ROS_Driver/ur_dashboard_msgs && /home/manel/ur5arm_ws/build/catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/manel/ur5arm_ws/devel/share/ur_dashboard_msgs/msg/SetModeActionResult.msg -Iur_dashboard_msgs:/home/manel/ur5arm_ws/src/Universal_Robots_ROS_Driver/ur_dashboard_msgs/msg -Iur_dashboard_msgs:/home/manel/ur5arm_ws/devel/share/ur_dashboard_msgs/msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/melodic/share/actionlib_msgs/cmake/../msg -p ur_dashboard_msgs -o /home/manel/ur5arm_ws/devel/include/ur_dashboard_msgs -e /opt/ros/melodic/share/gencpp/cmake/..
 
-/home/mpuig/ur5arm_ws/devel/include/ur_dashboard_msgs/RobotMode.h: /opt/ros/melodic/lib/gencpp/gen_cpp.py
-/home/mpuig/ur5arm_ws/devel/include/ur_dashboard_msgs/RobotMode.h: /home/mpuig/ur5arm_ws/src/Universal_Robots_ROS_Driver/ur_dashboard_msgs/msg/RobotMode.msg
-/home/mpuig/ur5arm_ws/devel/include/ur_dashboard_msgs/RobotMode.h: /opt/ros/melodic/share/gencpp/msg.h.template
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/mpuig/ur5arm_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Generating C++ code from ur_dashboard_msgs/RobotMode.msg"
-	cd /home/mpuig/ur5arm_ws/src/Universal_Robots_ROS_Driver/ur_dashboard_msgs && /home/mpuig/ur5arm_ws/build/catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/mpuig/ur5arm_ws/src/Universal_Robots_ROS_Driver/ur_dashboard_msgs/msg/RobotMode.msg -Iur_dashboard_msgs:/home/mpuig/ur5arm_ws/src/Universal_Robots_ROS_Driver/ur_dashboard_msgs/msg -Iur_dashboard_msgs:/home/mpuig/ur5arm_ws/devel/share/ur_dashboard_msgs/msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/melodic/share/actionlib_msgs/cmake/../msg -p ur_dashboard_msgs -o /home/mpuig/ur5arm_ws/devel/include/ur_dashboard_msgs -e /opt/ros/melodic/share/gencpp/cmake/..
+/home/manel/ur5arm_ws/devel/include/ur_dashboard_msgs/SetModeResult.h: /opt/ros/melodic/lib/gencpp/gen_cpp.py
+/home/manel/ur5arm_ws/devel/include/ur_dashboard_msgs/SetModeResult.h: /home/manel/ur5arm_ws/devel/share/ur_dashboard_msgs/msg/SetModeResult.msg
+/home/manel/ur5arm_ws/devel/include/ur_dashboard_msgs/SetModeResult.h: /opt/ros/melodic/share/gencpp/msg.h.template
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/manel/ur5arm_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Generating C++ code from ur_dashboard_msgs/SetModeResult.msg"
+	cd /home/manel/ur5arm_ws/src/Universal_Robots_ROS_Driver/ur_dashboard_msgs && /home/manel/ur5arm_ws/build/catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/manel/ur5arm_ws/devel/share/ur_dashboard_msgs/msg/SetModeResult.msg -Iur_dashboard_msgs:/home/manel/ur5arm_ws/src/Universal_Robots_ROS_Driver/ur_dashboard_msgs/msg -Iur_dashboard_msgs:/home/manel/ur5arm_ws/devel/share/ur_dashboard_msgs/msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/melodic/share/actionlib_msgs/cmake/../msg -p ur_dashboard_msgs -o /home/manel/ur5arm_ws/devel/include/ur_dashboard_msgs -e /opt/ros/melodic/share/gencpp/cmake/..
 
-/home/mpuig/ur5arm_ws/devel/include/ur_dashboard_msgs/SetModeFeedback.h: /opt/ros/melodic/lib/gencpp/gen_cpp.py
-/home/mpuig/ur5arm_ws/devel/include/ur_dashboard_msgs/SetModeFeedback.h: /home/mpuig/ur5arm_ws/devel/share/ur_dashboard_msgs/msg/SetModeFeedback.msg
-/home/mpuig/ur5arm_ws/devel/include/ur_dashboard_msgs/SetModeFeedback.h: /opt/ros/melodic/share/gencpp/msg.h.template
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/mpuig/ur5arm_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Generating C++ code from ur_dashboard_msgs/SetModeFeedback.msg"
-	cd /home/mpuig/ur5arm_ws/src/Universal_Robots_ROS_Driver/ur_dashboard_msgs && /home/mpuig/ur5arm_ws/build/catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/mpuig/ur5arm_ws/devel/share/ur_dashboard_msgs/msg/SetModeFeedback.msg -Iur_dashboard_msgs:/home/mpuig/ur5arm_ws/src/Universal_Robots_ROS_Driver/ur_dashboard_msgs/msg -Iur_dashboard_msgs:/home/mpuig/ur5arm_ws/devel/share/ur_dashboard_msgs/msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/melodic/share/actionlib_msgs/cmake/../msg -p ur_dashboard_msgs -o /home/mpuig/ur5arm_ws/devel/include/ur_dashboard_msgs -e /opt/ros/melodic/share/gencpp/cmake/..
+/home/manel/ur5arm_ws/devel/include/ur_dashboard_msgs/SafetyMode.h: /opt/ros/melodic/lib/gencpp/gen_cpp.py
+/home/manel/ur5arm_ws/devel/include/ur_dashboard_msgs/SafetyMode.h: /home/manel/ur5arm_ws/src/Universal_Robots_ROS_Driver/ur_dashboard_msgs/msg/SafetyMode.msg
+/home/manel/ur5arm_ws/devel/include/ur_dashboard_msgs/SafetyMode.h: /opt/ros/melodic/share/gencpp/msg.h.template
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/manel/ur5arm_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Generating C++ code from ur_dashboard_msgs/SafetyMode.msg"
+	cd /home/manel/ur5arm_ws/src/Universal_Robots_ROS_Driver/ur_dashboard_msgs && /home/manel/ur5arm_ws/build/catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/manel/ur5arm_ws/src/Universal_Robots_ROS_Driver/ur_dashboard_msgs/msg/SafetyMode.msg -Iur_dashboard_msgs:/home/manel/ur5arm_ws/src/Universal_Robots_ROS_Driver/ur_dashboard_msgs/msg -Iur_dashboard_msgs:/home/manel/ur5arm_ws/devel/share/ur_dashboard_msgs/msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/melodic/share/actionlib_msgs/cmake/../msg -p ur_dashboard_msgs -o /home/manel/ur5arm_ws/devel/include/ur_dashboard_msgs -e /opt/ros/melodic/share/gencpp/cmake/..
 
-/home/mpuig/ur5arm_ws/devel/include/ur_dashboard_msgs/SetModeGoal.h: /opt/ros/melodic/lib/gencpp/gen_cpp.py
-/home/mpuig/ur5arm_ws/devel/include/ur_dashboard_msgs/SetModeGoal.h: /home/mpuig/ur5arm_ws/devel/share/ur_dashboard_msgs/msg/SetModeGoal.msg
-/home/mpuig/ur5arm_ws/devel/include/ur_dashboard_msgs/SetModeGoal.h: /opt/ros/melodic/share/gencpp/msg.h.template
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/mpuig/ur5arm_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Generating C++ code from ur_dashboard_msgs/SetModeGoal.msg"
-	cd /home/mpuig/ur5arm_ws/src/Universal_Robots_ROS_Driver/ur_dashboard_msgs && /home/mpuig/ur5arm_ws/build/catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/mpuig/ur5arm_ws/devel/share/ur_dashboard_msgs/msg/SetModeGoal.msg -Iur_dashboard_msgs:/home/mpuig/ur5arm_ws/src/Universal_Robots_ROS_Driver/ur_dashboard_msgs/msg -Iur_dashboard_msgs:/home/mpuig/ur5arm_ws/devel/share/ur_dashboard_msgs/msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/melodic/share/actionlib_msgs/cmake/../msg -p ur_dashboard_msgs -o /home/mpuig/ur5arm_ws/devel/include/ur_dashboard_msgs -e /opt/ros/melodic/share/gencpp/cmake/..
+/home/manel/ur5arm_ws/devel/include/ur_dashboard_msgs/ProgramState.h: /opt/ros/melodic/lib/gencpp/gen_cpp.py
+/home/manel/ur5arm_ws/devel/include/ur_dashboard_msgs/ProgramState.h: /home/manel/ur5arm_ws/src/Universal_Robots_ROS_Driver/ur_dashboard_msgs/msg/ProgramState.msg
+/home/manel/ur5arm_ws/devel/include/ur_dashboard_msgs/ProgramState.h: /opt/ros/melodic/share/gencpp/msg.h.template
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/manel/ur5arm_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Generating C++ code from ur_dashboard_msgs/ProgramState.msg"
+	cd /home/manel/ur5arm_ws/src/Universal_Robots_ROS_Driver/ur_dashboard_msgs && /home/manel/ur5arm_ws/build/catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/manel/ur5arm_ws/src/Universal_Robots_ROS_Driver/ur_dashboard_msgs/msg/ProgramState.msg -Iur_dashboard_msgs:/home/manel/ur5arm_ws/src/Universal_Robots_ROS_Driver/ur_dashboard_msgs/msg -Iur_dashboard_msgs:/home/manel/ur5arm_ws/devel/share/ur_dashboard_msgs/msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/melodic/share/actionlib_msgs/cmake/../msg -p ur_dashboard_msgs -o /home/manel/ur5arm_ws/devel/include/ur_dashboard_msgs -e /opt/ros/melodic/share/gencpp/cmake/..
 
-/home/mpuig/ur5arm_ws/devel/include/ur_dashboard_msgs/SetModeActionGoal.h: /opt/ros/melodic/lib/gencpp/gen_cpp.py
-/home/mpuig/ur5arm_ws/devel/include/ur_dashboard_msgs/SetModeActionGoal.h: /home/mpuig/ur5arm_ws/devel/share/ur_dashboard_msgs/msg/SetModeActionGoal.msg
-/home/mpuig/ur5arm_ws/devel/include/ur_dashboard_msgs/SetModeActionGoal.h: /opt/ros/melodic/share/actionlib_msgs/msg/GoalID.msg
-/home/mpuig/ur5arm_ws/devel/include/ur_dashboard_msgs/SetModeActionGoal.h: /home/mpuig/ur5arm_ws/devel/share/ur_dashboard_msgs/msg/SetModeGoal.msg
-/home/mpuig/ur5arm_ws/devel/include/ur_dashboard_msgs/SetModeActionGoal.h: /opt/ros/melodic/share/std_msgs/msg/Header.msg
-/home/mpuig/ur5arm_ws/devel/include/ur_dashboard_msgs/SetModeActionGoal.h: /opt/ros/melodic/share/gencpp/msg.h.template
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/mpuig/ur5arm_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Generating C++ code from ur_dashboard_msgs/SetModeActionGoal.msg"
-	cd /home/mpuig/ur5arm_ws/src/Universal_Robots_ROS_Driver/ur_dashboard_msgs && /home/mpuig/ur5arm_ws/build/catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/mpuig/ur5arm_ws/devel/share/ur_dashboard_msgs/msg/SetModeActionGoal.msg -Iur_dashboard_msgs:/home/mpuig/ur5arm_ws/src/Universal_Robots_ROS_Driver/ur_dashboard_msgs/msg -Iur_dashboard_msgs:/home/mpuig/ur5arm_ws/devel/share/ur_dashboard_msgs/msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/melodic/share/actionlib_msgs/cmake/../msg -p ur_dashboard_msgs -o /home/mpuig/ur5arm_ws/devel/include/ur_dashboard_msgs -e /opt/ros/melodic/share/gencpp/cmake/..
+/home/manel/ur5arm_ws/devel/include/ur_dashboard_msgs/SetModeGoal.h: /opt/ros/melodic/lib/gencpp/gen_cpp.py
+/home/manel/ur5arm_ws/devel/include/ur_dashboard_msgs/SetModeGoal.h: /home/manel/ur5arm_ws/devel/share/ur_dashboard_msgs/msg/SetModeGoal.msg
+/home/manel/ur5arm_ws/devel/include/ur_dashboard_msgs/SetModeGoal.h: /opt/ros/melodic/share/gencpp/msg.h.template
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/manel/ur5arm_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Generating C++ code from ur_dashboard_msgs/SetModeGoal.msg"
+	cd /home/manel/ur5arm_ws/src/Universal_Robots_ROS_Driver/ur_dashboard_msgs && /home/manel/ur5arm_ws/build/catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/manel/ur5arm_ws/devel/share/ur_dashboard_msgs/msg/SetModeGoal.msg -Iur_dashboard_msgs:/home/manel/ur5arm_ws/src/Universal_Robots_ROS_Driver/ur_dashboard_msgs/msg -Iur_dashboard_msgs:/home/manel/ur5arm_ws/devel/share/ur_dashboard_msgs/msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/melodic/share/actionlib_msgs/cmake/../msg -p ur_dashboard_msgs -o /home/manel/ur5arm_ws/devel/include/ur_dashboard_msgs -e /opt/ros/melodic/share/gencpp/cmake/..
 
-/home/mpuig/ur5arm_ws/devel/include/ur_dashboard_msgs/SetModeAction.h: /opt/ros/melodic/lib/gencpp/gen_cpp.py
-/home/mpuig/ur5arm_ws/devel/include/ur_dashboard_msgs/SetModeAction.h: /home/mpuig/ur5arm_ws/devel/share/ur_dashboard_msgs/msg/SetModeAction.msg
-/home/mpuig/ur5arm_ws/devel/include/ur_dashboard_msgs/SetModeAction.h: /opt/ros/melodic/share/actionlib_msgs/msg/GoalID.msg
-/home/mpuig/ur5arm_ws/devel/include/ur_dashboard_msgs/SetModeAction.h: /home/mpuig/ur5arm_ws/devel/share/ur_dashboard_msgs/msg/SetModeActionGoal.msg
-/home/mpuig/ur5arm_ws/devel/include/ur_dashboard_msgs/SetModeAction.h: /home/mpuig/ur5arm_ws/devel/share/ur_dashboard_msgs/msg/SetModeResult.msg
-/home/mpuig/ur5arm_ws/devel/include/ur_dashboard_msgs/SetModeAction.h: /opt/ros/melodic/share/actionlib_msgs/msg/GoalStatus.msg
-/home/mpuig/ur5arm_ws/devel/include/ur_dashboard_msgs/SetModeAction.h: /home/mpuig/ur5arm_ws/devel/share/ur_dashboard_msgs/msg/SetModeGoal.msg
-/home/mpuig/ur5arm_ws/devel/include/ur_dashboard_msgs/SetModeAction.h: /home/mpuig/ur5arm_ws/devel/share/ur_dashboard_msgs/msg/SetModeFeedback.msg
-/home/mpuig/ur5arm_ws/devel/include/ur_dashboard_msgs/SetModeAction.h: /home/mpuig/ur5arm_ws/devel/share/ur_dashboard_msgs/msg/SetModeActionResult.msg
-/home/mpuig/ur5arm_ws/devel/include/ur_dashboard_msgs/SetModeAction.h: /opt/ros/melodic/share/std_msgs/msg/Header.msg
-/home/mpuig/ur5arm_ws/devel/include/ur_dashboard_msgs/SetModeAction.h: /home/mpuig/ur5arm_ws/devel/share/ur_dashboard_msgs/msg/SetModeActionFeedback.msg
-/home/mpuig/ur5arm_ws/devel/include/ur_dashboard_msgs/SetModeAction.h: /opt/ros/melodic/share/gencpp/msg.h.template
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/mpuig/ur5arm_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Generating C++ code from ur_dashboard_msgs/SetModeAction.msg"
-	cd /home/mpuig/ur5arm_ws/src/Universal_Robots_ROS_Driver/ur_dashboard_msgs && /home/mpuig/ur5arm_ws/build/catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/mpuig/ur5arm_ws/devel/share/ur_dashboard_msgs/msg/SetModeAction.msg -Iur_dashboard_msgs:/home/mpuig/ur5arm_ws/src/Universal_Robots_ROS_Driver/ur_dashboard_msgs/msg -Iur_dashboard_msgs:/home/mpuig/ur5arm_ws/devel/share/ur_dashboard_msgs/msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/melodic/share/actionlib_msgs/cmake/../msg -p ur_dashboard_msgs -o /home/mpuig/ur5arm_ws/devel/include/ur_dashboard_msgs -e /opt/ros/melodic/share/gencpp/cmake/..
+/home/manel/ur5arm_ws/devel/include/ur_dashboard_msgs/SetModeAction.h: /opt/ros/melodic/lib/gencpp/gen_cpp.py
+/home/manel/ur5arm_ws/devel/include/ur_dashboard_msgs/SetModeAction.h: /home/manel/ur5arm_ws/devel/share/ur_dashboard_msgs/msg/SetModeAction.msg
+/home/manel/ur5arm_ws/devel/include/ur_dashboard_msgs/SetModeAction.h: /opt/ros/melodic/share/actionlib_msgs/msg/GoalID.msg
+/home/manel/ur5arm_ws/devel/include/ur_dashboard_msgs/SetModeAction.h: /home/manel/ur5arm_ws/devel/share/ur_dashboard_msgs/msg/SetModeActionGoal.msg
+/home/manel/ur5arm_ws/devel/include/ur_dashboard_msgs/SetModeAction.h: /opt/ros/melodic/share/actionlib_msgs/msg/GoalStatus.msg
+/home/manel/ur5arm_ws/devel/include/ur_dashboard_msgs/SetModeAction.h: /home/manel/ur5arm_ws/devel/share/ur_dashboard_msgs/msg/SetModeActionFeedback.msg
+/home/manel/ur5arm_ws/devel/include/ur_dashboard_msgs/SetModeAction.h: /home/manel/ur5arm_ws/devel/share/ur_dashboard_msgs/msg/SetModeResult.msg
+/home/manel/ur5arm_ws/devel/include/ur_dashboard_msgs/SetModeAction.h: /home/manel/ur5arm_ws/devel/share/ur_dashboard_msgs/msg/SetModeFeedback.msg
+/home/manel/ur5arm_ws/devel/include/ur_dashboard_msgs/SetModeAction.h: /opt/ros/melodic/share/std_msgs/msg/Header.msg
+/home/manel/ur5arm_ws/devel/include/ur_dashboard_msgs/SetModeAction.h: /home/manel/ur5arm_ws/devel/share/ur_dashboard_msgs/msg/SetModeGoal.msg
+/home/manel/ur5arm_ws/devel/include/ur_dashboard_msgs/SetModeAction.h: /home/manel/ur5arm_ws/devel/share/ur_dashboard_msgs/msg/SetModeActionResult.msg
+/home/manel/ur5arm_ws/devel/include/ur_dashboard_msgs/SetModeAction.h: /opt/ros/melodic/share/gencpp/msg.h.template
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/manel/ur5arm_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Generating C++ code from ur_dashboard_msgs/SetModeAction.msg"
+	cd /home/manel/ur5arm_ws/src/Universal_Robots_ROS_Driver/ur_dashboard_msgs && /home/manel/ur5arm_ws/build/catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/manel/ur5arm_ws/devel/share/ur_dashboard_msgs/msg/SetModeAction.msg -Iur_dashboard_msgs:/home/manel/ur5arm_ws/src/Universal_Robots_ROS_Driver/ur_dashboard_msgs/msg -Iur_dashboard_msgs:/home/manel/ur5arm_ws/devel/share/ur_dashboard_msgs/msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/melodic/share/actionlib_msgs/cmake/../msg -p ur_dashboard_msgs -o /home/manel/ur5arm_ws/devel/include/ur_dashboard_msgs -e /opt/ros/melodic/share/gencpp/cmake/..
 
-/home/mpuig/ur5arm_ws/devel/include/ur_dashboard_msgs/SafetyMode.h: /opt/ros/melodic/lib/gencpp/gen_cpp.py
-/home/mpuig/ur5arm_ws/devel/include/ur_dashboard_msgs/SafetyMode.h: /home/mpuig/ur5arm_ws/src/Universal_Robots_ROS_Driver/ur_dashboard_msgs/msg/SafetyMode.msg
-/home/mpuig/ur5arm_ws/devel/include/ur_dashboard_msgs/SafetyMode.h: /opt/ros/melodic/share/gencpp/msg.h.template
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/mpuig/ur5arm_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Generating C++ code from ur_dashboard_msgs/SafetyMode.msg"
-	cd /home/mpuig/ur5arm_ws/src/Universal_Robots_ROS_Driver/ur_dashboard_msgs && /home/mpuig/ur5arm_ws/build/catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/mpuig/ur5arm_ws/src/Universal_Robots_ROS_Driver/ur_dashboard_msgs/msg/SafetyMode.msg -Iur_dashboard_msgs:/home/mpuig/ur5arm_ws/src/Universal_Robots_ROS_Driver/ur_dashboard_msgs/msg -Iur_dashboard_msgs:/home/mpuig/ur5arm_ws/devel/share/ur_dashboard_msgs/msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/melodic/share/actionlib_msgs/cmake/../msg -p ur_dashboard_msgs -o /home/mpuig/ur5arm_ws/devel/include/ur_dashboard_msgs -e /opt/ros/melodic/share/gencpp/cmake/..
+/home/manel/ur5arm_ws/devel/include/ur_dashboard_msgs/SetModeActionGoal.h: /opt/ros/melodic/lib/gencpp/gen_cpp.py
+/home/manel/ur5arm_ws/devel/include/ur_dashboard_msgs/SetModeActionGoal.h: /home/manel/ur5arm_ws/devel/share/ur_dashboard_msgs/msg/SetModeActionGoal.msg
+/home/manel/ur5arm_ws/devel/include/ur_dashboard_msgs/SetModeActionGoal.h: /opt/ros/melodic/share/actionlib_msgs/msg/GoalID.msg
+/home/manel/ur5arm_ws/devel/include/ur_dashboard_msgs/SetModeActionGoal.h: /home/manel/ur5arm_ws/devel/share/ur_dashboard_msgs/msg/SetModeGoal.msg
+/home/manel/ur5arm_ws/devel/include/ur_dashboard_msgs/SetModeActionGoal.h: /opt/ros/melodic/share/std_msgs/msg/Header.msg
+/home/manel/ur5arm_ws/devel/include/ur_dashboard_msgs/SetModeActionGoal.h: /opt/ros/melodic/share/gencpp/msg.h.template
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/manel/ur5arm_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Generating C++ code from ur_dashboard_msgs/SetModeActionGoal.msg"
+	cd /home/manel/ur5arm_ws/src/Universal_Robots_ROS_Driver/ur_dashboard_msgs && /home/manel/ur5arm_ws/build/catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/manel/ur5arm_ws/devel/share/ur_dashboard_msgs/msg/SetModeActionGoal.msg -Iur_dashboard_msgs:/home/manel/ur5arm_ws/src/Universal_Robots_ROS_Driver/ur_dashboard_msgs/msg -Iur_dashboard_msgs:/home/manel/ur5arm_ws/devel/share/ur_dashboard_msgs/msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/melodic/share/actionlib_msgs/cmake/../msg -p ur_dashboard_msgs -o /home/manel/ur5arm_ws/devel/include/ur_dashboard_msgs -e /opt/ros/melodic/share/gencpp/cmake/..
 
-/home/mpuig/ur5arm_ws/devel/include/ur_dashboard_msgs/SetModeActionResult.h: /opt/ros/melodic/lib/gencpp/gen_cpp.py
-/home/mpuig/ur5arm_ws/devel/include/ur_dashboard_msgs/SetModeActionResult.h: /home/mpuig/ur5arm_ws/devel/share/ur_dashboard_msgs/msg/SetModeActionResult.msg
-/home/mpuig/ur5arm_ws/devel/include/ur_dashboard_msgs/SetModeActionResult.h: /opt/ros/melodic/share/actionlib_msgs/msg/GoalID.msg
-/home/mpuig/ur5arm_ws/devel/include/ur_dashboard_msgs/SetModeActionResult.h: /opt/ros/melodic/share/actionlib_msgs/msg/GoalStatus.msg
-/home/mpuig/ur5arm_ws/devel/include/ur_dashboard_msgs/SetModeActionResult.h: /home/mpuig/ur5arm_ws/devel/share/ur_dashboard_msgs/msg/SetModeResult.msg
-/home/mpuig/ur5arm_ws/devel/include/ur_dashboard_msgs/SetModeActionResult.h: /opt/ros/melodic/share/std_msgs/msg/Header.msg
-/home/mpuig/ur5arm_ws/devel/include/ur_dashboard_msgs/SetModeActionResult.h: /opt/ros/melodic/share/gencpp/msg.h.template
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/mpuig/ur5arm_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Generating C++ code from ur_dashboard_msgs/SetModeActionResult.msg"
-	cd /home/mpuig/ur5arm_ws/src/Universal_Robots_ROS_Driver/ur_dashboard_msgs && /home/mpuig/ur5arm_ws/build/catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/mpuig/ur5arm_ws/devel/share/ur_dashboard_msgs/msg/SetModeActionResult.msg -Iur_dashboard_msgs:/home/mpuig/ur5arm_ws/src/Universal_Robots_ROS_Driver/ur_dashboard_msgs/msg -Iur_dashboard_msgs:/home/mpuig/ur5arm_ws/devel/share/ur_dashboard_msgs/msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/melodic/share/actionlib_msgs/cmake/../msg -p ur_dashboard_msgs -o /home/mpuig/ur5arm_ws/devel/include/ur_dashboard_msgs -e /opt/ros/melodic/share/gencpp/cmake/..
+/home/manel/ur5arm_ws/devel/include/ur_dashboard_msgs/SetModeActionFeedback.h: /opt/ros/melodic/lib/gencpp/gen_cpp.py
+/home/manel/ur5arm_ws/devel/include/ur_dashboard_msgs/SetModeActionFeedback.h: /home/manel/ur5arm_ws/devel/share/ur_dashboard_msgs/msg/SetModeActionFeedback.msg
+/home/manel/ur5arm_ws/devel/include/ur_dashboard_msgs/SetModeActionFeedback.h: /opt/ros/melodic/share/actionlib_msgs/msg/GoalID.msg
+/home/manel/ur5arm_ws/devel/include/ur_dashboard_msgs/SetModeActionFeedback.h: /opt/ros/melodic/share/actionlib_msgs/msg/GoalStatus.msg
+/home/manel/ur5arm_ws/devel/include/ur_dashboard_msgs/SetModeActionFeedback.h: /home/manel/ur5arm_ws/devel/share/ur_dashboard_msgs/msg/SetModeFeedback.msg
+/home/manel/ur5arm_ws/devel/include/ur_dashboard_msgs/SetModeActionFeedback.h: /opt/ros/melodic/share/std_msgs/msg/Header.msg
+/home/manel/ur5arm_ws/devel/include/ur_dashboard_msgs/SetModeActionFeedback.h: /opt/ros/melodic/share/gencpp/msg.h.template
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/manel/ur5arm_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Generating C++ code from ur_dashboard_msgs/SetModeActionFeedback.msg"
+	cd /home/manel/ur5arm_ws/src/Universal_Robots_ROS_Driver/ur_dashboard_msgs && /home/manel/ur5arm_ws/build/catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/manel/ur5arm_ws/devel/share/ur_dashboard_msgs/msg/SetModeActionFeedback.msg -Iur_dashboard_msgs:/home/manel/ur5arm_ws/src/Universal_Robots_ROS_Driver/ur_dashboard_msgs/msg -Iur_dashboard_msgs:/home/manel/ur5arm_ws/devel/share/ur_dashboard_msgs/msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/melodic/share/actionlib_msgs/cmake/../msg -p ur_dashboard_msgs -o /home/manel/ur5arm_ws/devel/include/ur_dashboard_msgs -e /opt/ros/melodic/share/gencpp/cmake/..
 
-/home/mpuig/ur5arm_ws/devel/include/ur_dashboard_msgs/GetLoadedProgram.h: /opt/ros/melodic/lib/gencpp/gen_cpp.py
-/home/mpuig/ur5arm_ws/devel/include/ur_dashboard_msgs/GetLoadedProgram.h: /home/mpuig/ur5arm_ws/src/Universal_Robots_ROS_Driver/ur_dashboard_msgs/srv/GetLoadedProgram.srv
-/home/mpuig/ur5arm_ws/devel/include/ur_dashboard_msgs/GetLoadedProgram.h: /opt/ros/melodic/share/gencpp/msg.h.template
-/home/mpuig/ur5arm_ws/devel/include/ur_dashboard_msgs/GetLoadedProgram.h: /opt/ros/melodic/share/gencpp/srv.h.template
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/mpuig/ur5arm_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Generating C++ code from ur_dashboard_msgs/GetLoadedProgram.srv"
-	cd /home/mpuig/ur5arm_ws/src/Universal_Robots_ROS_Driver/ur_dashboard_msgs && /home/mpuig/ur5arm_ws/build/catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/mpuig/ur5arm_ws/src/Universal_Robots_ROS_Driver/ur_dashboard_msgs/srv/GetLoadedProgram.srv -Iur_dashboard_msgs:/home/mpuig/ur5arm_ws/src/Universal_Robots_ROS_Driver/ur_dashboard_msgs/msg -Iur_dashboard_msgs:/home/mpuig/ur5arm_ws/devel/share/ur_dashboard_msgs/msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/melodic/share/actionlib_msgs/cmake/../msg -p ur_dashboard_msgs -o /home/mpuig/ur5arm_ws/devel/include/ur_dashboard_msgs -e /opt/ros/melodic/share/gencpp/cmake/..
+/home/manel/ur5arm_ws/devel/include/ur_dashboard_msgs/IsProgramRunning.h: /opt/ros/melodic/lib/gencpp/gen_cpp.py
+/home/manel/ur5arm_ws/devel/include/ur_dashboard_msgs/IsProgramRunning.h: /home/manel/ur5arm_ws/src/Universal_Robots_ROS_Driver/ur_dashboard_msgs/srv/IsProgramRunning.srv
+/home/manel/ur5arm_ws/devel/include/ur_dashboard_msgs/IsProgramRunning.h: /opt/ros/melodic/share/gencpp/msg.h.template
+/home/manel/ur5arm_ws/devel/include/ur_dashboard_msgs/IsProgramRunning.h: /opt/ros/melodic/share/gencpp/srv.h.template
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/manel/ur5arm_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Generating C++ code from ur_dashboard_msgs/IsProgramRunning.srv"
+	cd /home/manel/ur5arm_ws/src/Universal_Robots_ROS_Driver/ur_dashboard_msgs && /home/manel/ur5arm_ws/build/catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/manel/ur5arm_ws/src/Universal_Robots_ROS_Driver/ur_dashboard_msgs/srv/IsProgramRunning.srv -Iur_dashboard_msgs:/home/manel/ur5arm_ws/src/Universal_Robots_ROS_Driver/ur_dashboard_msgs/msg -Iur_dashboard_msgs:/home/manel/ur5arm_ws/devel/share/ur_dashboard_msgs/msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/melodic/share/actionlib_msgs/cmake/../msg -p ur_dashboard_msgs -o /home/manel/ur5arm_ws/devel/include/ur_dashboard_msgs -e /opt/ros/melodic/share/gencpp/cmake/..
 
-/home/mpuig/ur5arm_ws/devel/include/ur_dashboard_msgs/IsProgramSaved.h: /opt/ros/melodic/lib/gencpp/gen_cpp.py
-/home/mpuig/ur5arm_ws/devel/include/ur_dashboard_msgs/IsProgramSaved.h: /home/mpuig/ur5arm_ws/src/Universal_Robots_ROS_Driver/ur_dashboard_msgs/srv/IsProgramSaved.srv
-/home/mpuig/ur5arm_ws/devel/include/ur_dashboard_msgs/IsProgramSaved.h: /opt/ros/melodic/share/gencpp/msg.h.template
-/home/mpuig/ur5arm_ws/devel/include/ur_dashboard_msgs/IsProgramSaved.h: /opt/ros/melodic/share/gencpp/srv.h.template
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/mpuig/ur5arm_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Generating C++ code from ur_dashboard_msgs/IsProgramSaved.srv"
-	cd /home/mpuig/ur5arm_ws/src/Universal_Robots_ROS_Driver/ur_dashboard_msgs && /home/mpuig/ur5arm_ws/build/catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/mpuig/ur5arm_ws/src/Universal_Robots_ROS_Driver/ur_dashboard_msgs/srv/IsProgramSaved.srv -Iur_dashboard_msgs:/home/mpuig/ur5arm_ws/src/Universal_Robots_ROS_Driver/ur_dashboard_msgs/msg -Iur_dashboard_msgs:/home/mpuig/ur5arm_ws/devel/share/ur_dashboard_msgs/msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/melodic/share/actionlib_msgs/cmake/../msg -p ur_dashboard_msgs -o /home/mpuig/ur5arm_ws/devel/include/ur_dashboard_msgs -e /opt/ros/melodic/share/gencpp/cmake/..
+/home/manel/ur5arm_ws/devel/include/ur_dashboard_msgs/GetProgramState.h: /opt/ros/melodic/lib/gencpp/gen_cpp.py
+/home/manel/ur5arm_ws/devel/include/ur_dashboard_msgs/GetProgramState.h: /home/manel/ur5arm_ws/src/Universal_Robots_ROS_Driver/ur_dashboard_msgs/srv/GetProgramState.srv
+/home/manel/ur5arm_ws/devel/include/ur_dashboard_msgs/GetProgramState.h: /home/manel/ur5arm_ws/src/Universal_Robots_ROS_Driver/ur_dashboard_msgs/msg/ProgramState.msg
+/home/manel/ur5arm_ws/devel/include/ur_dashboard_msgs/GetProgramState.h: /opt/ros/melodic/share/gencpp/msg.h.template
+/home/manel/ur5arm_ws/devel/include/ur_dashboard_msgs/GetProgramState.h: /opt/ros/melodic/share/gencpp/srv.h.template
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/manel/ur5arm_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Generating C++ code from ur_dashboard_msgs/GetProgramState.srv"
+	cd /home/manel/ur5arm_ws/src/Universal_Robots_ROS_Driver/ur_dashboard_msgs && /home/manel/ur5arm_ws/build/catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/manel/ur5arm_ws/src/Universal_Robots_ROS_Driver/ur_dashboard_msgs/srv/GetProgramState.srv -Iur_dashboard_msgs:/home/manel/ur5arm_ws/src/Universal_Robots_ROS_Driver/ur_dashboard_msgs/msg -Iur_dashboard_msgs:/home/manel/ur5arm_ws/devel/share/ur_dashboard_msgs/msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/melodic/share/actionlib_msgs/cmake/../msg -p ur_dashboard_msgs -o /home/manel/ur5arm_ws/devel/include/ur_dashboard_msgs -e /opt/ros/melodic/share/gencpp/cmake/..
 
-/home/mpuig/ur5arm_ws/devel/include/ur_dashboard_msgs/RawRequest.h: /opt/ros/melodic/lib/gencpp/gen_cpp.py
-/home/mpuig/ur5arm_ws/devel/include/ur_dashboard_msgs/RawRequest.h: /home/mpuig/ur5arm_ws/src/Universal_Robots_ROS_Driver/ur_dashboard_msgs/srv/RawRequest.srv
-/home/mpuig/ur5arm_ws/devel/include/ur_dashboard_msgs/RawRequest.h: /opt/ros/melodic/share/gencpp/msg.h.template
-/home/mpuig/ur5arm_ws/devel/include/ur_dashboard_msgs/RawRequest.h: /opt/ros/melodic/share/gencpp/srv.h.template
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/mpuig/ur5arm_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Generating C++ code from ur_dashboard_msgs/RawRequest.srv"
-	cd /home/mpuig/ur5arm_ws/src/Universal_Robots_ROS_Driver/ur_dashboard_msgs && /home/mpuig/ur5arm_ws/build/catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/mpuig/ur5arm_ws/src/Universal_Robots_ROS_Driver/ur_dashboard_msgs/srv/RawRequest.srv -Iur_dashboard_msgs:/home/mpuig/ur5arm_ws/src/Universal_Robots_ROS_Driver/ur_dashboard_msgs/msg -Iur_dashboard_msgs:/home/mpuig/ur5arm_ws/devel/share/ur_dashboard_msgs/msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/melodic/share/actionlib_msgs/cmake/../msg -p ur_dashboard_msgs -o /home/mpuig/ur5arm_ws/devel/include/ur_dashboard_msgs -e /opt/ros/melodic/share/gencpp/cmake/..
+/home/manel/ur5arm_ws/devel/include/ur_dashboard_msgs/IsProgramSaved.h: /opt/ros/melodic/lib/gencpp/gen_cpp.py
+/home/manel/ur5arm_ws/devel/include/ur_dashboard_msgs/IsProgramSaved.h: /home/manel/ur5arm_ws/src/Universal_Robots_ROS_Driver/ur_dashboard_msgs/srv/IsProgramSaved.srv
+/home/manel/ur5arm_ws/devel/include/ur_dashboard_msgs/IsProgramSaved.h: /opt/ros/melodic/share/gencpp/msg.h.template
+/home/manel/ur5arm_ws/devel/include/ur_dashboard_msgs/IsProgramSaved.h: /opt/ros/melodic/share/gencpp/srv.h.template
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/manel/ur5arm_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Generating C++ code from ur_dashboard_msgs/IsProgramSaved.srv"
+	cd /home/manel/ur5arm_ws/src/Universal_Robots_ROS_Driver/ur_dashboard_msgs && /home/manel/ur5arm_ws/build/catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/manel/ur5arm_ws/src/Universal_Robots_ROS_Driver/ur_dashboard_msgs/srv/IsProgramSaved.srv -Iur_dashboard_msgs:/home/manel/ur5arm_ws/src/Universal_Robots_ROS_Driver/ur_dashboard_msgs/msg -Iur_dashboard_msgs:/home/manel/ur5arm_ws/devel/share/ur_dashboard_msgs/msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/melodic/share/actionlib_msgs/cmake/../msg -p ur_dashboard_msgs -o /home/manel/ur5arm_ws/devel/include/ur_dashboard_msgs -e /opt/ros/melodic/share/gencpp/cmake/..
 
-/home/mpuig/ur5arm_ws/devel/include/ur_dashboard_msgs/GetSafetyMode.h: /opt/ros/melodic/lib/gencpp/gen_cpp.py
-/home/mpuig/ur5arm_ws/devel/include/ur_dashboard_msgs/GetSafetyMode.h: /home/mpuig/ur5arm_ws/src/Universal_Robots_ROS_Driver/ur_dashboard_msgs/srv/GetSafetyMode.srv
-/home/mpuig/ur5arm_ws/devel/include/ur_dashboard_msgs/GetSafetyMode.h: /home/mpuig/ur5arm_ws/src/Universal_Robots_ROS_Driver/ur_dashboard_msgs/msg/SafetyMode.msg
-/home/mpuig/ur5arm_ws/devel/include/ur_dashboard_msgs/GetSafetyMode.h: /opt/ros/melodic/share/gencpp/msg.h.template
-/home/mpuig/ur5arm_ws/devel/include/ur_dashboard_msgs/GetSafetyMode.h: /opt/ros/melodic/share/gencpp/srv.h.template
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/mpuig/ur5arm_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Generating C++ code from ur_dashboard_msgs/GetSafetyMode.srv"
-	cd /home/mpuig/ur5arm_ws/src/Universal_Robots_ROS_Driver/ur_dashboard_msgs && /home/mpuig/ur5arm_ws/build/catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/mpuig/ur5arm_ws/src/Universal_Robots_ROS_Driver/ur_dashboard_msgs/srv/GetSafetyMode.srv -Iur_dashboard_msgs:/home/mpuig/ur5arm_ws/src/Universal_Robots_ROS_Driver/ur_dashboard_msgs/msg -Iur_dashboard_msgs:/home/mpuig/ur5arm_ws/devel/share/ur_dashboard_msgs/msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/melodic/share/actionlib_msgs/cmake/../msg -p ur_dashboard_msgs -o /home/mpuig/ur5arm_ws/devel/include/ur_dashboard_msgs -e /opt/ros/melodic/share/gencpp/cmake/..
+/home/manel/ur5arm_ws/devel/include/ur_dashboard_msgs/GetRobotMode.h: /opt/ros/melodic/lib/gencpp/gen_cpp.py
+/home/manel/ur5arm_ws/devel/include/ur_dashboard_msgs/GetRobotMode.h: /home/manel/ur5arm_ws/src/Universal_Robots_ROS_Driver/ur_dashboard_msgs/srv/GetRobotMode.srv
+/home/manel/ur5arm_ws/devel/include/ur_dashboard_msgs/GetRobotMode.h: /home/manel/ur5arm_ws/src/Universal_Robots_ROS_Driver/ur_dashboard_msgs/msg/RobotMode.msg
+/home/manel/ur5arm_ws/devel/include/ur_dashboard_msgs/GetRobotMode.h: /opt/ros/melodic/share/gencpp/msg.h.template
+/home/manel/ur5arm_ws/devel/include/ur_dashboard_msgs/GetRobotMode.h: /opt/ros/melodic/share/gencpp/srv.h.template
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/manel/ur5arm_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Generating C++ code from ur_dashboard_msgs/GetRobotMode.srv"
+	cd /home/manel/ur5arm_ws/src/Universal_Robots_ROS_Driver/ur_dashboard_msgs && /home/manel/ur5arm_ws/build/catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/manel/ur5arm_ws/src/Universal_Robots_ROS_Driver/ur_dashboard_msgs/srv/GetRobotMode.srv -Iur_dashboard_msgs:/home/manel/ur5arm_ws/src/Universal_Robots_ROS_Driver/ur_dashboard_msgs/msg -Iur_dashboard_msgs:/home/manel/ur5arm_ws/devel/share/ur_dashboard_msgs/msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/melodic/share/actionlib_msgs/cmake/../msg -p ur_dashboard_msgs -o /home/manel/ur5arm_ws/devel/include/ur_dashboard_msgs -e /opt/ros/melodic/share/gencpp/cmake/..
 
-/home/mpuig/ur5arm_ws/devel/include/ur_dashboard_msgs/IsProgramRunning.h: /opt/ros/melodic/lib/gencpp/gen_cpp.py
-/home/mpuig/ur5arm_ws/devel/include/ur_dashboard_msgs/IsProgramRunning.h: /home/mpuig/ur5arm_ws/src/Universal_Robots_ROS_Driver/ur_dashboard_msgs/srv/IsProgramRunning.srv
-/home/mpuig/ur5arm_ws/devel/include/ur_dashboard_msgs/IsProgramRunning.h: /opt/ros/melodic/share/gencpp/msg.h.template
-/home/mpuig/ur5arm_ws/devel/include/ur_dashboard_msgs/IsProgramRunning.h: /opt/ros/melodic/share/gencpp/srv.h.template
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/mpuig/ur5arm_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Generating C++ code from ur_dashboard_msgs/IsProgramRunning.srv"
-	cd /home/mpuig/ur5arm_ws/src/Universal_Robots_ROS_Driver/ur_dashboard_msgs && /home/mpuig/ur5arm_ws/build/catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/mpuig/ur5arm_ws/src/Universal_Robots_ROS_Driver/ur_dashboard_msgs/srv/IsProgramRunning.srv -Iur_dashboard_msgs:/home/mpuig/ur5arm_ws/src/Universal_Robots_ROS_Driver/ur_dashboard_msgs/msg -Iur_dashboard_msgs:/home/mpuig/ur5arm_ws/devel/share/ur_dashboard_msgs/msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/melodic/share/actionlib_msgs/cmake/../msg -p ur_dashboard_msgs -o /home/mpuig/ur5arm_ws/devel/include/ur_dashboard_msgs -e /opt/ros/melodic/share/gencpp/cmake/..
+/home/manel/ur5arm_ws/devel/include/ur_dashboard_msgs/Popup.h: /opt/ros/melodic/lib/gencpp/gen_cpp.py
+/home/manel/ur5arm_ws/devel/include/ur_dashboard_msgs/Popup.h: /home/manel/ur5arm_ws/src/Universal_Robots_ROS_Driver/ur_dashboard_msgs/srv/Popup.srv
+/home/manel/ur5arm_ws/devel/include/ur_dashboard_msgs/Popup.h: /opt/ros/melodic/share/gencpp/msg.h.template
+/home/manel/ur5arm_ws/devel/include/ur_dashboard_msgs/Popup.h: /opt/ros/melodic/share/gencpp/srv.h.template
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/manel/ur5arm_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Generating C++ code from ur_dashboard_msgs/Popup.srv"
+	cd /home/manel/ur5arm_ws/src/Universal_Robots_ROS_Driver/ur_dashboard_msgs && /home/manel/ur5arm_ws/build/catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/manel/ur5arm_ws/src/Universal_Robots_ROS_Driver/ur_dashboard_msgs/srv/Popup.srv -Iur_dashboard_msgs:/home/manel/ur5arm_ws/src/Universal_Robots_ROS_Driver/ur_dashboard_msgs/msg -Iur_dashboard_msgs:/home/manel/ur5arm_ws/devel/share/ur_dashboard_msgs/msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/melodic/share/actionlib_msgs/cmake/../msg -p ur_dashboard_msgs -o /home/manel/ur5arm_ws/devel/include/ur_dashboard_msgs -e /opt/ros/melodic/share/gencpp/cmake/..
 
-/home/mpuig/ur5arm_ws/devel/include/ur_dashboard_msgs/GetProgramState.h: /opt/ros/melodic/lib/gencpp/gen_cpp.py
-/home/mpuig/ur5arm_ws/devel/include/ur_dashboard_msgs/GetProgramState.h: /home/mpuig/ur5arm_ws/src/Universal_Robots_ROS_Driver/ur_dashboard_msgs/srv/GetProgramState.srv
-/home/mpuig/ur5arm_ws/devel/include/ur_dashboard_msgs/GetProgramState.h: /home/mpuig/ur5arm_ws/src/Universal_Robots_ROS_Driver/ur_dashboard_msgs/msg/ProgramState.msg
-/home/mpuig/ur5arm_ws/devel/include/ur_dashboard_msgs/GetProgramState.h: /opt/ros/melodic/share/gencpp/msg.h.template
-/home/mpuig/ur5arm_ws/devel/include/ur_dashboard_msgs/GetProgramState.h: /opt/ros/melodic/share/gencpp/srv.h.template
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/mpuig/ur5arm_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Generating C++ code from ur_dashboard_msgs/GetProgramState.srv"
-	cd /home/mpuig/ur5arm_ws/src/Universal_Robots_ROS_Driver/ur_dashboard_msgs && /home/mpuig/ur5arm_ws/build/catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/mpuig/ur5arm_ws/src/Universal_Robots_ROS_Driver/ur_dashboard_msgs/srv/GetProgramState.srv -Iur_dashboard_msgs:/home/mpuig/ur5arm_ws/src/Universal_Robots_ROS_Driver/ur_dashboard_msgs/msg -Iur_dashboard_msgs:/home/mpuig/ur5arm_ws/devel/share/ur_dashboard_msgs/msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/melodic/share/actionlib_msgs/cmake/../msg -p ur_dashboard_msgs -o /home/mpuig/ur5arm_ws/devel/include/ur_dashboard_msgs -e /opt/ros/melodic/share/gencpp/cmake/..
+/home/manel/ur5arm_ws/devel/include/ur_dashboard_msgs/GetLoadedProgram.h: /opt/ros/melodic/lib/gencpp/gen_cpp.py
+/home/manel/ur5arm_ws/devel/include/ur_dashboard_msgs/GetLoadedProgram.h: /home/manel/ur5arm_ws/src/Universal_Robots_ROS_Driver/ur_dashboard_msgs/srv/GetLoadedProgram.srv
+/home/manel/ur5arm_ws/devel/include/ur_dashboard_msgs/GetLoadedProgram.h: /opt/ros/melodic/share/gencpp/msg.h.template
+/home/manel/ur5arm_ws/devel/include/ur_dashboard_msgs/GetLoadedProgram.h: /opt/ros/melodic/share/gencpp/srv.h.template
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/manel/ur5arm_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Generating C++ code from ur_dashboard_msgs/GetLoadedProgram.srv"
+	cd /home/manel/ur5arm_ws/src/Universal_Robots_ROS_Driver/ur_dashboard_msgs && /home/manel/ur5arm_ws/build/catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/manel/ur5arm_ws/src/Universal_Robots_ROS_Driver/ur_dashboard_msgs/srv/GetLoadedProgram.srv -Iur_dashboard_msgs:/home/manel/ur5arm_ws/src/Universal_Robots_ROS_Driver/ur_dashboard_msgs/msg -Iur_dashboard_msgs:/home/manel/ur5arm_ws/devel/share/ur_dashboard_msgs/msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/melodic/share/actionlib_msgs/cmake/../msg -p ur_dashboard_msgs -o /home/manel/ur5arm_ws/devel/include/ur_dashboard_msgs -e /opt/ros/melodic/share/gencpp/cmake/..
 
-/home/mpuig/ur5arm_ws/devel/include/ur_dashboard_msgs/Popup.h: /opt/ros/melodic/lib/gencpp/gen_cpp.py
-/home/mpuig/ur5arm_ws/devel/include/ur_dashboard_msgs/Popup.h: /home/mpuig/ur5arm_ws/src/Universal_Robots_ROS_Driver/ur_dashboard_msgs/srv/Popup.srv
-/home/mpuig/ur5arm_ws/devel/include/ur_dashboard_msgs/Popup.h: /opt/ros/melodic/share/gencpp/msg.h.template
-/home/mpuig/ur5arm_ws/devel/include/ur_dashboard_msgs/Popup.h: /opt/ros/melodic/share/gencpp/srv.h.template
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/mpuig/ur5arm_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Generating C++ code from ur_dashboard_msgs/Popup.srv"
-	cd /home/mpuig/ur5arm_ws/src/Universal_Robots_ROS_Driver/ur_dashboard_msgs && /home/mpuig/ur5arm_ws/build/catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/mpuig/ur5arm_ws/src/Universal_Robots_ROS_Driver/ur_dashboard_msgs/srv/Popup.srv -Iur_dashboard_msgs:/home/mpuig/ur5arm_ws/src/Universal_Robots_ROS_Driver/ur_dashboard_msgs/msg -Iur_dashboard_msgs:/home/mpuig/ur5arm_ws/devel/share/ur_dashboard_msgs/msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/melodic/share/actionlib_msgs/cmake/../msg -p ur_dashboard_msgs -o /home/mpuig/ur5arm_ws/devel/include/ur_dashboard_msgs -e /opt/ros/melodic/share/gencpp/cmake/..
+/home/manel/ur5arm_ws/devel/include/ur_dashboard_msgs/RawRequest.h: /opt/ros/melodic/lib/gencpp/gen_cpp.py
+/home/manel/ur5arm_ws/devel/include/ur_dashboard_msgs/RawRequest.h: /home/manel/ur5arm_ws/src/Universal_Robots_ROS_Driver/ur_dashboard_msgs/srv/RawRequest.srv
+/home/manel/ur5arm_ws/devel/include/ur_dashboard_msgs/RawRequest.h: /opt/ros/melodic/share/gencpp/msg.h.template
+/home/manel/ur5arm_ws/devel/include/ur_dashboard_msgs/RawRequest.h: /opt/ros/melodic/share/gencpp/srv.h.template
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/manel/ur5arm_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Generating C++ code from ur_dashboard_msgs/RawRequest.srv"
+	cd /home/manel/ur5arm_ws/src/Universal_Robots_ROS_Driver/ur_dashboard_msgs && /home/manel/ur5arm_ws/build/catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/manel/ur5arm_ws/src/Universal_Robots_ROS_Driver/ur_dashboard_msgs/srv/RawRequest.srv -Iur_dashboard_msgs:/home/manel/ur5arm_ws/src/Universal_Robots_ROS_Driver/ur_dashboard_msgs/msg -Iur_dashboard_msgs:/home/manel/ur5arm_ws/devel/share/ur_dashboard_msgs/msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/melodic/share/actionlib_msgs/cmake/../msg -p ur_dashboard_msgs -o /home/manel/ur5arm_ws/devel/include/ur_dashboard_msgs -e /opt/ros/melodic/share/gencpp/cmake/..
 
-/home/mpuig/ur5arm_ws/devel/include/ur_dashboard_msgs/AddToLog.h: /opt/ros/melodic/lib/gencpp/gen_cpp.py
-/home/mpuig/ur5arm_ws/devel/include/ur_dashboard_msgs/AddToLog.h: /home/mpuig/ur5arm_ws/src/Universal_Robots_ROS_Driver/ur_dashboard_msgs/srv/AddToLog.srv
-/home/mpuig/ur5arm_ws/devel/include/ur_dashboard_msgs/AddToLog.h: /opt/ros/melodic/share/gencpp/msg.h.template
-/home/mpuig/ur5arm_ws/devel/include/ur_dashboard_msgs/AddToLog.h: /opt/ros/melodic/share/gencpp/srv.h.template
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/mpuig/ur5arm_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Generating C++ code from ur_dashboard_msgs/AddToLog.srv"
-	cd /home/mpuig/ur5arm_ws/src/Universal_Robots_ROS_Driver/ur_dashboard_msgs && /home/mpuig/ur5arm_ws/build/catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/mpuig/ur5arm_ws/src/Universal_Robots_ROS_Driver/ur_dashboard_msgs/srv/AddToLog.srv -Iur_dashboard_msgs:/home/mpuig/ur5arm_ws/src/Universal_Robots_ROS_Driver/ur_dashboard_msgs/msg -Iur_dashboard_msgs:/home/mpuig/ur5arm_ws/devel/share/ur_dashboard_msgs/msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/melodic/share/actionlib_msgs/cmake/../msg -p ur_dashboard_msgs -o /home/mpuig/ur5arm_ws/devel/include/ur_dashboard_msgs -e /opt/ros/melodic/share/gencpp/cmake/..
+/home/manel/ur5arm_ws/devel/include/ur_dashboard_msgs/AddToLog.h: /opt/ros/melodic/lib/gencpp/gen_cpp.py
+/home/manel/ur5arm_ws/devel/include/ur_dashboard_msgs/AddToLog.h: /home/manel/ur5arm_ws/src/Universal_Robots_ROS_Driver/ur_dashboard_msgs/srv/AddToLog.srv
+/home/manel/ur5arm_ws/devel/include/ur_dashboard_msgs/AddToLog.h: /opt/ros/melodic/share/gencpp/msg.h.template
+/home/manel/ur5arm_ws/devel/include/ur_dashboard_msgs/AddToLog.h: /opt/ros/melodic/share/gencpp/srv.h.template
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/manel/ur5arm_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Generating C++ code from ur_dashboard_msgs/AddToLog.srv"
+	cd /home/manel/ur5arm_ws/src/Universal_Robots_ROS_Driver/ur_dashboard_msgs && /home/manel/ur5arm_ws/build/catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/manel/ur5arm_ws/src/Universal_Robots_ROS_Driver/ur_dashboard_msgs/srv/AddToLog.srv -Iur_dashboard_msgs:/home/manel/ur5arm_ws/src/Universal_Robots_ROS_Driver/ur_dashboard_msgs/msg -Iur_dashboard_msgs:/home/manel/ur5arm_ws/devel/share/ur_dashboard_msgs/msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/melodic/share/actionlib_msgs/cmake/../msg -p ur_dashboard_msgs -o /home/manel/ur5arm_ws/devel/include/ur_dashboard_msgs -e /opt/ros/melodic/share/gencpp/cmake/..
 
-/home/mpuig/ur5arm_ws/devel/include/ur_dashboard_msgs/Load.h: /opt/ros/melodic/lib/gencpp/gen_cpp.py
-/home/mpuig/ur5arm_ws/devel/include/ur_dashboard_msgs/Load.h: /home/mpuig/ur5arm_ws/src/Universal_Robots_ROS_Driver/ur_dashboard_msgs/srv/Load.srv
-/home/mpuig/ur5arm_ws/devel/include/ur_dashboard_msgs/Load.h: /opt/ros/melodic/share/gencpp/msg.h.template
-/home/mpuig/ur5arm_ws/devel/include/ur_dashboard_msgs/Load.h: /opt/ros/melodic/share/gencpp/srv.h.template
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/mpuig/ur5arm_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Generating C++ code from ur_dashboard_msgs/Load.srv"
-	cd /home/mpuig/ur5arm_ws/src/Universal_Robots_ROS_Driver/ur_dashboard_msgs && /home/mpuig/ur5arm_ws/build/catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/mpuig/ur5arm_ws/src/Universal_Robots_ROS_Driver/ur_dashboard_msgs/srv/Load.srv -Iur_dashboard_msgs:/home/mpuig/ur5arm_ws/src/Universal_Robots_ROS_Driver/ur_dashboard_msgs/msg -Iur_dashboard_msgs:/home/mpuig/ur5arm_ws/devel/share/ur_dashboard_msgs/msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/melodic/share/actionlib_msgs/cmake/../msg -p ur_dashboard_msgs -o /home/mpuig/ur5arm_ws/devel/include/ur_dashboard_msgs -e /opt/ros/melodic/share/gencpp/cmake/..
+/home/manel/ur5arm_ws/devel/include/ur_dashboard_msgs/GetSafetyMode.h: /opt/ros/melodic/lib/gencpp/gen_cpp.py
+/home/manel/ur5arm_ws/devel/include/ur_dashboard_msgs/GetSafetyMode.h: /home/manel/ur5arm_ws/src/Universal_Robots_ROS_Driver/ur_dashboard_msgs/srv/GetSafetyMode.srv
+/home/manel/ur5arm_ws/devel/include/ur_dashboard_msgs/GetSafetyMode.h: /home/manel/ur5arm_ws/src/Universal_Robots_ROS_Driver/ur_dashboard_msgs/msg/SafetyMode.msg
+/home/manel/ur5arm_ws/devel/include/ur_dashboard_msgs/GetSafetyMode.h: /opt/ros/melodic/share/gencpp/msg.h.template
+/home/manel/ur5arm_ws/devel/include/ur_dashboard_msgs/GetSafetyMode.h: /opt/ros/melodic/share/gencpp/srv.h.template
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/manel/ur5arm_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Generating C++ code from ur_dashboard_msgs/GetSafetyMode.srv"
+	cd /home/manel/ur5arm_ws/src/Universal_Robots_ROS_Driver/ur_dashboard_msgs && /home/manel/ur5arm_ws/build/catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/manel/ur5arm_ws/src/Universal_Robots_ROS_Driver/ur_dashboard_msgs/srv/GetSafetyMode.srv -Iur_dashboard_msgs:/home/manel/ur5arm_ws/src/Universal_Robots_ROS_Driver/ur_dashboard_msgs/msg -Iur_dashboard_msgs:/home/manel/ur5arm_ws/devel/share/ur_dashboard_msgs/msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/melodic/share/actionlib_msgs/cmake/../msg -p ur_dashboard_msgs -o /home/manel/ur5arm_ws/devel/include/ur_dashboard_msgs -e /opt/ros/melodic/share/gencpp/cmake/..
 
-/home/mpuig/ur5arm_ws/devel/include/ur_dashboard_msgs/GetRobotMode.h: /opt/ros/melodic/lib/gencpp/gen_cpp.py
-/home/mpuig/ur5arm_ws/devel/include/ur_dashboard_msgs/GetRobotMode.h: /home/mpuig/ur5arm_ws/src/Universal_Robots_ROS_Driver/ur_dashboard_msgs/srv/GetRobotMode.srv
-/home/mpuig/ur5arm_ws/devel/include/ur_dashboard_msgs/GetRobotMode.h: /home/mpuig/ur5arm_ws/src/Universal_Robots_ROS_Driver/ur_dashboard_msgs/msg/RobotMode.msg
-/home/mpuig/ur5arm_ws/devel/include/ur_dashboard_msgs/GetRobotMode.h: /opt/ros/melodic/share/gencpp/msg.h.template
-/home/mpuig/ur5arm_ws/devel/include/ur_dashboard_msgs/GetRobotMode.h: /opt/ros/melodic/share/gencpp/srv.h.template
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/mpuig/ur5arm_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Generating C++ code from ur_dashboard_msgs/GetRobotMode.srv"
-	cd /home/mpuig/ur5arm_ws/src/Universal_Robots_ROS_Driver/ur_dashboard_msgs && /home/mpuig/ur5arm_ws/build/catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/mpuig/ur5arm_ws/src/Universal_Robots_ROS_Driver/ur_dashboard_msgs/srv/GetRobotMode.srv -Iur_dashboard_msgs:/home/mpuig/ur5arm_ws/src/Universal_Robots_ROS_Driver/ur_dashboard_msgs/msg -Iur_dashboard_msgs:/home/mpuig/ur5arm_ws/devel/share/ur_dashboard_msgs/msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/melodic/share/actionlib_msgs/cmake/../msg -p ur_dashboard_msgs -o /home/mpuig/ur5arm_ws/devel/include/ur_dashboard_msgs -e /opt/ros/melodic/share/gencpp/cmake/..
+/home/manel/ur5arm_ws/devel/include/ur_dashboard_msgs/Load.h: /opt/ros/melodic/lib/gencpp/gen_cpp.py
+/home/manel/ur5arm_ws/devel/include/ur_dashboard_msgs/Load.h: /home/manel/ur5arm_ws/src/Universal_Robots_ROS_Driver/ur_dashboard_msgs/srv/Load.srv
+/home/manel/ur5arm_ws/devel/include/ur_dashboard_msgs/Load.h: /opt/ros/melodic/share/gencpp/msg.h.template
+/home/manel/ur5arm_ws/devel/include/ur_dashboard_msgs/Load.h: /opt/ros/melodic/share/gencpp/srv.h.template
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/manel/ur5arm_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Generating C++ code from ur_dashboard_msgs/Load.srv"
+	cd /home/manel/ur5arm_ws/src/Universal_Robots_ROS_Driver/ur_dashboard_msgs && /home/manel/ur5arm_ws/build/catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/manel/ur5arm_ws/src/Universal_Robots_ROS_Driver/ur_dashboard_msgs/srv/Load.srv -Iur_dashboard_msgs:/home/manel/ur5arm_ws/src/Universal_Robots_ROS_Driver/ur_dashboard_msgs/msg -Iur_dashboard_msgs:/home/manel/ur5arm_ws/devel/share/ur_dashboard_msgs/msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/melodic/share/actionlib_msgs/cmake/../msg -p ur_dashboard_msgs -o /home/manel/ur5arm_ws/devel/include/ur_dashboard_msgs -e /opt/ros/melodic/share/gencpp/cmake/..
 
 ur_dashboard_msgs_generate_messages_cpp: Universal_Robots_ROS_Driver/ur_dashboard_msgs/CMakeFiles/ur_dashboard_msgs_generate_messages_cpp
-ur_dashboard_msgs_generate_messages_cpp: /home/mpuig/ur5arm_ws/devel/include/ur_dashboard_msgs/SetModeActionFeedback.h
-ur_dashboard_msgs_generate_messages_cpp: /home/mpuig/ur5arm_ws/devel/include/ur_dashboard_msgs/ProgramState.h
-ur_dashboard_msgs_generate_messages_cpp: /home/mpuig/ur5arm_ws/devel/include/ur_dashboard_msgs/SetModeResult.h
-ur_dashboard_msgs_generate_messages_cpp: /home/mpuig/ur5arm_ws/devel/include/ur_dashboard_msgs/RobotMode.h
-ur_dashboard_msgs_generate_messages_cpp: /home/mpuig/ur5arm_ws/devel/include/ur_dashboard_msgs/SetModeFeedback.h
-ur_dashboard_msgs_generate_messages_cpp: /home/mpuig/ur5arm_ws/devel/include/ur_dashboard_msgs/SetModeGoal.h
-ur_dashboard_msgs_generate_messages_cpp: /home/mpuig/ur5arm_ws/devel/include/ur_dashboard_msgs/SetModeActionGoal.h
-ur_dashboard_msgs_generate_messages_cpp: /home/mpuig/ur5arm_ws/devel/include/ur_dashboard_msgs/SetModeAction.h
-ur_dashboard_msgs_generate_messages_cpp: /home/mpuig/ur5arm_ws/devel/include/ur_dashboard_msgs/SafetyMode.h
-ur_dashboard_msgs_generate_messages_cpp: /home/mpuig/ur5arm_ws/devel/include/ur_dashboard_msgs/SetModeActionResult.h
-ur_dashboard_msgs_generate_messages_cpp: /home/mpuig/ur5arm_ws/devel/include/ur_dashboard_msgs/GetLoadedProgram.h
-ur_dashboard_msgs_generate_messages_cpp: /home/mpuig/ur5arm_ws/devel/include/ur_dashboard_msgs/IsProgramSaved.h
-ur_dashboard_msgs_generate_messages_cpp: /home/mpuig/ur5arm_ws/devel/include/ur_dashboard_msgs/RawRequest.h
-ur_dashboard_msgs_generate_messages_cpp: /home/mpuig/ur5arm_ws/devel/include/ur_dashboard_msgs/GetSafetyMode.h
-ur_dashboard_msgs_generate_messages_cpp: /home/mpuig/ur5arm_ws/devel/include/ur_dashboard_msgs/IsProgramRunning.h
-ur_dashboard_msgs_generate_messages_cpp: /home/mpuig/ur5arm_ws/devel/include/ur_dashboard_msgs/GetProgramState.h
-ur_dashboard_msgs_generate_messages_cpp: /home/mpuig/ur5arm_ws/devel/include/ur_dashboard_msgs/Popup.h
-ur_dashboard_msgs_generate_messages_cpp: /home/mpuig/ur5arm_ws/devel/include/ur_dashboard_msgs/AddToLog.h
-ur_dashboard_msgs_generate_messages_cpp: /home/mpuig/ur5arm_ws/devel/include/ur_dashboard_msgs/Load.h
-ur_dashboard_msgs_generate_messages_cpp: /home/mpuig/ur5arm_ws/devel/include/ur_dashboard_msgs/GetRobotMode.h
+ur_dashboard_msgs_generate_messages_cpp: /home/manel/ur5arm_ws/devel/include/ur_dashboard_msgs/RobotMode.h
+ur_dashboard_msgs_generate_messages_cpp: /home/manel/ur5arm_ws/devel/include/ur_dashboard_msgs/SetModeFeedback.h
+ur_dashboard_msgs_generate_messages_cpp: /home/manel/ur5arm_ws/devel/include/ur_dashboard_msgs/SetModeActionResult.h
+ur_dashboard_msgs_generate_messages_cpp: /home/manel/ur5arm_ws/devel/include/ur_dashboard_msgs/SetModeResult.h
+ur_dashboard_msgs_generate_messages_cpp: /home/manel/ur5arm_ws/devel/include/ur_dashboard_msgs/SafetyMode.h
+ur_dashboard_msgs_generate_messages_cpp: /home/manel/ur5arm_ws/devel/include/ur_dashboard_msgs/ProgramState.h
+ur_dashboard_msgs_generate_messages_cpp: /home/manel/ur5arm_ws/devel/include/ur_dashboard_msgs/SetModeGoal.h
+ur_dashboard_msgs_generate_messages_cpp: /home/manel/ur5arm_ws/devel/include/ur_dashboard_msgs/SetModeAction.h
+ur_dashboard_msgs_generate_messages_cpp: /home/manel/ur5arm_ws/devel/include/ur_dashboard_msgs/SetModeActionGoal.h
+ur_dashboard_msgs_generate_messages_cpp: /home/manel/ur5arm_ws/devel/include/ur_dashboard_msgs/SetModeActionFeedback.h
+ur_dashboard_msgs_generate_messages_cpp: /home/manel/ur5arm_ws/devel/include/ur_dashboard_msgs/IsProgramRunning.h
+ur_dashboard_msgs_generate_messages_cpp: /home/manel/ur5arm_ws/devel/include/ur_dashboard_msgs/GetProgramState.h
+ur_dashboard_msgs_generate_messages_cpp: /home/manel/ur5arm_ws/devel/include/ur_dashboard_msgs/IsProgramSaved.h
+ur_dashboard_msgs_generate_messages_cpp: /home/manel/ur5arm_ws/devel/include/ur_dashboard_msgs/GetRobotMode.h
+ur_dashboard_msgs_generate_messages_cpp: /home/manel/ur5arm_ws/devel/include/ur_dashboard_msgs/Popup.h
+ur_dashboard_msgs_generate_messages_cpp: /home/manel/ur5arm_ws/devel/include/ur_dashboard_msgs/GetLoadedProgram.h
+ur_dashboard_msgs_generate_messages_cpp: /home/manel/ur5arm_ws/devel/include/ur_dashboard_msgs/RawRequest.h
+ur_dashboard_msgs_generate_messages_cpp: /home/manel/ur5arm_ws/devel/include/ur_dashboard_msgs/AddToLog.h
+ur_dashboard_msgs_generate_messages_cpp: /home/manel/ur5arm_ws/devel/include/ur_dashboard_msgs/GetSafetyMode.h
+ur_dashboard_msgs_generate_messages_cpp: /home/manel/ur5arm_ws/devel/include/ur_dashboard_msgs/Load.h
 ur_dashboard_msgs_generate_messages_cpp: Universal_Robots_ROS_Driver/ur_dashboard_msgs/CMakeFiles/ur_dashboard_msgs_generate_messages_cpp.dir/build.make
 
 .PHONY : ur_dashboard_msgs_generate_messages_cpp
@@ -259,10 +259,10 @@ Universal_Robots_ROS_Driver/ur_dashboard_msgs/CMakeFiles/ur_dashboard_msgs_gener
 .PHONY : Universal_Robots_ROS_Driver/ur_dashboard_msgs/CMakeFiles/ur_dashboard_msgs_generate_messages_cpp.dir/build
 
 Universal_Robots_ROS_Driver/ur_dashboard_msgs/CMakeFiles/ur_dashboard_msgs_generate_messages_cpp.dir/clean:
-	cd /home/mpuig/ur5arm_ws/build/Universal_Robots_ROS_Driver/ur_dashboard_msgs && $(CMAKE_COMMAND) -P CMakeFiles/ur_dashboard_msgs_generate_messages_cpp.dir/cmake_clean.cmake
+	cd /home/manel/ur5arm_ws/build/Universal_Robots_ROS_Driver/ur_dashboard_msgs && $(CMAKE_COMMAND) -P CMakeFiles/ur_dashboard_msgs_generate_messages_cpp.dir/cmake_clean.cmake
 .PHONY : Universal_Robots_ROS_Driver/ur_dashboard_msgs/CMakeFiles/ur_dashboard_msgs_generate_messages_cpp.dir/clean
 
 Universal_Robots_ROS_Driver/ur_dashboard_msgs/CMakeFiles/ur_dashboard_msgs_generate_messages_cpp.dir/depend:
-	cd /home/mpuig/ur5arm_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/mpuig/ur5arm_ws/src /home/mpuig/ur5arm_ws/src/Universal_Robots_ROS_Driver/ur_dashboard_msgs /home/mpuig/ur5arm_ws/build /home/mpuig/ur5arm_ws/build/Universal_Robots_ROS_Driver/ur_dashboard_msgs /home/mpuig/ur5arm_ws/build/Universal_Robots_ROS_Driver/ur_dashboard_msgs/CMakeFiles/ur_dashboard_msgs_generate_messages_cpp.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/manel/ur5arm_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/manel/ur5arm_ws/src /home/manel/ur5arm_ws/src/Universal_Robots_ROS_Driver/ur_dashboard_msgs /home/manel/ur5arm_ws/build /home/manel/ur5arm_ws/build/Universal_Robots_ROS_Driver/ur_dashboard_msgs /home/manel/ur5arm_ws/build/Universal_Robots_ROS_Driver/ur_dashboard_msgs/CMakeFiles/ur_dashboard_msgs_generate_messages_cpp.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : Universal_Robots_ROS_Driver/ur_dashboard_msgs/CMakeFiles/ur_dashboard_msgs_generate_messages_cpp.dir/depend
 

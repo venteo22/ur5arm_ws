@@ -1,8 +1,8 @@
 file(REMOVE_RECURSE
   "CMakeFiles/ur_controllers.dir/src/scaled_joint_trajectory_controller.cpp.o"
   "CMakeFiles/ur_controllers.dir/src/speed_scaling_state_controller.cpp.o"
-  "/home/mpuig/ur5arm_ws/devel/lib/libur_controllers.pdb"
-  "/home/mpuig/ur5arm_ws/devel/lib/libur_controllers.so"
+  "/home/manel/ur5arm_ws/devel/lib/libur_controllers.pdb"
+  "/home/manel/ur5arm_ws/devel/lib/libur_controllers.so"
 )
 
 # Per-language clean rules from dependency scanning.

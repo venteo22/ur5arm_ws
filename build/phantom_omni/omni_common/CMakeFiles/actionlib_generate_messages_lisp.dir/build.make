@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/mpuig/ur5arm_ws/src
+CMAKE_SOURCE_DIR = /home/manel/ur5arm_ws/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/mpuig/ur5arm_ws/build
+CMAKE_BINARY_DIR = /home/manel/ur5arm_ws/build
 
 # Utility rule file for actionlib_generate_messages_lisp.
 
@@ -63,10 +63,10 @@ phantom_omni/omni_common/CMakeFiles/actionlib_generate_messages_lisp.dir/build: 
 .PHONY : phantom_omni/omni_common/CMakeFiles/actionlib_generate_messages_lisp.dir/build
 
 phantom_omni/omni_common/CMakeFiles/actionlib_generate_messages_lisp.dir/clean:
-	cd /home/mpuig/ur5arm_ws/build/phantom_omni/omni_common && $(CMAKE_COMMAND) -P CMakeFiles/actionlib_generate_messages_lisp.dir/cmake_clean.cmake
+	cd /home/manel/ur5arm_ws/build/phantom_omni/omni_common && $(CMAKE_COMMAND) -P CMakeFiles/actionlib_generate_messages_lisp.dir/cmake_clean.cmake
 .PHONY : phantom_omni/omni_common/CMakeFiles/actionlib_generate_messages_lisp.dir/clean
 
 phantom_omni/omni_common/CMakeFiles/actionlib_generate_messages_lisp.dir/depend:
-	cd /home/mpuig/ur5arm_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/mpuig/ur5arm_ws/src /home/mpuig/ur5arm_ws/src/phantom_omni/omni_common /home/mpuig/ur5arm_ws/build /home/mpuig/ur5arm_ws/build/phantom_omni/omni_common /home/mpuig/ur5arm_ws/build/phantom_omni/omni_common/CMakeFiles/actionlib_generate_messages_lisp.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/manel/ur5arm_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/manel/ur5arm_ws/src /home/manel/ur5arm_ws/src/phantom_omni/omni_common /home/manel/ur5arm_ws/build /home/manel/ur5arm_ws/build/phantom_omni/omni_common /home/manel/ur5arm_ws/build/phantom_omni/omni_common/CMakeFiles/actionlib_generate_messages_lisp.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : phantom_omni/omni_common/CMakeFiles/actionlib_generate_messages_lisp.dir/depend
 

@@ -1,8 +1,8 @@
-# Install script for directory: /home/mpuig/ur5arm_ws/src/Universal_Robots_ROS_Driver/ur_calibration
+# Install script for directory: /home/manel/ur5arm_ws/src/Universal_Robots_ROS_Driver/ur_calibration
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/mpuig/ur5arm_ws/install")
+  set(CMAKE_INSTALL_PREFIX "/home/manel/ur5arm_ws/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -38,22 +38,22 @@ if(NOT DEFINED CMAKE_CROSSCOMPILING)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/mpuig/ur5arm_ws/build/Universal_Robots_ROS_Driver/ur_calibration/catkin_generated/installspace/ur_calibration.pc")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/manel/ur5arm_ws/build/Universal_Robots_ROS_Driver/ur_calibration/catkin_generated/installspace/ur_calibration.pc")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ur_calibration/cmake" TYPE FILE FILES
-    "/home/mpuig/ur5arm_ws/build/Universal_Robots_ROS_Driver/ur_calibration/catkin_generated/installspace/ur_calibrationConfig.cmake"
-    "/home/mpuig/ur5arm_ws/build/Universal_Robots_ROS_Driver/ur_calibration/catkin_generated/installspace/ur_calibrationConfig-version.cmake"
+    "/home/manel/ur5arm_ws/build/Universal_Robots_ROS_Driver/ur_calibration/catkin_generated/installspace/ur_calibrationConfig.cmake"
+    "/home/manel/ur5arm_ws/build/Universal_Robots_ROS_Driver/ur_calibration/catkin_generated/installspace/ur_calibrationConfig-version.cmake"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ur_calibration" TYPE FILE FILES "/home/mpuig/ur5arm_ws/src/Universal_Robots_ROS_Driver/ur_calibration/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ur_calibration" TYPE FILE FILES "/home/manel/ur5arm_ws/src/Universal_Robots_ROS_Driver/ur_calibration/package.xml")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ur_calibration" TYPE DIRECTORY FILES "/home/mpuig/ur5arm_ws/src/Universal_Robots_ROS_Driver/ur_calibration/launch")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ur_calibration" TYPE DIRECTORY FILES "/home/manel/ur5arm_ws/src/Universal_Robots_ROS_Driver/ur_calibration/launch")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -63,7 +63,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/ur_calibration/calibration_correction"
          RPATH "")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/ur_calibration" TYPE EXECUTABLE FILES "/home/mpuig/ur5arm_ws/devel/lib/ur_calibration/calibration_correction")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/ur_calibration" TYPE EXECUTABLE FILES "/home/manel/ur5arm_ws/devel/lib/ur_calibration/calibration_correction")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/ur_calibration/calibration_correction" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/ur_calibration/calibration_correction")
     file(RPATH_CHANGE
