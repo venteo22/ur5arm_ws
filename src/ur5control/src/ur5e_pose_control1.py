@@ -18,12 +18,12 @@ group = moveit_commander.MoveGroupCommander("manipulator")
 display_trajectory_publisher = rospy.Publisher('/move_group/display_planned_path', moveit_msgs.msg.DisplayTrajectory, queue_size=1)
 
 pose_target = geometry_msgs.msg.Pose()
-pose_target.position.x = 0.6
-pose_target.position.y = 0
-pose_target.position.z = 0.8
+pose_target.position.x = -0.3
+pose_target.position.y = 0.5
+pose_target.position.z = 0.5
 r=math.radians(0)
 p=math.radians(0)
-w=math.radians(90)
+w=math.radians(0)
 quat1=quaternion_from_euler(r,p,w)
 
 pose_target.orientation.x = quat1[0]
@@ -34,9 +34,9 @@ group.set_pose_target(pose_target)
 
 plan1 = group.plan()
 
-rospy.sleep(5)
+rospy.sleep(1)
 group.go(wait=True)
-rospy.sleep(5)
+rospy.sleep(1)
 
 print ("Current Joint Values:")
 joint_target2=group.get_current_joint_values()
