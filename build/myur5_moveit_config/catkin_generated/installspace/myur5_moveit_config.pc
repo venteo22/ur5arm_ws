@@ -1,8 +1,0 @@
-prefix=/home/manel/ur5arm_ws/install
-
-Name: myur5_moveit_config
-Description: Description of myur5_moveit_config
-Version: 0.3.0
-Cflags: 
-Libs: -L${prefix}/lib 
-Requires: 
