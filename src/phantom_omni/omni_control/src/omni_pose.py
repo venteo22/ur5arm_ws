@@ -15,7 +15,7 @@ rospy.init_node('omni_pose', anonymous=True)
 robot = moveit_commander.RobotCommander()
 scene = moveit_commander.PlanningSceneInterface()    
 group = moveit_commander.MoveGroupCommander("omni")
-omni_pose_pub = rospy.Publisher('/move_group/display_planned_path', moveit_msgs.msg.DisplayTrajectory, queue_size=1)
+omni_pose_pub = rospy.Publisher('/omni_pose', geometry_msgs.msg.Pose, queue_size=10)
 
 print ("Current Joint Values:")
 omni_joint=group.get_current_joint_values()
