@@ -1,0 +1,21 @@
+<launch>
+  <arg name="sim" default="true" />
+  <arg name="limited" default="true"/>
+  <arg name="config" default="true" />
+  <!-- Launch ur5e -->
+   <include file="$(find ur_e_gazebo)/launch/ur5e.launch">
+    <arg name="limited" default="$(arg limited)"/>
+  </include>
+  <!-- Launch planning execution -->
+  <include file="$(find ur5_e_moveit_config)/launch/ur5_e_moveit_planning_execution.launch">
+    <arg name="limited" default="$(arg limited)"/>
+    <arg name="sim" default="$(arg sim)"/>
+  </include>
+  <!-- Launch moveit rviz -->
+  <include file="$(find ur5_e_moveit_config)/launch/moveit_rviz.launch">
+    <arg name="config" default="$(arg config)"/>
+  </include>
+  <!-- Launch pose control2 -->
+  <node name="ur5e_control" pkg="ur5control" type="ur5e_pose_control2.py" respawn="false" output="screen">
+  </node>
+</launch>
