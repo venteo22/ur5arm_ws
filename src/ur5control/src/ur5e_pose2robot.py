@@ -8,31 +8,42 @@ import rospy
 import moveit_commander
 import moveit_msgs.msg
 from geometry_msgs.msg import PoseStamped
+from geometry_msgs.msg import Pose
 
-arm_x=0
-def target_pose_callback(data):
-    global arm_x
+pose_arm=[0,0,0,0,0,0]
+
+def pose_target_callback(data):
     group.set_pose_target(data)
-    plan1 = group.plan()
+    group.plan()
     #rospy.sleep(1)
     group.go(wait=True)
     #rospy.sleep(1)
-    #arm_x=data.position.x
-    rospy.loginfo("Robot subscriber arm x= %f\n",arm_x)
+    rospy.loginfo("Robot moving to target\n")
 
 def move_arm():
-    global arm_x
-    pub = rospy.Publisher('/current_pose', PoseStamped, queue_size=10)
-    rospy.Subscriber('/target_pose', PoseStamped, target_pose_callback)
+    global pose_arm
+    pub = rospy.Publisher('/pose_current', PoseStamped, queue_size=10)
+    rospy.Subscriber('/pose_target', Pose, pose_target_callback)
     rate = rospy.Rate(10) # 10hz
-    current_pose = PoseStamped()
+    pose_current = PoseStamped()
     while not rospy.is_shutdown():
         print ("Current Pose:")
-        current_pose=group.get_current_pose()
-        #arm_x=current_pose.position.x
-        rospy.loginfo("Robot publisher arm x= %f\n",arm_x)
+        pose_current=group.get_current_pose()
+        pose_arm[0]=round(pose_current.pose.position.x,2)
+        pose_arm[1]=round(pose_current.pose.position.y,2)
+        pose_arm[2]=round(pose_current.pose.position.z,2)
+        qx=pose_current.pose.orientation.x
+        qy=pose_current.pose.orientation.y
+        qz=pose_current.pose.orientation.z
+        qw=pose_current.pose.orientation.w
+        quat2=[qx, qy, qz, qw]
+        (roll, pitch, yaw)=euler_from_quaternion(quat2)
+        pose_arm[3]=round(math.degrees(roll),1)
+        pose_arm[4]=round(math.degrees(pitch),1)
+        pose_arm[5]=round(math.degrees(yaw),1)
+        rospy.loginfo("Robot arm current Pose= %s\n",pose_arm)
 
-        pub.publish(current_pose)
+        pub.publish(pose_current)
         rate.sleep()
 
 if __name__ == '__main__':
