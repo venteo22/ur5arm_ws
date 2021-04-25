@@ -56,8 +56,6 @@ void setup()
   nh.advertise(movex);
   nh.advertise(gripper);
 
-  Serial.begin(115200);
-
   // Power the IMU from pin to reset
   pinMode(PIN_IMU_VCC, OUTPUT);
   digitalWrite(PIN_IMU_VCC, LOW);
@@ -93,40 +91,8 @@ void loop()
   }
   else{
   torque_int += analogRead(Pin_R1) * (3.3 / 1023.0) / R1;
-  
   }
-  if (Serial.available() > 0)
-  {
-
-    instruction = Serial.read();
-
-    switch (instruction)
-    {
-    case 'A':
-
-      Serial.println(String(rpw[0], 4));
-      Serial.println(String(rpw[1], 4));
-      Serial.println(String(rpw[2], 4));
-      Serial.println(String(torque, 4));
-
-      break;
-
-    case 'B':
-    
-      Serial.println(String(q[0], 4));
-      Serial.println(String(q[1], 4));
-      Serial.println(String(q[2], 4));
-      Serial.println(String(q[3], 4));
-      Serial.println(String(torque, 4));
-      
-      break;
-      
-    default:
-      break;
-    }
-
-    instruction = NULL;
-
+  
     pen_rpw_msg.data = rpw;
     pen_rpw.publish( &pen_rpw_msg );
     movex_msg.data = pen_move;
@@ -135,7 +101,5 @@ void loop()
     gripper.publish( &gripper_msg );
     nh.spinOnce();
     delay(100);
-    
-  }
-//Serial.println(torque); //only for test in arduino. Comment it to go to roboDK!
+ 
 }
