@@ -32,8 +32,8 @@ ros::Publisher gripper("pen_open", &gripper_msg);
 
 IMU imu;
 Servo servo1;
-bool pen_move = true // this will be the move buttom output
-bool pen_gripper = true // this will be the gripper buttom output
+bool pen_move = true; // this will be the move buttom output
+bool pen_gripper = true; // this will be the gripper buttom output
 
 int PIN_IMU_VCC = 4;
 int PIN_IMU_INT = 5;
