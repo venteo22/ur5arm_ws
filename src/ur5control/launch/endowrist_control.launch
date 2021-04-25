@@ -1,0 +1,15 @@
+<launch>
+  <!-- Launch Arduino serial node -->
+  <node name="serial_node"        pkg="rosserial_python"      type="serial_node.py">
+    <param name="port"              type="string"               value="/dev/ttyACM0"/>
+    <param name="baud"              type="int"                  value="57600"/>
+  </node>
+  <!-- Launch Endowrist pen control node -->
+  <node name="endowrist_pen_control" pkg="ur5control" type="endowrist_pen_control.py" output="screen">
+  </node>
+  <!-- Launch ur5e bringup -->
+  <include file="$(find ur5control)/launch/ur5e_bringup_sim.launch"/>
+  <!-- Launch ur5e node -->
+  <node name="ur5e_node" pkg="ur5control" type="ur5e_pose2robot.py" output="screen">
+  </node>
+</launch>
